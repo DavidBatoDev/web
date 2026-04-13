@@ -197,10 +197,10 @@ function ContactSection() {
                 <Link
                   key={item.type}
                   href={item.href}
-                  className={`flex h-16 items-center justify-between rounded-sm px-6 py-3 transition-opacity hover:opacity-80 ${
+                  className={`flex h-16 items-center justify-between rounded-sm border-[1.5px] px-6 py-3 transition-colors ${
                     isWhatsapp
-                      ? "bg-[#25d366] text-white"
-                      : "border-[1.5px] border-midnight text-midnight"
+                      ? "border-[#25d366] text-midnight hover:bg-[#25d366] hover:text-white"
+                      : "border-midnight text-midnight hover:border-crimson-red hover:text-crimson-red"
                   }`}
                 >
                   <span className="flex items-center gap-3">
