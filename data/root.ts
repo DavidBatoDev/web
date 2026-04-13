@@ -3,7 +3,7 @@
 /* -------------------------------------------------------------------------- */
 
 export const hero = {
-  image: "/figma/hero-siargao.png",
+  image: "/tours/philippine-sunrise/day-4.jpg",
   imageAlt: "Discover the Philippines",
   badge: "FEATURED TRIP",
   title: "Discover the Philippines\nSunrise to Sunset",
@@ -28,7 +28,7 @@ export const tours = [
     duration: "11 Day Tour",
     description:
       "Escape to the islands, and immerse in rich culture, with island-hopping and unforgettable stunning sunsets!",
-    price: "USD $950",
+    price: "GBP £950",
     image: "/figma/tour-philippines-sunset.png",
   },
   {
@@ -46,11 +46,23 @@ export const tours = [
 /* -------------------------------------------------------------------------- */
 
 export const destinations = [
-  { name: "Siargao Island", image: "/figma/dest-siargao-island.png", href: "/destinations/siargao-island" },
-  { name: "Moalboal", image: "/figma/dest-moalboal.png", href: "/destinations/moalboal" },
-  { name: "El Nido", image: "/figma/dest-el-nido.png", href: "/destinations/el-nido" },
-  { name: "Maldives", image: "/figma/dest-maldives.png", href: "/destinations/maldives" },
+  { name: "Philippines Sunrise", image: "/figma/dest-philippines-sunrise.jpg", href: "/all-tours/philippine-sunrise" },
+  { name: "Philippines Sunset", image: "/figma/dest-philippines-sunset.jpg", href: "/all-tours/philippine-sunset" },
+  { name: "Japan Adventure", image: "/figma/dest-japan-adventure.jpg", href: "/all-tours/japan-adventure" },
+  { name: "Bhutan Quest", image: "/figma/dest-bhutan-quest.jpg", href: "/all-tours/bhutan-quest" },
+  { name: "New Zealand Expedition", image: "/figma/dest-new-zealand-expedition.jpg", href: "/all-tours/new-zealand-expedition" },
+  { name: "Sri Lanka Wander", image: "/figma/dest-sri-lanka-wander.jpg", href: "/all-tours/sri-lanka-wander-tour" },
+  { name: "Argentina's Wonders", image: "/figma/dest-argentinas-wonders.jpg", href: "/all-tours/argentinas-wonders" },
+  { name: "Vietnam", image: "/figma/dest-vietnam.jpg", href: "/all-tours/vietnam" },
+  { name: "Brazil's Treasure", image: "/figma/dest-brazils-treasure.jpg", href: "/all-tours/brazils-treasure" },
+  { name: "China Discovery", image: "/figma/dest-china-discovery.jpg", href: "/all-tours/china-discovery" },
+  { name: "India Discovery", image: "/figma/dest-india-discovery.jpg", href: "/all-tours/india-discovery-tour" },
+  { name: "India Holi Festival", image: "/figma/dest-india-holi-festival.jpg", href: "/all-tours/india-holi-festival-tour" },
+  { name: "Nepal Horizons", image: "/figma/dest-nepal-horizons.jpg", href: "/all-tours/nepal-horizons" },
+  { name: "Tanzania Exploration", image: "/figma/dest-tanzania-exploration.jpg", href: "/all-tours/tanzania-exploration" },
 ];
+
+export const featuredDestinations = destinations.slice(0, 8);
 
 /* -------------------------------------------------------------------------- */
 /* Testimonials                                                                */

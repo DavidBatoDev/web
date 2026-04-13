@@ -1,7 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/app/components/global/Header";
-import { hero, tours, destinations, testimonials, features } from "@/data/root";
+import Footer from "@/app/components/global/Footer";
+import Reveal from "@/app/components/global/Reveal";
+import HeroTitle from "@/app/components/global/HeroTitle";
+import { hero, tours, featuredDestinations, testimonials, features } from "@/data/root";
 
 /* -------------------------------------------------------------------------- */
 /* Shared UI                                                                   */
@@ -63,43 +66,45 @@ function Hero() {
           <div className="absolute inset-0 bg-black/20" />
         </div>
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 px-6 text-center text-white md:gap-6">
-          <svg
-            width="136"
-            height="36"
-            viewBox="0 0 136 36"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-label={hero.badge}
-            role="img"
-          >
-            {/* Rounded: top-left, top-right, bottom-left — Sharp: bottom-right */}
-            <path
-              d="M17,1 H119 A16,16 0 0,1 135,17 V35 H17 A16,16 0 0,1 1,19 V17 A16,16 0 0,1 17,1 Z"
-              fill="#26D07C"
-              stroke="#1C1F2A"
-              strokeWidth="2"
-            />
-            <text
-              x="68"
-              y="23"
-              textAnchor="middle"
-              fill="#1C1F2A"
-              fontFamily="DM Sans, sans-serif"
-              fontSize="11"
-              fontWeight="700"
-              letterSpacing="1.8"
+          <Reveal y={12} delay={0}>
+            <svg
+              width="136"
+              height="36"
+              viewBox="0 0 136 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-label={hero.badge}
+              role="img"
             >
-              {hero.badge}
-            </text>
-          </svg>
-          <h1 className="font-display text-h1-mobile md:text-h1-desktop">
-            {hero.title.split("\n").map((line, i) => (
-              <span key={i}>{line}{i < hero.title.split("\n").length - 1 && <br />}</span>
-            ))}
-          </h1>
-          <PillButton href={hero.cta.href} className="mt-2">
-            {hero.cta.label}
-          </PillButton>
+              <path
+                d="M17,1 H119 A16,16 0 0,1 135,17 V35 H17 A16,16 0 0,1 1,19 V17 A16,16 0 0,1 17,1 Z"
+                fill="#26D07C"
+                stroke="#1C1F2A"
+                strokeWidth="2"
+              />
+              <text
+                x="68"
+                y="23"
+                textAnchor="middle"
+                fill="#1C1F2A"
+                fontFamily="DM Sans, sans-serif"
+                fontSize="11"
+                fontWeight="700"
+                letterSpacing="1.8"
+              >
+                {hero.badge}
+              </text>
+            </svg>
+          </Reveal>
+          <HeroTitle
+            text={hero.title}
+            className="font-display text-h1-mobile md:text-h1-desktop"
+          />
+          <Reveal delay={900}>
+            <PillButton href={hero.cta.href} className="mt-2">
+              {hero.cta.label}
+            </PillButton>
+          </Reveal>
         </div>
       </div>
     </section>
@@ -108,7 +113,7 @@ function Hero() {
 
 function NewTours() {
   return (
-    <section id="tours" className="mx-auto w-full max-w-7xl px-4 py-16 md:px-8 md:py-24">
+    <section id="tours" className="mx-auto w-full max-w-7xl px-4 py-10 md:px-8 md:py-14">
       <div className="mb-8 flex items-center justify-between md:mb-12">
         <h2 className="font-sans text-h3-mobile md:text-h3-desktop text-midnight">
           New Tours
@@ -116,24 +121,30 @@ function NewTours() {
         <div className="hidden gap-2 md:flex">
           <button
             aria-label="Previous tours"
-            className="flex size-10 items-center justify-center rounded-full border border-midnight text-midnight hover:bg-midnight hover:text-white"
+            className="flex size-10 items-center justify-center rounded-full border border-midnight text-midnight transition-colors hover:bg-midnight hover:text-white"
           >
-            ‹
+            <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M15 18l-6-6 6-6" />
+            </svg>
           </button>
           <button
             aria-label="Next tours"
-            className="flex size-10 items-center justify-center rounded-full border border-midnight text-midnight hover:bg-midnight hover:text-white"
+            className="flex size-10 items-center justify-center rounded-full border border-midnight text-midnight transition-colors hover:bg-midnight hover:text-white"
           >
-            ›
+            <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M9 6l6 6-6 6" />
+            </svg>
           </button>
         </div>
       </div>
 
       <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {tours.map((tour) => (
-          <li
+        {tours.map((tour, i) => (
+          <Reveal
+            as="li"
+            delay={i * 80}
             key={tour.title}
-            className="overflow-hidden rounded-lg bg-white shadow-small"
+            className="flex h-full flex-col overflow-hidden rounded-lg bg-white shadow-small"
           >
             <div className="relative aspect-[4/3] w-full">
               <Image
@@ -144,8 +155,8 @@ function NewTours() {
                 className="object-cover"
               />
             </div>
-            <div className="p-5 md:p-6">
-              <span className="inline-flex items-center gap-2 rounded-full bg-light-grey px-3 py-1 font-body text-b4-desktop text-midnight">
+            <div className="flex flex-1 flex-col p-5 md:p-6">
+              <span className="inline-flex w-fit items-center gap-2 rounded-full bg-light-grey px-3 py-1 font-body text-b4-desktop text-midnight">
                 <Image
                   src="/Icons/SVG/Pin/pin-solid-red.svg"
                   alt=""
@@ -160,7 +171,7 @@ function NewTours() {
               <p className="mt-2 font-body text-b4-mobile md:text-b4-desktop text-dark-gray">
                 {tour.description}
               </p>
-              <div className="mt-5 flex items-baseline gap-2">
+              <div className="mt-auto flex items-baseline gap-2 pt-5">
                 <span className="font-body text-b4-desktop text-dark-gray">
                   From
                 </span>
@@ -169,7 +180,7 @@ function NewTours() {
                 </span>
               </div>
             </div>
-          </li>
+          </Reveal>
         ))}
       </ul>
 
@@ -184,14 +195,16 @@ function Destinations() {
   return (
     <section
       id="destinations"
-      className="mx-auto w-full max-w-7xl px-4 py-16 md:px-8 md:py-24"
+      className="mx-auto w-full max-w-7xl px-4 py-10 md:px-8 md:py-14"
     >
       <h2 className="mb-8 text-center font-sans text-h3-mobile md:text-h3-desktop text-midnight md:mb-12">
         Your next destination
       </h2>
       <ul className="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
-        {destinations.map((destination) => (
-          <li
+        {featuredDestinations.map((destination, i) => (
+          <Reveal
+            as="li"
+            delay={i * 60}
             key={destination.name}
             className="group relative overflow-hidden rounded-md"
           >
@@ -210,7 +223,7 @@ function Destinations() {
                 </span>
               </div>
             </Link>
-          </li>
+          </Reveal>
         ))}
       </ul>
     </section>
@@ -219,13 +232,15 @@ function Destinations() {
 
 function Testimonials() {
   return (
-    <section className="mx-auto w-full max-w-7xl px-4 py-16 md:px-8 md:py-24">
+    <section className="mx-auto w-full max-w-7xl px-4 py-10 md:px-8 md:py-14">
       <h2 className="mb-8 text-center font-sans text-h3-mobile md:text-h3-desktop text-midnight md:mb-12">
         What people say about us
       </h2>
       <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {testimonials.map((t) => (
-          <li
+        {testimonials.map((t, i) => (
+          <Reveal
+            as="li"
+            delay={i * 80}
             key={t.author}
             className="flex flex-col gap-4 rounded-lg bg-white p-6 shadow-small"
           >
@@ -255,7 +270,7 @@ function Testimonials() {
                 </p>
               </div>
             </div>
-          </li>
+          </Reveal>
         ))}
       </ul>
     </section>
@@ -266,14 +281,16 @@ function WhyChooseUs() {
   return (
     <section
       id="why-us"
-      className="mx-auto w-full max-w-7xl px-4 py-16 md:px-8 md:py-24"
+      className="mx-auto w-full max-w-7xl px-4 py-10 md:px-8 md:py-14"
     >
       <h2 className="mb-10 text-center font-sans text-h3-mobile md:text-h3-desktop text-midnight md:mb-14">
         Why choose us?
       </h2>
       <ul className="grid grid-cols-1 gap-6 md:grid-cols-3">
-        {features.map((feature) => (
-          <li
+        {features.map((feature, i) => (
+          <Reveal
+            as="li"
+            delay={i * 100}
             key={feature.title}
             className="flex flex-col items-center gap-6 rounded-lg bg-white px-8 py-10 text-center shadow-small"
           >
@@ -292,7 +309,7 @@ function WhyChooseUs() {
                 {feature.description}
               </p>
             </div>
-          </li>
+          </Reveal>
         ))}
       </ul>
       <div className="mt-10 flex justify-center">
@@ -306,8 +323,8 @@ function WhyChooseUs() {
 
 function JoinCommunity() {
   return (
-    <section className="mx-auto w-full max-w-7xl px-4 py-16 md:px-8 md:py-24">
-      <div className="overflow-hidden rounded-lg bg-light-grey">
+    <section className="mx-auto w-full max-w-7xl px-4 py-10 md:px-8 md:py-14">
+      <div className="overflow-hidden rounded-lg bg-white shadow-small">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="flex flex-col justify-center gap-4 p-8 md:p-12">
             <h2 className="font-sans text-h3-mobile md:text-h3-desktop text-midnight">
@@ -349,129 +366,16 @@ function JoinCommunity() {
           </div>
           <div className="relative aspect-[4/3] w-full md:aspect-auto md:h-full md:min-h-[360px]">
             <Image
-              src="/figma/join-community.png"
+              src="/figma/join-community.jpg"
               alt="Travelers enjoying a tropical beach"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover object-[center_85%]"
             />
           </div>
         </div>
       </div>
     </section>
-  );
-}
-
-function Footer() {
-  const columns = [
-    {
-      heading: "About",
-      links: [
-        { label: "Destinations", href: "#destinations" },
-        { label: "Why us?", href: "/why-us" },
-        { label: "Tours", href: "#tours" },
-      ],
-    },
-    {
-      heading: "Help",
-      links: [
-        { label: "Contact Us", href: "#contact" },
-        { label: "FAQs", href: "/faqs" },
-        { label: "Personalized Tours", href: "#contact" },
-      ],
-    },
-    {
-      heading: "Resources",
-      links: [
-        { label: "Travel Info", href: "#travel-info" },
-        { label: "Newsletter", href: "#newsletter" },
-        { label: "Reviews", href: "#reviews" },
-      ],
-    },
-  ];
-
-  return (
-    <footer className="mt-16 bg-light-grey">
-      <div className="mx-auto w-full max-w-7xl px-4 py-12 md:px-8">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
-          <div className="col-span-2 md:col-span-1">
-            <Image
-              src="/Logos/Horizontal/Digital/SVG/Red/Digital_Horizontal_Red.svg"
-              alt="I'm Here Travels"
-              width={120}
-              height={36}
-              className="h-8 w-auto"
-            />
-          </div>
-          {columns.map((col) => (
-            <div key={col.heading}>
-              <h3 className="font-sans text-b2-desktop font-bold text-crimson-red">
-                {col.heading}
-              </h3>
-              <ul className="mt-3 space-y-2">
-                {col.links.map((link) => (
-                  <li key={link.label}>
-                    <Link
-                      href={link.href}
-                      className="font-body text-b4-desktop text-midnight hover:text-crimson-red"
-                    >
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-          <div>
-            <h3 className="font-sans text-b2-desktop font-bold text-crimson-red">
-              Connect
-            </h3>
-            <ul className="mt-3 flex gap-3">
-              {["Instagram", "Facebook", "YouTube"].map((label) => (
-                <li key={label}>
-                  <Link
-                    href="#"
-                    aria-label={label}
-                    className="flex size-9 items-center justify-center rounded-full bg-crimson-red text-white hover:bg-light-red"
-                  >
-                    <span className="sr-only">{label}</span>
-                    <span aria-hidden className="font-body text-b4-desktop">
-                      {label[0]}
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-        <div className="mt-12 flex flex-col items-center gap-4 border-t border-light-grey pt-6 md:flex-row md:justify-between">
-          <Image
-            src="/Logos/Clover/Digital/SVG/Red/Digital_Clover_Red.svg"
-            alt=""
-            width={28}
-            height={28}
-            className="size-7"
-          />
-          <p className="font-body text-b4-desktop text-grey">
-            © 2026 I&apos;m Here Travels. All rights reserved.
-          </p>
-          <div className="flex gap-6">
-            <Link
-              href="#"
-              className="font-body text-b4-desktop text-grey hover:text-crimson-red"
-            >
-              Terms and Conditions
-            </Link>
-            <Link
-              href="#"
-              className="font-body text-b4-desktop text-grey hover:text-crimson-red"
-            >
-              Privacy Policy
-            </Link>
-          </div>
-        </div>
-      </div>
-    </footer>
   );
 }
 

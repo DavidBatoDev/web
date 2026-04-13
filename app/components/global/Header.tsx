@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { motion, useMotionValueEvent, useScroll } from "framer-motion";
+import { useState } from "react";
 
 const navItems = [
   {
@@ -51,8 +53,26 @@ function ChevronDown() {
 }
 
 export default function Header() {
+  const [hidden, setHidden] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const { scrollY } = useScroll();
+
+  useMotionValueEvent(scrollY, "change", (y) => {
+    const prev = scrollY.getPrevious() ?? 0;
+    setScrolled(y > 8);
+    if (y > prev && y > 80) setHidden(true);
+    else if (y < prev) setHidden(false);
+  });
+
   return (
-    <header className="sticky top-0 z-50 w-full bg-light-grey/95 backdrop-blur">
+    <motion.header
+      initial={{ y: 0 }}
+      animate={{ y: hidden ? "-100%" : "0%" }}
+      transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+      className={`sticky top-0 z-50 w-full bg-white/95 backdrop-blur ${
+        scrolled ? "shadow-small" : ""
+      }`}
+    >
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-5 md:px-8 md:py-6">
         <Link href="/" aria-label="I'm Here Travels home">
           <Image
@@ -112,6 +132,6 @@ export default function Header() {
           Inquire Now
         </Link>
       </div>
-    </header>
+    </motion.header>
   );
 }
