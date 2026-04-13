@@ -4,7 +4,8 @@ import Header from "@/app/components/global/Header";
 import Footer from "@/app/components/global/Footer";
 import Reveal from "@/app/components/global/Reveal";
 import HeroTitle from "@/app/components/global/HeroTitle";
-import { hero, tours, featuredDestinations, testimonials, features } from "@/data/root";
+import { hero, tours, destinations, testimonials, features } from "@/data/root";
+import DestinationsMarquee from "@/app/components/global/DestinationsMarquee";
 
 /* -------------------------------------------------------------------------- */
 /* Shared UI                                                                   */
@@ -114,28 +115,10 @@ function Hero() {
 function NewTours() {
   return (
     <section id="tours" className="mx-auto w-full max-w-7xl px-4 py-10 md:px-8 md:py-14">
-      <div className="mb-8 flex items-center justify-between md:mb-12">
+      <div className="mb-8 md:mb-12">
         <h2 className="font-sans text-h3-mobile md:text-h3-desktop text-midnight">
           New Tours
         </h2>
-        <div className="hidden gap-2 md:flex">
-          <button
-            aria-label="Previous tours"
-            className="flex size-10 items-center justify-center rounded-full border border-midnight text-midnight transition-colors hover:bg-midnight hover:text-white"
-          >
-            <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M15 18l-6-6 6-6" />
-            </svg>
-          </button>
-          <button
-            aria-label="Next tours"
-            className="flex size-10 items-center justify-center rounded-full border border-midnight text-midnight transition-colors hover:bg-midnight hover:text-white"
-          >
-            <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M9 6l6 6-6 6" />
-            </svg>
-          </button>
-        </div>
       </div>
 
       <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -200,32 +183,7 @@ function Destinations() {
       <h2 className="mb-8 text-center font-sans text-h3-mobile md:text-h3-desktop text-midnight md:mb-12">
         Your next destination
       </h2>
-      <ul className="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
-        {featuredDestinations.map((destination, i) => (
-          <Reveal
-            as="li"
-            delay={i * 60}
-            key={destination.name}
-            className="group relative overflow-hidden rounded-md"
-          >
-            <Link href={destination.href} className="block">
-              <div className="relative aspect-square w-full">
-                <Image
-                  src={destination.image}
-                  alt={destination.name}
-                  fill
-                  sizes="(max-width: 768px) 50vw, 25vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-                <span className="absolute bottom-4 left-4 font-sans text-h5-mobile md:text-h5-desktop text-white">
-                  {destination.name}
-                </span>
-              </div>
-            </Link>
-          </Reveal>
-        ))}
-      </ul>
+      <DestinationsMarquee items={destinations} />
     </section>
   );
 }
@@ -242,7 +200,7 @@ function Testimonials() {
             as="li"
             delay={i * 80}
             key={t.author}
-            className="flex flex-col gap-4 rounded-lg bg-white p-6 shadow-small"
+            className="flex flex-col gap-6 rounded-lg bg-white p-8 shadow-small md:p-10"
           >
             <div className="flex items-center justify-between">
               <StarRow />
@@ -250,22 +208,22 @@ function Testimonials() {
                 {t.date}
               </span>
             </div>
-            <p className="font-body text-b4-mobile md:text-b4-desktop text-midnight">
+            <p className="font-body text-b2-mobile md:text-b2-desktop text-midnight">
               {t.quote}
             </p>
-            <div className="mt-auto flex items-center gap-3 pt-2">
+            <div className="mt-auto flex items-center gap-4 pt-2">
               <Image
                 src={t.avatar}
                 alt={t.author}
-                width={40}
-                height={40}
-                className="size-10 rounded-full object-cover"
+                width={56}
+                height={56}
+                className="size-14 shrink-0 rounded-full object-cover"
               />
               <div>
-                <p className="font-body text-b4-desktop font-medium text-midnight">
+                <p className="font-sans text-h6-mobile md:text-h6-desktop font-bold text-midnight">
                   {t.author}
                 </p>
-                <p className="font-body text-b4-desktop text-grey">
+                <p className="font-body text-b4-desktop text-vivid-orange">
                   {t.location}
                 </p>
               </div>
