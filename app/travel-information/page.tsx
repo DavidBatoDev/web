@@ -50,24 +50,36 @@ function CardsSection() {
             key={card.id}
             className="flex flex-col overflow-hidden rounded-lg bg-white"
           >
-            {/* Content */}
-            <div className="flex flex-1 flex-col p-8">
-              <h2 className="mb-3 font-sans font-bold text-h5-mobile text-midnight md:text-h5-desktop">
-                {card.title}
-              </h2>
-              <p className="mb-6 flex-1 font-body text-b2-mobile text-dark-gray md:text-b2-desktop">
-                {card.body}
-              </p>
-              <Link
-                href={card.linkHref}
-                className="self-start font-body font-bold text-b2-mobile text-midnight underline transition-colors hover:text-crimson-red md:text-b2-desktop"
-              >
-                {card.linkLabel}
-              </Link>
+            {/* Image */}
+            <div className="relative h-70 w-full shrink-0">
+              <Image
+                src={card.image}
+                alt=""
+                fill
+                sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                className="object-cover"
+              />
             </div>
 
-            {/* Image placeholder */}
-            <div className="h-48 w-full bg-grey/20 shrink-0" />
+            {/* Content */}
+            <div className="flex flex-1 flex-col justify-between p-6">
+              <div className="flex flex-col gap-2">
+                <h2 className="font-sans font-bold text-h5-mobile text-midnight md:text-h5-desktop">
+                  {card.title}
+                </h2>
+                <p className="font-body text-b2-mobile text-midnight md:text-b2-desktop">
+                  {card.body}
+                </p>
+              </div>
+              <div className="pt-4">
+                <Link
+                  href={card.linkHref}
+                  className="font-body text-b2-mobile text-midnight underline transition-colors hover:text-crimson-red md:text-b2-desktop"
+                >
+                  {card.linkLabel}
+                </Link>
+              </div>
+            </div>
           </div>
         ))}
       </div>
