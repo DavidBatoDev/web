@@ -296,7 +296,7 @@ function WhyChooseUs() {
         ))}
       </ul>
       <div className="mt-10 flex justify-center">
-        <PillButton href="#learn-more" variant="outline">
+        <PillButton href="/why-us" variant="outline">
           Learn more
         </PillButton>
       </div>
