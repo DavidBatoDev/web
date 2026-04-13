@@ -21,17 +21,6 @@ const navItems = [
     ],
   },
   {
-    label: "Destinations",
-    href: "/destinations",
-    dropdown: [
-      { label: "All Destinations", href: "/destinations" },
-      { label: "Philippines", href: "/philippines-destinations" },
-      { label: "Japan", href: "/tours/japan-adventure" },
-      { label: "Bhutan", href: "/tours/bhutan-quest" },
-      { label: "New Zealand", href: "/tours/new-zealand-expedition" },
-    ],
-  },
-  {
     label: "Travel Information",
     href: "/travel-information",
     dropdown: [
