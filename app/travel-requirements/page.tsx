@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Header from "@/app/components/global/Header";
 import Footer from "@/app/components/global/Footer";
-import SherpaWidget from "@/app/components/SherpaWidget";
 import {
   travelReqMetadata,
   travelReqHero,
   travelReqBreadcrumbs,
+  travelReqWidgetImage,
 } from "@/data/travelRequirements";
 
 export const metadata: Metadata = travelReqMetadata;
@@ -77,6 +78,25 @@ function TitleSection() {
   );
 }
 
+function WidgetSection() {
+  return (
+    <div className="bg-white pb-12 md:pb-16">
+      <div className="mx-auto w-full max-w-7xl px-4 md:px-8">
+        <div className="relative w-full overflow-hidden rounded-lg">
+          <Image
+            src={travelReqWidgetImage}
+            alt="Interactive travel and visa requirements map powered by Sherpa"
+            width={1200}
+            height={790}
+            className="w-full h-auto"
+            sizes="(min-width: 1280px) 1200px, 100vw"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 /* ---------- Page ---------- */
 
 export default function TravelRequirementsPage() {
@@ -86,9 +106,7 @@ export default function TravelRequirementsPage() {
       <main className="flex-1 bg-light-grey">
         <Breadcrumbs />
         <TitleSection />
-        <div className="bg-white pb-16 md:pb-24">
-          <SherpaWidget />
-        </div>
+        <WidgetSection />
       </main>
       <Footer />
     </>

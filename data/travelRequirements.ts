@@ -18,6 +18,9 @@ export const travelReqHero = {
     "No matter when you'll travel, you'll need to comply with the entry requirements of the countries you'll visit.",
 };
 
+export const travelReqWidgetImage =
+  "https://www.figma.com/api/mcp/asset/923e6071-ff9c-49ab-be42-3cac196369c7";
+
 export const travelReqBreadcrumbs = [
   { label: "Home", href: "/" },
   { label: "Travel Info", href: "/travel-information" },
