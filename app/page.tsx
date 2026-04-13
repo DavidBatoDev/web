@@ -1,88 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/app/components/global/Header";
-
-const tours = [
-  {
-    title: "Philippines Sunrise",
-    duration: "11 Day Tour",
-    description:
-      "Experience thrilling canyoneering, mesmerizing marine life, surfing, and stunning sunsets!",
-    price: "GBP £950",
-    image: "/figma/tour-philippines-sunrise.png",
-  },
-  {
-    title: "Philippines Sunset",
-    duration: "11 Day Tour",
-    description:
-      "Escape to the islands, and immerse in rich culture, with island-hopping and unforgettable stunning sunsets!",
-    price: "USD $950",
-    image: "/figma/tour-philippines-sunset.png",
-  },
-  {
-    title: "Maldives Bucketlist",
-    duration: "10 Day Tour",
-    description:
-      "Tick off that bucketlist and explore by turquoise water, snorkel vibrant reefs, and unwind on island paradise.",
-    price: "GBP £908",
-    image: "/figma/tour-maldives-bucketlist.png",
-  },
-];
-
-const destinations = [
-  { name: "Siargao Island", image: "/figma/dest-siargao-island.png" },
-  { name: "Moalboal", image: "/figma/dest-moalboal.png" },
-  { name: "El Nido", image: "/figma/dest-el-nido.png" },
-  { name: "Maldives", image: "/figma/dest-maldives.png" },
-];
-
-const testimonials = [
-  {
-    date: "May 2023",
-    quote:
-      "Had an amazing time on the trial tour! Action packed with lots of fun things on the itinerary, and a great bunch of people. Would definitely go again!",
-    author: "Flynn Deanne",
-    location: "London, United Kingdom",
-    avatar: "/figma/avatar-flynn.png",
-  },
-  {
-    date: "February 2024",
-    quote:
-      "My experience has been amazing, I'll never forget it. I met extraordinary people and explored beautiful places. I definitely recommend to book a trip!",
-    author: "Manuel Madonna",
-    location: "Milan, Italy",
-    avatar: "/figma/avatar-manuel.png",
-  },
-  {
-    date: "July 2024",
-    quote:
-      "I enjoyed the tour! Seamless coordination of transportation and accommodation made me feel like a VIP throughout the trip. LOVED every bit of it! Highly recommend!",
-    author: "Bella Millers",
-    location: "Cagayan, Philippines",
-    avatar: "/figma/avatar-bella.png",
-  },
-];
-
-const features = [
-  {
-    icon: "/figma/feature-social-travel.png",
-    title: "Social Travel",
-    description:
-      "Explore the world together. Travel is also about people, not just places.",
-  },
-  {
-    icon: "/figma/feature-travel-with-ease.png",
-    title: "Travel with Ease",
-    description:
-      "Every detail is covered, so you can sit back and have a good time.",
-  },
-  {
-    icon: "/figma/feature-ethically-sustainable.png",
-    title: "Ethically & Sustainable",
-    description:
-      "We do right by the community and the planet when we travel.",
-  },
-];
+import { hero, tours, destinations, testimonials, features } from "@/app/data/root";
 
 /* -------------------------------------------------------------------------- */
 /* Shared UI                                                                   */
@@ -134,8 +53,8 @@ function Hero() {
       <div className="relative overflow-hidden">
         <div className="relative h-[55vh] w-full md:h-[60vh]">
           <Image
-            src="/figma/hero-siargao.png"
-            alt="Siargao Island"
+            src={hero.image}
+            alt={hero.imageAlt}
             fill
             priority
             sizes="100vw"
@@ -150,7 +69,7 @@ function Hero() {
             viewBox="0 0 136 36"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            aria-label="Featured Trip"
+            aria-label={hero.badge}
             role="img"
           >
             {/* Rounded: top-left, top-right, bottom-left — Sharp: bottom-right */}
@@ -170,16 +89,16 @@ function Hero() {
               fontWeight="700"
               letterSpacing="1.8"
             >
-              FEATURED TRIP
+              {hero.badge}
             </text>
           </svg>
           <h1 className="font-display text-h1-mobile md:text-h1-desktop">
-            Siargao Island
-            <br />
-            Adventure
+            {hero.title.split("\n").map((line, i) => (
+              <span key={i}>{line}{i < hero.title.split("\n").length - 1 && <br />}</span>
+            ))}
           </h1>
-          <PillButton href="#tours" className="mt-2">
-            View All Tours
+          <PillButton href={hero.cta.href} className="mt-2">
+            {hero.cta.label}
           </PillButton>
         </div>
       </div>
@@ -347,28 +266,30 @@ function WhyChooseUs() {
       id="why-us"
       className="mx-auto w-full max-w-7xl px-4 py-16 md:px-8 md:py-24"
     >
-      <h2 className="mb-8 text-center font-sans text-h3-mobile md:text-h3-desktop text-midnight md:mb-12">
+      <h2 className="mb-10 text-center font-sans text-h3-mobile md:text-h3-desktop text-midnight md:mb-14">
         Why choose us?
       </h2>
       <ul className="grid grid-cols-1 gap-6 md:grid-cols-3">
         {features.map((feature) => (
           <li
             key={feature.title}
-            className="flex flex-col items-center gap-4 rounded-lg bg-white p-8 text-center shadow-small"
+            className="flex flex-col items-center gap-6 rounded-lg bg-white px-8 py-10 text-center shadow-small"
           >
             <Image
               src={feature.icon}
-              alt=""
-              width={80}
-              height={80}
-              className="size-20"
+              alt={feature.title}
+              width={120}
+              height={120}
+              className="size-28 object-contain"
             />
-            <h3 className="font-sans text-h5-mobile md:text-h5-desktop text-midnight">
-              {feature.title}
-            </h3>
-            <p className="font-body text-b4-mobile md:text-b4-desktop text-dark-gray">
-              {feature.description}
-            </p>
+            <div className="flex flex-col gap-2">
+              <h3 className="font-sans font-bold text-h5-mobile md:text-h5-desktop text-midnight">
+                {feature.title}
+              </h3>
+              <p className="font-body text-b4-mobile md:text-b4-desktop text-dark-gray">
+                {feature.description}
+              </p>
+            </div>
           </li>
         ))}
       </ul>
