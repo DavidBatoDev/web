@@ -3,6 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/app/components/global/Header";
 import Footer from "@/app/components/global/Footer";
+import {
+  aboutHero,
+  aboutIntro,
+  aboutMission,
+  aboutVision,
+  aboutPurpose,
+  team,
+  aboutCta,
+  stickers,
+} from "@/data/aboutUs";
 
 export const metadata: Metadata = {
   title: "About Us | I'm Here Travels",
@@ -10,60 +20,13 @@ export const metadata: Metadata = {
     "Founded in 2023 by Amer and Shawn from the shores of Siargao Island, Philippines. At I'm Here Travels, we create awesome, fun, and unforgettable travel experiences.",
 };
 
-/* ---------- Asset URLs (Figma MCP — temporary placeholder images) ---------- */
-const HERO_BG =
-  "https://www.figma.com/api/mcp/asset/3d7bb065-b974-453b-8942-448b0b3eaa0d";
-const MISSION_IMG =
-  "https://www.figma.com/api/mcp/asset/0c696073-b0f2-434a-aa8a-7dbd4cd8bf37";
-const VISION_IMG =
-  "https://www.figma.com/api/mcp/asset/cecf2109-fb59-4ae4-a9fd-0d3cc1487a4c";
-const PURPOSE_BG =
-  "https://www.figma.com/api/mcp/asset/fc90f7f2-bcc5-47c6-8d80-57c24c313361";
-const TEAM_AMER =
-  "https://www.figma.com/api/mcp/asset/7d7e77e9-cae6-4f31-91b2-71a9f123c590";
-const TEAM_SHAWN =
-  "https://www.figma.com/api/mcp/asset/a3255b6c-f8d7-47c6-9b3f-e8524e4cde79";
-const TEAM_KRISTOFFER =
-  "https://www.figma.com/api/mcp/asset/7b0ff7d9-1139-4423-af90-66ef5c614165";
-
-/* ---------- Decorative stickers (desktop only) ---------- */
-const STICKER_GLOBE = "/Stickers/Print/PNG/Globe/Print_Globe_Green.png";
-const STICKER_IMHERE = "/Stickers/Print/PNG/ImHere/Print_ImHereCircle_Red.png";
-const STICKER_HEART_ORANGE =
-  "/Stickers/Print/PNG/Heart-Circle/Print_Heart_Circle_LightOrange.png";
-const STICKER_ASTERISK_YELLOW =
-  "/Stickers/Print/PNG/Asterisk/Print_Asterisk_Yellow.png";
-const STICKER_FLAG_RED = "/Stickers/Print/PNG/Flag/Print_Flag_Red.png";
-
-/* ---------- Team data ---------- */
-const team = [
-  {
-    name: "Amer Asum",
-    role: "Founder",
-    image: TEAM_AMER,
-    bio: "Driven by his passion for travel and with over 8 years of experience in the travel industry, he started I'm Here Travels in January 2023. He's committed to providing top-notch customer service and is always looking for ways to make the experience even better.",
-  },
-  {
-    name: "Shawn Vincent",
-    role: "Co-Founder",
-    image: TEAM_SHAWN,
-    bio: "With over 8 years of experience in the finance industry with major companies. He brings a wealth of knowledge and business acumen to the company. He combines his financial expertise and passion for travel to create a unique and sustainable travel experience.",
-  },
-  {
-    name: "Kristoffer Lagura",
-    role: "Marketing Director",
-    image: TEAM_KRISTOFFER,
-    bio: "A role he has held since its inception, Kristoffer brings to the table a wealth of knowledge, ideas, and strategies. With over 8 years of experience in the hospitality and sales and marketing, he is all about creating a unique and memorable experience for all travellers.",
-  },
-];
-
 /* ---------- Sections ---------- */
 
 function Hero() {
   return (
     <section className="relative h-[260px] overflow-hidden md:h-[360px]">
       <Image
-        src={HERO_BG}
+        src={aboutHero.image}
         alt=""
         fill
         priority
@@ -73,7 +36,7 @@ function Hero() {
       <div className="absolute inset-0 bg-black/20" />
       <div className="absolute inset-0 flex items-center justify-center px-6 text-center">
         <h1 className="font-display text-h1-mobile text-white md:text-h1-desktop">
-          About our community
+          {aboutHero.title}
         </h1>
       </div>
     </section>
@@ -85,45 +48,36 @@ function IntroText() {
     /* full-width so absolutely-positioned stickers can sit at the real edges */
     <section className="relative w-full">
       {/* ── Red ImHere sticker — RIGHT (half off-screen) ── */}
-      <div
-        className="pointer-events-none absolute -right-16 top-8 hidden size-65 rotate-15 lg:block"
-        aria-hidden="true"
-      >
+      <div className={stickers.introRight.wrapperClass} aria-hidden="true">
         <Image
-          src={STICKER_IMHERE}
+          src={stickers.introRight.src}
           alt=""
-          width={260}
-          height={260}
+          width={stickers.introRight.size}
+          height={stickers.introRight.size}
           className="object-contain"
         />
       </div>
 
       {/* ── Green Globe sticker — LEFT ── */}
-      <div
-        className="pointer-events-none absolute -left-8 bottom-0 hidden size-[260px] -rotate-[20deg] lg:block"
-        aria-hidden="true"
-      >
+      <div className={stickers.introLeft.wrapperClass} aria-hidden="true">
         <Image
-          src={STICKER_GLOBE}
+          src={stickers.introLeft.src}
           alt=""
-          width={260}
-          height={260}
+          width={stickers.introLeft.size}
+          height={stickers.introLeft.size}
           className="object-contain"
         />
       </div>
 
       <div className="mx-auto w-full max-w-3xl px-6 py-12 text-center md:py-16">
-        <p className="font-body text-b2-desktop text-midnight md:text-b1">
-          Founded in 2023 by Amer and Shawn from the shores of Siargao Island,
-          Philippines. At I&apos;m Here Travels, we&apos;re more than just a
-          travel company. We create awesome, fun, and unforgettable travel
-          experiences like no other!
-        </p>
-        <p className="mt-6 font-body text-b2-desktop text-midnight md:text-b1">
-          We like to blend good vibes with a deep sense of responsibility to the
-          community. Every adventure goes beyond exploration; it&apos;s a shared
-          experience that leaves a positive impact wherever you go.
-        </p>
+        {aboutIntro.map((paragraph, i) => (
+          <p
+            key={i}
+            className={`font-body text-b2-desktop text-midnight md:text-b1${i > 0 ? " mt-6" : ""}`}
+          >
+            {paragraph}
+          </p>
+        ))}
       </div>
     </section>
   );
@@ -137,13 +91,10 @@ function MissionSection() {
           {/* Text — left on desktop */}
           <div className="flex flex-col gap-6 md:flex-1">
             <h2 className="font-display text-h1-mobile text-midnight md:text-h1-desktop">
-              Our Mission
+              {aboutMission.title}
             </h2>
             <p className="font-body text-b2-desktop text-midnight md:text-b1">
-              Our mission is to create unique, fun, and unforgettable travel
-              experiences. Working with local communities, we aim to leave a
-              trail of meaningful connections and a positive impact wherever we
-              go.
+              {aboutMission.body}
             </p>
           </div>
 
@@ -152,8 +103,8 @@ function MissionSection() {
             {/* Clipped image */}
             <div className="absolute inset-0 overflow-hidden rounded-lg">
               <Image
-                src={MISSION_IMG}
-                alt="Local community travel experience"
+                src={aboutMission.image}
+                alt={aboutMission.imageAlt}
                 fill
                 sizes="(max-width: 768px) 100vw, 600px"
                 className="object-cover"
@@ -161,15 +112,12 @@ function MissionSection() {
             </div>
 
             {/* ── Orange Heart sticker — on top of photo, bottom-right ── */}
-            <div
-              className="pointer-events-none absolute -bottom-10 -right-10 hidden size-50 rotate-12 lg:block"
-              aria-hidden="true"
-            >
+            <div className={stickers.missionPhoto.wrapperClass} aria-hidden="true">
               <Image
-                src={STICKER_HEART_ORANGE}
+                src={stickers.missionPhoto.src}
                 alt=""
-                width={200}
-                height={200}
+                width={stickers.missionPhoto.size}
+                height={stickers.missionPhoto.size}
                 className="object-contain"
               />
             </div>
@@ -188,8 +136,8 @@ function VisionSection() {
           {/* Clipped image */}
           <div className="absolute inset-0 overflow-hidden rounded-lg">
             <Image
-              src={VISION_IMG}
-              alt="Vibrant travel community"
+              src={aboutVision.image}
+              alt={aboutVision.imageAlt}
               fill
               sizes="(max-width: 768px) 100vw, 600px"
               className="object-cover"
@@ -197,15 +145,12 @@ function VisionSection() {
           </div>
 
           {/* ── Yellow Asterisk sticker — on top of photo, bottom-left ── */}
-          <div
-            className="pointer-events-none absolute -bottom-8 -left-8 hidden size-55 -rotate-12 lg:block"
-            aria-hidden="true"
-          >
+          <div className={stickers.visionPhoto.wrapperClass} aria-hidden="true">
             <Image
-              src={STICKER_ASTERISK_YELLOW}
+              src={stickers.visionPhoto.src}
               alt=""
-              width={220}
-              height={220}
+              width={stickers.visionPhoto.size}
+              height={stickers.visionPhoto.size}
               className="object-contain"
             />
           </div>
@@ -214,12 +159,10 @@ function VisionSection() {
         {/* Text — right on desktop */}
         <div className="flex flex-col gap-6 md:flex-1">
           <h2 className="font-display text-h1-mobile text-midnight md:text-h1-desktop">
-            Our Vision
+            {aboutVision.title}
           </h2>
           <p className="font-body text-b2-desktop text-midnight md:text-b1">
-            We envision a vibrant, inclusive, and responsible travel community.
-            A world where travel is not only for new experiences but also a
-            positive impact for the places and people it touches.
+            {aboutVision.body}
           </p>
         </div>
       </div>
@@ -233,7 +176,7 @@ function PurposeSection() {
       {/* Background — clipped to section bounds */}
       <div className="absolute inset-0 overflow-hidden">
         <Image
-          src={PURPOSE_BG}
+          src={aboutPurpose.image}
           alt=""
           fill
           sizes="100vw"
@@ -245,24 +188,20 @@ function PurposeSection() {
       {/* Text */}
       <div className="absolute inset-0 flex flex-col items-center justify-center gap-6 px-6 text-center text-white">
         <h2 className="font-display text-h1-mobile md:text-h1-desktop">
-          Our Purpose
+          {aboutPurpose.title}
         </h2>
         <p className="max-w-md font-body text-b2-desktop md:text-b1">
-          We connect people with places and create a positive impact together
-          here for the community.
+          {aboutPurpose.body}
         </p>
       </div>
 
       {/* ── Red Flag sticker — RIGHT ── */}
-      <div
-        className="pointer-events-none absolute -right-4 bottom-10 hidden size-52 rotate-10 lg:block"
-        aria-hidden="true"
-      >
+      <div className={stickers.purposeRight.wrapperClass} aria-hidden="true">
         <Image
-          src={STICKER_FLAG_RED}
+          src={stickers.purposeRight.src}
           alt=""
-          width={208}
-          height={208}
+          width={stickers.purposeRight.size}
+          height={stickers.purposeRight.size}
           className="object-contain"
         />
       </div>
@@ -320,17 +259,17 @@ function CTASection() {
       <div className="flex flex-col items-center gap-6 rounded-lg bg-white px-8 py-12 text-center md:py-16">
         <div className="flex flex-col gap-4">
           <h2 className="font-display text-h2-mobile text-midnight md:text-h2-desktop">
-            Ready to explore with us?
+            {aboutCta.title}
           </h2>
           <p className="font-body text-b2-mobile text-dark-gray md:text-b2-desktop">
-            We&apos;ve got your back!
+            {aboutCta.subtitle}
           </p>
         </div>
         <Link
-          href="#contact"
+          href={aboutCta.button.href}
           className="mt-2 inline-flex items-center justify-center rounded-full bg-crimson-red px-8 py-3 font-body font-bold text-b2-mobile text-white transition-colors hover:bg-light-red md:px-10 md:text-b2-desktop"
         >
-          Contact Us
+          {aboutCta.button.label}
         </Link>
       </div>
     </section>
