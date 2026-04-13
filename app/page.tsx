@@ -377,7 +377,7 @@ function Footer() {
       links: [
         { label: "Contact Us", href: "/contact-us" },
         { label: "FAQs", href: "/faqs" },
-        { label: "Personalized Tours", href: "#contact" },
+        { label: "Personalized Tours", href: "/contact-us" },
       ],
     },
     {

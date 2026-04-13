@@ -102,7 +102,7 @@ export const whyUsFaqs = [
 export const whyUsCta = {
   heading: "Have more questions?",
   body: "Let us help you, we've got your back!",
-  button: { label: "Contact Us", href: "#contact" },
+  button: { label: "Contact Us", href: "/contact-us" },
 };
 
 /* -------------------------------------------------------------------------- */

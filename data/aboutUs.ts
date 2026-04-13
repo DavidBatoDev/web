@@ -129,5 +129,5 @@ export const stickers = {
 export const aboutCta = {
   title: "Ready to explore with us?",
   subtitle: "We've got your back!",
-  button: { label: "Contact Us", href: "#contact" },
+  button: { label: "Contact Us", href: "/contact-us" },
 };
