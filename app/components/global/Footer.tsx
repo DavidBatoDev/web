@@ -37,16 +37,16 @@ const footerColumns = [
   {
     heading: "Help",
     links: [
-      { label: "Contact Us", href: "#contact" },
+      { label: "Contact Us", href: "/contact-us" },
       { label: "FAQs", href: "/faqs" },
-      { label: "Personalized Tours", href: "#personalized" },
+      { label: "Personalized Tours", href: "/contact-us" },
     ],
   },
   {
     heading: "Resources",
     links: [
-      { label: "Travel Info", href: "#travel-info" },
-      { label: "Newsletter", href: "#newsletter" },
+      { label: "Travel Info", href: "/travel-information" },
+      { label: "Newsletter", href: "/join-our-community" },
       { label: "Reviews", href: "#reviews" },
     ],
   },
@@ -137,14 +137,14 @@ export default function Footer() {
             />
             <div className="flex gap-4 items-center">
               <Link
-                href="#terms"
+                href="/terms-and-conditions"
                 className="font-body text-b2-mobile text-white/80 hover:text-white transition-colors whitespace-nowrap"
               >
                 Terms and Conditions
               </Link>
               <span className="text-white/40" aria-hidden>·</span>
               <Link
-                href="#privacy"
+                href="/privacy-policy"
                 className="font-body text-b2-mobile text-white/80 hover:text-white transition-colors whitespace-nowrap"
               >
                 Privacy Policy

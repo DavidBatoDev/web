@@ -27,7 +27,16 @@ const navItems = [
       { label: "Maldives", href: "#destinations" },
     ],
   },
-  { label: "Travel Information", href: "#travel-info" },
+  {
+    label: "Travel Information",
+    href: "/travel-information",
+    dropdown: [
+      { label: "Travel Information", href: "/travel-information" },
+      { label: "Travel/Visa Requirements", href: "/travel-requirements" },
+      { label: "Pre-departure Info", href: "/pre-departure" },
+      { label: "Travel Safety", href: "/travel-safety" },
+    ],
+  },
   { label: "About Us", href: "/about-us" },
 ];
 

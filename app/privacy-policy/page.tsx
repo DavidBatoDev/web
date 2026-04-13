@@ -3,15 +3,15 @@ import Image from "next/image";
 import Header from "@/app/components/global/Header";
 import Footer from "@/app/components/global/Footer";
 import {
-  termsMetadata,
-  termsHero,
-  termsLastUpdated,
-  termsIntro,
-  termsSections,
-} from "@/data/termsAndConditions";
+  privacyMetadata,
+  privacyHero,
+  privacyLastUpdated,
+  privacyIntro,
+  privacySections,
+} from "@/data/privacyPolicy";
 import { whyUsNewsletter } from "@/data/whyUs";
 
-export const metadata: Metadata = termsMetadata;
+export const metadata: Metadata = privacyMetadata;
 
 /* ---------- Sections ---------- */
 
@@ -19,7 +19,7 @@ function Hero() {
   return (
     <section className="relative h-65 overflow-hidden md:h-90">
       <Image
-        src={termsHero.image}
+        src={privacyHero.image}
         alt=""
         fill
         priority
@@ -29,7 +29,7 @@ function Hero() {
       <div className="absolute inset-0 bg-black/40" />
       <div className="absolute inset-0 flex items-center justify-center px-6 text-center">
         <h1 className="font-display text-h1-mobile text-white md:text-h1-desktop">
-          {termsHero.title}
+          {privacyHero.title}
         </h1>
       </div>
     </section>
@@ -42,12 +42,12 @@ function ContentSection() {
       <div className="rounded-lg bg-white px-6 py-10 md:px-16 md:py-16">
         {/* Last updated */}
         <p className="mb-6 font-body text-b2-mobile text-midnight md:text-b2-desktop">
-          Last update: {termsLastUpdated}
+          Last update: {privacyLastUpdated}
         </p>
 
         {/* Intro paragraphs */}
         <div className="mb-6 flex flex-col gap-4">
-          {termsIntro.map((para, i) => (
+          {privacyIntro.map((para, i) => (
             <p
               key={i}
               className="font-body text-b2-mobile text-midnight md:text-b2-desktop"
@@ -58,16 +58,16 @@ function ContentSection() {
         </div>
 
         {/* Numbered sections */}
-        {termsSections.map((section) => (
+        {privacySections.map((section) => (
           <div key={section.heading}>
             <h2 className="mb-4 mt-8 font-sans font-bold text-h5-mobile text-midnight md:text-h5-desktop">
               {section.heading}
             </h2>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-3">
               {section.paragraphs.map((para, i) => (
                 <p
                   key={i}
-                  className="font-body text-b2-mobile text-midnight md:text-b2-desktop"
+                  className={`font-body text-b2-mobile text-midnight md:text-b2-desktop${para.startsWith("•") ? " pl-4" : ""}`}
                 >
                   {para}
                 </p>
@@ -132,7 +132,7 @@ function NewsletterSection() {
 
 /* ---------- Page ---------- */
 
-export default function TermsAndConditionsPage() {
+export default function PrivacyPolicyPage() {
   return (
     <>
       <Header />
