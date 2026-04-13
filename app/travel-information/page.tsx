@@ -50,9 +50,6 @@ function CardsSection() {
             key={card.id}
             className="flex flex-col overflow-hidden rounded-lg bg-white"
           >
-            {/* Image placeholder */}
-            <div className="h-56 w-full bg-grey/20 shrink-0" />
-
             {/* Content */}
             <div className="flex flex-1 flex-col p-8">
               <h2 className="mb-3 font-sans font-bold text-h5-mobile text-midnight md:text-h5-desktop">
@@ -63,11 +60,14 @@ function CardsSection() {
               </p>
               <Link
                 href={card.linkHref}
-                className="inline-flex items-center justify-center self-start rounded-full bg-crimson-red px-8 py-3 font-body font-bold text-b2-mobile text-white transition-colors hover:bg-light-red md:text-b2-desktop"
+                className="self-start font-body font-bold text-b2-mobile text-midnight underline transition-colors hover:text-crimson-red md:text-b2-desktop"
               >
                 {card.linkLabel}
               </Link>
             </div>
+
+            {/* Image placeholder */}
+            <div className="h-48 w-full bg-grey/20 shrink-0" />
           </div>
         ))}
       </div>
