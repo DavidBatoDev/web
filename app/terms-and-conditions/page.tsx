@@ -17,7 +17,7 @@ export const metadata: Metadata = termsMetadata;
 
 function Hero() {
   return (
-    <section className="relative h-65 overflow-hidden md:h-90">
+    <section className="relative h-72 overflow-hidden md:h-[360px]">
       <Image
         src={termsHero.image}
         alt=""
@@ -27,7 +27,7 @@ function Hero() {
         className="object-cover"
       />
       <div className="absolute inset-0 bg-black/40" />
-      <div className="absolute inset-0 flex items-center justify-center px-6 text-center">
+      <div className="absolute inset-0 flex items-center justify-center px-6 pb-16 text-center md:pb-28">
         <h1 className="font-display text-h1-mobile text-white md:text-h1-desktop">
           {termsHero.title}
         </h1>
@@ -38,8 +38,8 @@ function Hero() {
 
 function ContentSection() {
   return (
-    <div className="mx-auto w-full max-w-4xl px-4 py-12 md:px-8 md:py-16">
-      <div className="rounded-lg bg-white px-6 py-10 md:px-16 md:py-16">
+    <div className="relative z-10 mx-auto -mt-20 w-full max-w-5xl px-4 pb-12 md:-mt-28 md:px-8 md:pb-16">
+      <div className="rounded-lg bg-white px-6 py-10 shadow-medium md:px-16 md:py-16">
         {/* Last updated */}
         <p className="mb-6 font-body text-b2-mobile text-midnight md:text-b2-desktop">
           Last update: {termsLastUpdated}
@@ -82,7 +82,7 @@ function ContentSection() {
 
 function NewsletterSection() {
   return (
-    <section className="mx-auto w-full max-w-4xl px-4 pb-16 md:px-8 md:pb-24">
+    <section className="mx-auto w-full max-w-5xl px-4 pb-16 md:px-8 md:pb-24">
       <div className="overflow-hidden rounded-lg bg-white">
         <div className="flex flex-col md:flex-row">
           {/* Text + form */}

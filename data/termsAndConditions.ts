@@ -22,56 +22,161 @@ export const termsHero = {
 /* Content                                                                     */
 /* -------------------------------------------------------------------------- */
 
-export const termsLastUpdated = "April 7, 2024";
+export const termsLastUpdated = "February 19, 2026";
 
 export const termsIntro = [
-  "Please take the time to read and understand the conditions of booking set out below prior to booking a trip with I'm Here Travels. We also recommend that you read the relevant information for your chosen trip on the website prior to booking, to ensure that you understand the itinerary and style of the trip you are undertaking.",
-  "These Booking Conditions, together with our privacy policy and where your trip is booked via our website, our Website Terms of Use, together with any other written information we brought to your attention before we confirmed your booking, form the basis of your contract with I'm Here Travels (\"we\", \"us\", \"our\"). Please read them carefully as they set out our respective rights and obligations. In these Booking Conditions references to \"you\" and \"your\" include the first named person on the booking and all persons on whose behalf a booking is made or any other person to whom a booking is added or transferred.",
-  "By making a booking, the first named person on the booking agrees on behalf of all persons detailed on the booking that:",
-  "a. He/she has read these Booking Conditions and has the authority to and does agree to be bound by them;",
-  "b. He/she consents to our use of personal data in accordance with our Privacy Policy and is authorised on behalf of all persons named on the booking to disclose their personal details to us, including where applicable special categories of data (such as information on health conditions or disabilities and dietary requirements);",
-  "c. He/she is over 18 years of age and where placing an order for services with age restrictions declares that he/she and all members of the party are of the appropriate age to purchase those services;",
-  "d. He/she accepts financial responsibility for payment of the booking on behalf of all persons detailed on the booking.",
-  "e. He/she acknowledges that by booking a tour, he/she consents that any images or video footage taken during your tour and shared by your group leader, other members of your group or any media you have shared (via, but not limited to, group chats and social media) can be used for marketing purposes. You consent to I'm Here Travels having permission to publish these photos and videos and details (including your first name, location and date) for marketing purposes including, but not limited to, on our website, social media, email marketing and any other marketing channel.",
+  "GENERAL",
+  "By booking or participating in a tour or service provided by I'm Here Travels (a Philippines-based company), you agree to these terms. Your booking contract is directly with I'm Here Travels, though third parties are involved for external activities.",
 ];
 
 export const termsSections = [
   {
-    heading: "1. Booking & Paying For Your Arrangements",
+    heading: "1. Booking Contract",
     paragraphs: [
-      "A booking is made with us when you pay us a non-refundable deposit and we issue you with a booking confirmation. We reserve the right to return your deposit and decline to issue a booking confirmation at our absolute discretion. A binding contract will come into existence between you and us as soon as we have issued you with a booking confirmation that will confirm the details of your booking and will be sent to you or your travel agent. Upon receipt, if you believe that any details on the booking confirmation or any other document is wrong you must advise us immediately as changes cannot be made later and it may harm your rights if we are not notified of any inaccuracies in any document within ten days of our sending it out.",
+      "Once your booking is complete, confirmed, and the full deposit has been paid, a contract is officially in place. Upon confirmation, check that all information is correct and names match your passport exactly. You must be at least 18 years old at the time of booking.",
     ],
   },
   {
-    heading: "2. Accuracy",
+    heading: "2. Required Medical Information",
     paragraphs: [
-      "We endeavour to ensure that all the information and prices on our website are accurate, however occasionally changes and errors occur and we reserve the right to correct prices and other details in such circumstances. You must check the current price and all other details relating to the arrangements that you wish to book before you make your booking.",
+      "You must provide information about any medical conditions. Medical forms will be required for some tours (e.g., canyoneering in the Philippines). By completing the form, you confirm all information is accurate.",
+      "I'm Here Travels reserves the right to:",
+      "• Seek professional medical opinions for your safety and others'",
+      "• Deny permission to travel or participate in certain activities if you are deemed a risk",
+      "• Cancel your booking (with cancellation fees applied) if medical forms are not completed or accurate information is not provided",
     ],
   },
   {
-    heading: "3. Insurance",
+    heading: "3. Special Requirements",
     paragraphs: [
-      "Adequate travel insurance is a condition of your contract with us. You must be satisfied that your insurance fully covers all your personal requirements including pre-existing medical conditions, cancellation charges, medical expenses and repatriation in the event of accident or illness. On the first day of each trip, one of our representatives will verify that you have sufficient insurance in place. If you are undertaking any adventure sports or other such activities as part of your tour, you must ensure this is covered by your travel insurance policy. If you choose to travel without adequate insurance cover, we will not be liable for any losses howsoever arising, in respect of which insurance cover would otherwise have been available.",
+      "Special requirements must be provided at the time of booking so I'm Here Travels can make arrangements. These will be passed to third-party contractors if needed. Note: I'm Here Travels is not liable if a third party initially agrees but fails to comply. All food allergies must be stated at booking.",
     ],
   },
   {
-    heading: "4. Pricing",
+    heading: "4. Age Requirements",
     paragraphs: [
-      "We reserve the right to amend the price of unsold trips at any time and correct errors in the prices of confirmed trips. We also reserve the right to increase the price of confirmed trips solely to allow for increases which are a direct consequence of changes in:",
-      "(i) The price of the carriage of passengers resulting from the cost of fuel or other power sources;",
-      "(ii) The level of taxes or fees chargeable for services applicable to the trip imposed by third parties not directly involved in the performance of the trip, including tourist taxes, landing taxes or embarkation or disembarkation fees at ports and airports; and",
-      "(iii) The exchange rates relevant to the package.",
-      "Such variations could include but are not limited to airline cost changes which are part of our contracts with airlines (and their agents) and any other transport providers.",
-      "We will absorb and you will not be charged for any increase equivalent to 2% of the price of your travel arrangements, which excludes insurance premiums and any amendment charges and/or additional services or travel arrangements. You will be charged for the amount over and above that. However, if this means that you have to pay an increase of more than 8% of the price of your confirmed trip (excluding any insurance premiums, amendment charges and/or additional services or travel arrangements), you will have the option of accepting a change to another trip if we are able to offer one (if this is of equivalent or higher quality you will not have to pay more but if it is of lower quality you will be refunded the difference in price), or cancelling and receiving a full refund of all monies paid to us, except for any insurance premiums and any amendment charges and/or additional services or travel arrangements. Should you decide to cancel for this reason, you must exercise your right to do so within 7 days from the issue date printed on your final invoice.",
-      "Should the price of your trip go down due to the changes mentioned above, then any refund due will be paid to you less an administrative fee. However, please note that travel arrangements are not always purchased in local currency and some apparent changes have no impact on the price of your travel due to contractual and other protection in place.",
-      "If there is a discount added to the trip after a booking is made this discount is not applicable to the tour that has already been booked and a refund of the new discounted price will not be given.",
-      "There will be no change made to the price of your confirmed trip within 20 days of your departure nor will refunds be paid during this period.",
+      "The main demographic is 18–35, but guests under 18 are classified as minors and must always be accompanied by an adult. The accompanying adult is responsible for the minor's behavior, wellbeing, and supervision. I'm Here Travels does not provide care services for minors.",
     ],
   },
   {
-    heading: "5. Jurisdiction and Applicable Law",
+    heading: "5. Insurance Requirements",
     paragraphs: [
-      "These Booking Conditions and any agreement to which they apply are governed in all respects by English law. We both agree that any dispute, claim or other matter which arises between us out of or in connection with your contract or booking will be dealt with by the Courts of England and Wales only. You may however, choose the law and jurisdiction of Scotland or Northern Ireland if you live in those places and if you wish to do so.",
+      "All travellers must obtain travel insurance before joining any tour. Minimum coverage required: £150,000 for medical and evacuation. Coverage is strongly advised for cancellation, lost baggage/gadgets, damage, delay, or inconvenience. Guests are responsible for informing their insurer of the travel type, destination, and activities. I'm Here Travels recommends SafetyWing as a reputable provider.",
+    ],
+  },
+  {
+    heading: "6. Pricing and Taxes",
+    paragraphs: [
+      "Once a booking is made and deposit paid, I'm Here Travels will not increase the tour price. Prices may be reduced (e.g., early bird for first 8 bookings, Black Friday sales).",
+      "Important: Bookings made during Black Friday sales or other promotional periods at a discounted rate are strictly non-refundable.",
+    ],
+  },
+  {
+    heading: "7. Validity",
+    paragraphs: [
+      "Dates, itineraries, and prices can be changed at any time before a booking is made. Prices stated at the time of booking are confirmed. Guests are responsible for staying up to date via the website, social media, and group chats, as minor changes may be made prior to the tour start date.",
+    ],
+  },
+  {
+    heading: "8. Risk",
+    paragraphs: [
+      "By booking, you acknowledge that I'm Here Travels tours are adventurous and involve a certain level of risk. Tours may visit areas with different political/cultural environments and weather conditions that may present dangers. Staff stay up to date with current events and relevant information to assess situations.",
+    ],
+  },
+  {
+    heading: "9. Deposits and Payment",
+    paragraphs: [
+      "• A deposit of £200, £250, or £300 is required at booking — non-refundable",
+      "• Payments beyond the deposit are refundable up to 60 days before the tour start date",
+      "• Full payment must be settled no later than 60 days (2 months) before the tour start date to avoid cancellation",
+      "• Some tours may require full payment depending on how close to the start date the booking is made",
+      "• Payment plans available: 4 instalments, 3 instalments, 2 instalments, or full payment",
+      "For all bookings made before August 26, 2024, deposits are fully refundable. After this date, deposits are non-refundable.",
+    ],
+  },
+  {
+    heading: "10. Details for Booking",
+    paragraphs: [
+      "I'm Here Travels reserves the right to request relevant information. Guests who fail to provide accurate information (for air tickets, activities, etc.) will be liable for any additional costs incurred. I'm Here Travels is not liable for costs arising from human error, inaccuracies, or late/incomplete information.",
+    ],
+  },
+  {
+    heading: "11. Airfare",
+    paragraphs: [
+      "International flights are not included in tour prices. Internal flights included in tours are non-refundable due to late cancellation or missed flights. I'm Here Travels acts only as a third-party agent with flight providers and is not responsible for flight changes or communicating international flight information.",
+    ],
+  },
+  {
+    heading: "12. Guest Cancellation or Changes",
+    paragraphs: [
+      "Guests may cancel at any time by notifying I'm Here Travels via email or social media.",
+      "Reservation Fee & Payment Terms:",
+      "• Reservation fee is non-refundable but can be used for rebooking",
+      "• Other payments refundable with a 10% deduction (bank/admin fees)",
+      "Cancellation & Refund Policy:",
+      "• 100+ days before tour start: 100% refund, minus bank and administrative charges",
+      "• 60–99 days before tour start: 50% refund, minus bank and administrative charges",
+      "• 59 days or fewer before tour start, or after tour start: No refund",
+      "All deposits are non-refundable unless otherwise stated above.",
+      "Cancellations for Arrival Transfers, Pre/Post-Night Accommodations, private rooms, or optional third-party activities are subject to the same conditions.",
+      "Booking Changes: Guests wishing to make changes must inform I'm Here Travels as soon as possible. While every reasonable effort will be made, changes cannot be guaranteed. If changes are possible, the guest agrees to cover any additional costs. The closer to the departure date, the higher those costs may be.",
+    ],
+  },
+  {
+    heading: "13. I'm Here Travels Cancellation or Changes",
+    paragraphs: [
+      "If a tour is cancelled before the start date (not due to customer fault), guests will be offered:",
+      "a) A substitute tour in the same region of equal value",
+      "b) A substitute tour of lesser value with the difference refunded",
+      "c) A full refund",
+      "If a tour is cancelled after commencement (not due to customer fault), guests will be offered:",
+      "a) A travel credit applicable to any I'm Here Travels tour",
+      "b) A refund minus the cost of days already passed",
+      "If a tour is changed, guests will be informed immediately and offered:",
+      "a) Accept the changes and proceed with the booking",
+      "b) Book another tour of similar or greater value (guest liable for additional costs)",
+      "c) Book another tour of lesser value (difference refunded to guest)",
+    ],
+  },
+  {
+    heading: "14. Travel Documents",
+    paragraphs: [
+      "Guests are responsible for obtaining and keeping all relevant documents, including:",
+      "• Passport valid for at least 6 months past the tour end date",
+      "• Relevant visas",
+      "• Vaccination certificates (if required)",
+      "• Insurance policies",
+      "All costs of obtaining these documents are the guest's responsibility. I'm Here Travels is not liable for loss, destruction, or errors in these documents.",
+    ],
+  },
+  {
+    heading: "15. Additional Services and Activities",
+    paragraphs: [
+      "Most tours offer optional additional services and activities for free days, provided by third parties and not included in the tour cost. Any assistance by I'm Here Travels in booking these is purely at the guest's request. I'm Here Travels is not liable for any loss, damages, inconveniences, injuries, illness, or emotional distress from additional services or activities.",
+    ],
+  },
+  {
+    heading: "16. External Tours",
+    paragraphs: [
+      "If guests book external trips (not through I'm Here Travels' third parties) on free days, they do so at their own risk. I'm Here Travels is not liable for any damages or inconveniences arising from such tours.",
+    ],
+  },
+  {
+    heading: "17. Images and Marketing",
+    paragraphs: [
+      "By booking, you agree that photos and videos taken during the tour by I'm Here Travels, other participants, or affiliates featuring you may be used for marketing or promotional purposes royalty-free.",
+    ],
+  },
+  {
+    heading: "18. Privacy Policy",
+    paragraphs: [
+      "By booking, you agree that photos and videos taken during the tour by I'm Here Travels, other participants, and/or affiliates may be used for marketing or promotional purposes royalty-free.",
+    ],
+  },
+  {
+    heading: "19. Complaints",
+    paragraphs: [
+      "I'm Here Travels aims to ensure guests have the best experience possible. If an issue arises, guests should first approach their group leader to resolve it quickly. If still unsatisfied, guests may contact I'm Here Travels head office at info@imheretravels.com. I'm Here Travels is not liable for complaints with third parties but will assist to the best of their ability.",
     ],
   },
 ];

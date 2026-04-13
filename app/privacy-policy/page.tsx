@@ -8,6 +8,7 @@ import {
   privacyLastUpdated,
   privacyIntro,
   privacySections,
+  privacyOutro,
 } from "@/data/privacyPolicy";
 import { whyUsNewsletter } from "@/data/whyUs";
 
@@ -17,7 +18,7 @@ export const metadata: Metadata = privacyMetadata;
 
 function Hero() {
   return (
-    <section className="relative h-65 overflow-hidden md:h-90">
+    <section className="relative h-72 overflow-hidden md:h-[360px]">
       <Image
         src={privacyHero.image}
         alt=""
@@ -27,7 +28,7 @@ function Hero() {
         className="object-cover"
       />
       <div className="absolute inset-0 bg-black/40" />
-      <div className="absolute inset-0 flex items-center justify-center px-6 text-center">
+      <div className="absolute inset-0 flex items-center justify-center px-6 pb-16 text-center md:pb-28">
         <h1 className="font-display text-h1-mobile text-white md:text-h1-desktop">
           {privacyHero.title}
         </h1>
@@ -38,14 +39,12 @@ function Hero() {
 
 function ContentSection() {
   return (
-    <div className="mx-auto w-full max-w-4xl px-4 py-12 md:px-8 md:py-16">
-      <div className="rounded-lg bg-white px-6 py-10 md:px-16 md:py-16">
-        {/* Last updated */}
+    <div className="relative z-10 mx-auto -mt-20 w-full max-w-5xl px-4 pb-12 md:-mt-28 md:px-8 md:pb-16">
+      <div className="rounded-lg bg-white px-6 py-10 shadow-medium md:px-16 md:py-16">
         <p className="mb-6 font-body text-b2-mobile text-midnight md:text-b2-desktop">
           Last update: {privacyLastUpdated}
         </p>
 
-        {/* Intro paragraphs */}
         <div className="mb-6 flex flex-col gap-4">
           {privacyIntro.map((para, i) => (
             <p
@@ -57,17 +56,16 @@ function ContentSection() {
           ))}
         </div>
 
-        {/* Numbered sections */}
         {privacySections.map((section) => (
           <div key={section.heading}>
             <h2 className="mb-4 mt-8 font-sans font-bold text-h5-mobile text-midnight md:text-h5-desktop">
               {section.heading}
             </h2>
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-4">
               {section.paragraphs.map((para, i) => (
                 <p
                   key={i}
-                  className={`font-body text-b2-mobile text-midnight md:text-b2-desktop${para.startsWith("•") ? " pl-4" : ""}`}
+                  className="font-body text-b2-mobile text-midnight md:text-b2-desktop"
                 >
                   {para}
                 </p>
@@ -75,6 +73,10 @@ function ContentSection() {
             </div>
           </div>
         ))}
+
+        <p className="mt-10 font-body text-b2-mobile text-midnight md:text-b2-desktop">
+          {privacyOutro}
+        </p>
       </div>
     </div>
   );
@@ -82,10 +84,9 @@ function ContentSection() {
 
 function NewsletterSection() {
   return (
-    <section className="mx-auto w-full max-w-4xl px-4 pb-16 md:px-8 md:pb-24">
+    <section className="mx-auto w-full max-w-5xl px-4 pb-16 md:px-8 md:pb-24">
       <div className="overflow-hidden rounded-lg bg-white">
         <div className="flex flex-col md:flex-row">
-          {/* Text + form */}
           <div className="flex flex-col gap-8 px-8 py-12 md:flex-1 md:pl-16 md:pr-20 md:py-12">
             <div className="flex flex-col gap-4">
               <h2 className="font-display text-h2-mobile text-midnight md:text-h2-desktop">
@@ -114,7 +115,6 @@ function NewsletterSection() {
               </button>
             </form>
           </div>
-          {/* Image */}
           <div className="relative h-64 md:h-auto md:flex-1">
             <Image
               src={whyUsNewsletter.image}
