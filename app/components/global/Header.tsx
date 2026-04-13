@@ -26,7 +26,7 @@ const navItems = [
     ],
   },
   { label: "Travel Information", href: "#travel-info" },
-  { label: "About Us", href: "#about" },
+  { label: "About Us", href: "/about-us" },
 ];
 
 function ChevronDown() {
