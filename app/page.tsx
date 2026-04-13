@@ -364,9 +364,30 @@ function JoinCommunity() {
 
 function Footer() {
   const columns = [
-    { heading: "About", links: ["Destinations", "Why us?", "Tours"] },
-    { heading: "Help", links: ["Contact Us", "FAQs", "Personalized Tours"] },
-    { heading: "Resources", links: ["Travel Info", "Newsletter", "Reviews"] },
+    {
+      heading: "About",
+      links: [
+        { label: "Destinations", href: "#destinations" },
+        { label: "Why us?", href: "/why-us" },
+        { label: "Tours", href: "#tours" },
+      ],
+    },
+    {
+      heading: "Help",
+      links: [
+        { label: "Contact Us", href: "#contact" },
+        { label: "FAQs", href: "/faqs" },
+        { label: "Personalized Tours", href: "#contact" },
+      ],
+    },
+    {
+      heading: "Resources",
+      links: [
+        { label: "Travel Info", href: "#travel-info" },
+        { label: "Newsletter", href: "#newsletter" },
+        { label: "Reviews", href: "#reviews" },
+      ],
+    },
   ];
 
   return (
@@ -389,12 +410,12 @@ function Footer() {
               </h3>
               <ul className="mt-3 space-y-2">
                 {col.links.map((link) => (
-                  <li key={link}>
+                  <li key={link.label}>
                     <Link
-                      href="#"
+                      href={link.href}
                       className="font-body text-b4-desktop text-midnight hover:text-crimson-red"
                     >
-                      {link}
+                      {link.label}
                     </Link>
                   </li>
                 ))}

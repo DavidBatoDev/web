@@ -30,7 +30,7 @@ const footerColumns = [
     heading: "About",
     links: [
       { label: "Destinations", href: "#destinations" },
-      { label: "Why Us?", href: "#why-us" },
+      { label: "Why Us?", href: "/why-us" },
       { label: "Tours", href: "#tours" },
     ],
   },
@@ -38,7 +38,7 @@ const footerColumns = [
     heading: "Help",
     links: [
       { label: "Contact Us", href: "#contact" },
-      { label: "FAQs", href: "#faqs" },
+      { label: "FAQs", href: "/faqs" },
       { label: "Personalized Tours", href: "#personalized" },
     ],
   },
