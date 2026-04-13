@@ -144,7 +144,7 @@ export default function Footer() {
               </Link>
               <span className="text-white/40" aria-hidden>·</span>
               <Link
-                href="#privacy"
+                href="/privacy-policy"
                 className="font-body text-b2-mobile text-white/80 hover:text-white transition-colors whitespace-nowrap"
               >
                 Privacy Policy

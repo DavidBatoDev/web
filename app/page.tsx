@@ -332,7 +332,7 @@ function JoinCommunity() {
               <p className="font-body text-b4-desktop text-grey">
                 By submitting you agree with our{" "}
                 <Link
-                  href="#privacy"
+                  href="/privacy-policy"
                   className="underline hover:text-crimson-red"
                 >
                   Privacy Policy
@@ -463,7 +463,7 @@ function Footer() {
               Terms and Conditions
             </Link>
             <Link
-              href="#"
+              href="/privacy-policy"
               className="font-body text-b4-desktop text-grey hover:text-crimson-red"
             >
               Privacy Policy
