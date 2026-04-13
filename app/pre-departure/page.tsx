@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/app/components/global/Header";
 import Footer from "@/app/components/global/Footer";
+import PreDepartureWidget from "@/app/components/PreDepartureWidget";
 import {
   preDepartureMetadata,
   preDepartureHero,
@@ -108,17 +109,7 @@ function Section01() {
         <p className="mb-8 font-body text-b2-mobile text-dark-gray md:text-b2-desktop">
           {section.body}
         </p>
-        {section.sherpaImage && (
-          <div className="overflow-hidden rounded-md">
-            <Image
-              src={section.sherpaImage}
-              alt="Sherpa visa requirements tool"
-              width={1200}
-              height={500}
-              className="w-full object-cover"
-            />
-          </div>
-        )}
+        <PreDepartureWidget />
       </div>
     </div>
   );
