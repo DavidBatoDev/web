@@ -1,10 +1,91 @@
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import Header from "@/app/components/global/Header";
+import Footer from "@/app/components/global/Footer";
+import {
+  travelInfoMetadata,
+  travelInfoHero,
+  travelInfoIntro,
+  travelInfoCards,
+} from "@/data/travelInformation";
 
-export default function TravelInformation() {
+export const metadata: Metadata = travelInfoMetadata;
+
+/* ---------- Sections ---------- */
+
+function Hero() {
+  return (
+    <section className="relative h-65 overflow-hidden md:h-90">
+      <Image
+        src={travelInfoHero.image}
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover"
+      />
+      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 flex items-center justify-center px-6 text-center">
+        <h1 className="font-display text-h1-mobile text-white md:text-h1-desktop">
+          {travelInfoHero.title}
+        </h1>
+      </div>
+    </section>
+  );
+}
+
+function CardsSection() {
+  return (
+    <div className="mx-auto w-full max-w-7xl px-4 py-12 md:px-8 md:py-16">
+      {/* Intro */}
+      <p className="mx-auto mb-10 max-w-3xl text-center font-body text-b2-mobile text-midnight md:mb-12 md:text-b2-desktop">
+        {travelInfoIntro}
+      </p>
+
+      {/* Cards grid */}
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {travelInfoCards.map((card) => (
+          <div
+            key={card.id}
+            className="flex flex-col overflow-hidden rounded-lg bg-white"
+          >
+            {/* Image placeholder */}
+            <div className="h-56 w-full bg-grey/20 shrink-0" />
+
+            {/* Content */}
+            <div className="flex flex-1 flex-col p-8">
+              <h2 className="mb-3 font-sans font-bold text-h5-mobile text-midnight md:text-h5-desktop">
+                {card.title}
+              </h2>
+              <p className="mb-6 flex-1 font-body text-b2-mobile text-dark-gray md:text-b2-desktop">
+                {card.body}
+              </p>
+              <Link
+                href={card.linkHref}
+                className="inline-flex items-center justify-center self-start rounded-full bg-crimson-red px-8 py-3 font-body font-bold text-b2-mobile text-white transition-colors hover:bg-light-red md:text-b2-desktop"
+              >
+                {card.linkLabel}
+              </Link>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/* ---------- Page ---------- */
+
+export default function TravelInformationPage() {
   return (
     <>
       <Header />
-      <main className="flex-1" />
+      <main className="flex-1 bg-light-grey">
+        <Hero />
+        <CardsSection />
+      </main>
+      <Footer />
     </>
   );
 }
