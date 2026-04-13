@@ -3,31 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/app/components/global/Header";
 import Footer from "@/app/components/global/Footer";
+import FaqAccordion from "./_components/FaqAccordion";
 import { faqsHero, faqCategories, faqsCta, faqsMetadata } from "@/data/faqs";
 
 export const metadata: Metadata = faqsMetadata;
-
-/* ---------- Icon ---------- */
-
-function ChevronDown() {
-  return (
-    <svg
-      width="20"
-      height="20"
-      viewBox="0 0 20 20"
-      fill="none"
-      aria-hidden="true"
-    >
-      <path
-        d="M5 7.5l5 5 5-5"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
 
 /* ---------- Sections ---------- */
 
@@ -62,31 +41,7 @@ function FAQCategories() {
               {cat.heading}
             </h2>
             <div className="rounded-lg bg-white px-6 py-4 md:px-10 md:py-6">
-              <dl>
-                {cat.items.map((item, i) => (
-                  <div key={i}>
-                    <details className="group py-5" open={i === 0}>
-                      <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-sans text-h6-mobile text-midnight md:text-h6-desktop">
-                        <span>{item.q}</span>
-                        <span className="ml-auto shrink-0 transition-transform duration-300 group-open:rotate-180">
-                          <ChevronDown />
-                        </span>
-                      </summary>
-                      {/* Animated answer — grid-rows trick for smooth slide open/close */}
-                      <div className="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out group-open:grid-rows-[1fr]">
-                        <div className="overflow-hidden">
-                          <p className="pt-4 pb-1 font-body text-b2-mobile text-midnight md:text-b2-desktop opacity-0 translate-y-1 transition-[opacity,transform] duration-400 delay-75 ease-out group-open:opacity-100 group-open:translate-y-0">
-                            {item.a}
-                          </p>
-                        </div>
-                      </div>
-                    </details>
-                    {i < cat.items.length - 1 && (
-                      <div className="h-px w-full bg-[#d7d6db]" />
-                    )}
-                  </div>
-                ))}
-              </dl>
+              <FaqAccordion items={cat.items} />
             </div>
           </section>
         ))}
