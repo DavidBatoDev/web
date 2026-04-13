@@ -4,10 +4,10 @@
 
 export const hero = {
   image: "/figma/hero-siargao.png",
-  imageAlt: "Siargao Island",
+  imageAlt: "Discover the Philippines",
   badge: "FEATURED TRIP",
-  title: "Siargao Island\nAdventure",
-  cta: { label: "View All Tours", href: "#tours" },
+  title: "Discover the Philippines\nSunrise to Sunset",
+  cta: { label: "View trips", href: "#tours" },
 };
 
 /* -------------------------------------------------------------------------- */
