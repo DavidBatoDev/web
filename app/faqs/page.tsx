@@ -33,7 +33,7 @@ function Hero() {
 
 function FAQCategories() {
   return (
-    <div className="mx-auto w-full max-w-4xl px-4 py-12 md:px-8 md:py-16">
+    <div className="mx-auto w-full max-w-5xl px-4 py-12 md:px-8 md:py-16">
       <div className="flex flex-col gap-12 md:gap-16">
         {faqCategories.map((cat) => (
           <section key={cat.heading}>
@@ -52,7 +52,7 @@ function FAQCategories() {
 
 function CTASection() {
   return (
-    <div className="mx-auto w-full max-w-4xl px-4 pb-16 md:px-8 md:pb-24">
+    <div className="mx-auto w-full max-w-5xl px-4 pb-16 md:px-8 md:pb-24">
       <div className="flex flex-col items-center gap-4 rounded-lg bg-white px-8 py-16 text-center md:py-20">
         <h2 className="font-display text-h2-mobile text-midnight md:text-h2-desktop">
           {faqsCta.heading}
