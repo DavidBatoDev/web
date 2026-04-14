@@ -2,7 +2,7 @@
  * Philippine Sunset
  *
  * Auto-generated from data/json/tourPackages-04142026.json by
- * data/scripts/generate-tours.mjs. Safe to hand-edit â€” the generator
+ * data/scripts/generate-tours.mjs. Safe to hand-edit — the generator
  * only writes files that don't exist yet (run with --force to overwrite).
  *
  * Add richer sections (whatsIncluded, faqs, testimonials, etc.) here as
@@ -515,7 +515,7 @@ export const philippineSunset: Tour = {
         icon: "handshake",
         title: "Respect local customs",
         description:
-          "Dress modestly at temples, learn a few local greetings, and tip where appropriate â€” small gestures make a big difference.",
+          "Dress modestly at temples, learn a few local greetings, and tip where appropriate — small gestures make a big difference.",
       },
     ],
   },
@@ -524,8 +524,8 @@ export const philippineSunset: Tour = {
     routeLabel: "Manila -> Port Barton -> El Nido -> Isla Darocotan",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "Â£1,200",
-    depositAmount: "Â£200",
+    priceAmount: "£1,200",
+    depositAmount: "£200",
     ctaLabel: "Reserve Now",
     ctaHref:
       "https://admin.imheretravels.com/reservation-booking-form?tour=philippine-sunset",
@@ -535,7 +535,7 @@ export const philippineSunset: Tour = {
     duration: "11 Days and 10 Nights",
     description:
       "Manila, Port Barton, El Nido, and Isla Darocotan with island hopping, snorkeling, and sunset experiences.",
-    price: "GBP Â£1,200",
+    price: "GBP £1,200",
     image:
       "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341317907_philippinessunset-day-11.webp?alt=media&token=d3c35f6b-4503-438e-9cd4-c6d6848d0e8f",
     imageAlt: "Philippines Sunset tour",

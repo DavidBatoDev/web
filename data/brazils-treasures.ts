@@ -1,5 +1,5 @@
 ﻿/**
- * Brazil's Treasures â€” 12-day Manaus-to-Rio adventure.
+ * Brazil's Treasures — 12-day Manaus-to-Rio adventure.
  *
  * Originally generated from data/json/tourPackages-04142026.json; hand-
  * enriched with itinerary details, accommodations, and FAQs sourced from
@@ -11,13 +11,13 @@ export const brazilsTreasures: Tour = {
   slug: "brazils-treasures",
   name: "Brazil's Treasures",
   meta: {
-    title: "Discover Brazil's Treasures â€” 12 Day Manaus to Rio Adventure",
+    title: "Discover Brazil's Treasures — 12 Day Manaus to Rio Adventure",
     description:
       "Join the 12-day Brazil's Treasures tour: Amazon River cruise, pink dolphins, Paraty island hopping, Sugarloaf, Christ the Redeemer, and Sambadrome Carnival.",
   },
   gallery: {
     hero: "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341307739_brazil-header-4.webp?alt=media&token=811f0f81-f1ba-4267-9da5-69c568c29335",
-    heroAlt: "Brazil's Treasures â€” Rio skyline and Amazon rainforest",
+    heroAlt: "Brazil's Treasures — Rio skyline and Amazon rainforest",
     thumbnails: [],
   },
   header: {
@@ -36,7 +36,7 @@ export const brazilsTreasures: Tour = {
     {
       icon: "route",
       label: "Route",
-      values: ["Manaus â†’ SÃ£o Paulo â†’ Paraty â†’ Rio de Janeiro"],
+      values: ["Manaus → São Paulo → Paraty → Rio de Janeiro"],
     },
     { icon: "days", label: "Days", values: ["12 Days and 11 Nights"] },
     { icon: "people", label: "Group Size", values: ["Maximum 20 people"] },
@@ -101,8 +101,8 @@ export const brazilsTreasures: Tour = {
       {
         image:
           "/images/wp-content/uploads/2025/07/brazil-trip-highlight-2.webp",
-        imageAlt: "SÃ£o Paulo neighborhoods",
-        title: "Explore SÃ£o Paulo's buzzing Neighborhoods",
+        imageAlt: "São Paulo neighborhoods",
+        title: "Explore São Paulo's buzzing Neighborhoods",
         subtitle: "",
       },
       {
@@ -164,11 +164,11 @@ export const brazilsTreasures: Tour = {
       },
       {
         dayNumber: 3,
-        title: "Flight to SÃ£o Paulo",
+        title: "Flight to São Paulo",
         description:
-          "We leave the jungle behind and fly to Brazil's largest city SÃ£o Paulo. After landing, we'll head straight to our hotel in the vibrant neighborhood of Moema. Unwind from the flight or take a walk around the nearby streets filled with local cafÃ©s and energy.",
+          "We leave the jungle behind and fly to Brazil's largest city São Paulo. After landing, we'll head straight to our hotel in the vibrant neighborhood of Moema. Unwind from the flight or take a walk around the nearby streets filled with local cafés and energy.",
         image: "/images/wp-content/uploads/2025/07/brazil-day-3.webp",
-        imageAlt: "SÃ£o Paulo skyline",
+        imageAlt: "São Paulo skyline",
         details: [
           {
             icon: "accommodation",
@@ -178,7 +178,7 @@ export const brazilsTreasures: Tour = {
           {
             icon: "activities",
             label: "Activity",
-            value: "Domestic Flight to SÃ£o Paulo, Transfer",
+            value: "Domestic Flight to São Paulo, Transfer",
           },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -208,7 +208,7 @@ export const brazilsTreasures: Tour = {
         dayNumber: 5,
         title: "Island Hopping in Paraty",
         description:
-          "We set sail today for a tropical escape across Paraty's bay. Visit paradise islands, snorkel in clear waters, and soak in the sun. Our boat will stop at secret beaches and scenic spots while serving up delicious food and music onboard. Bring your sunscreen â€” it's a chill day!",
+          "We set sail today for a tropical escape across Paraty's bay. Visit paradise islands, snorkel in clear waters, and soak in the sun. Our boat will stop at secret beaches and scenic spots while serving up delicious food and music onboard. Bring your sunscreen — it's a chill day!",
         image: "/images/wp-content/uploads/2025/07/brazil-day-5.webp",
         imageAlt: "Paraty island hopping",
         details: [
@@ -229,7 +229,7 @@ export const brazilsTreasures: Tour = {
         dayNumber: 6,
         title: "Journey from Paraty to Rio de Janeiro",
         description:
-          "Today we head to one of the most iconic cities in the world â€” Rio de Janeiro! After the road trip, check into your beachfront hotel in Copacabana. You'll have time to relax, stroll the famous sidewalk, or dip your toes into the Atlantic before dinner. The Marvelous City awaits.",
+          "Today we head to one of the most iconic cities in the world — Rio de Janeiro! After the road trip, check into your beachfront hotel in Copacabana. You'll have time to relax, stroll the famous sidewalk, or dip your toes into the Atlantic before dinner. The Marvelous City awaits.",
         image: "/images/wp-content/uploads/2025/07/brazil-day-6.webp",
         imageAlt: "Copacabana Beach Rio",
         details: [
@@ -250,7 +250,7 @@ export const brazilsTreasures: Tour = {
         dayNumber: 7,
         title: "Chill in Rio or Join a Boat Cruise",
         description:
-          "Wake up in Rio and kick off with an optional boat cruise around Guanabara Bay. See the skyline and Sugarloaf from the water, then spend the rest of the day doing what Rio does best â€” beach time! Grab a coconut, join a game of volleyball, or catch a sunset from Arpoador.",
+          "Wake up in Rio and kick off with an optional boat cruise around Guanabara Bay. See the skyline and Sugarloaf from the water, then spend the rest of the day doing what Rio does best — beach time! Grab a coconut, join a game of volleyball, or catch a sunset from Arpoador.",
         image:
           "https://i0.wp.com/imheretravels.com/wp-content/uploads/2024/09/Novo-Airao-20240315-Barco-KaterreDJI_0351-scaled.webp",
         imageAlt: "Guanabara Bay cruise",
@@ -272,7 +272,7 @@ export const brazilsTreasures: Tour = {
         dayNumber: 8,
         title: "City Icons of Rio",
         description:
-          "We're checking off the icons today! Visit Christ the Redeemer for panoramic views of the city, then take a cable car up Sugarloaf Mountain. Stop by the artistic SelarÃ³n Steps for some photos and get a real taste of Rio's magic. It's a day of legends and unforgettable sights.",
+          "We're checking off the icons today! Visit Christ the Redeemer for panoramic views of the city, then take a cable car up Sugarloaf Mountain. Stop by the artistic Selarón Steps for some photos and get a real taste of Rio's magic. It's a day of legends and unforgettable sights.",
         image: "/images/wp-content/uploads/2025/07/brazil-day-8.webp",
         imageAlt: "Christ the Redeemer and Sugarloaf",
         details: [
@@ -284,7 +284,7 @@ export const brazilsTreasures: Tour = {
           {
             icon: "activities",
             label: "Activity",
-            value: "Sugarloaf, Christ the Redeemer, SelarÃ³n Steps",
+            value: "Sugarloaf, Christ the Redeemer, Selarón Steps",
           },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -348,7 +348,7 @@ export const brazilsTreasures: Tour = {
         dayNumber: 12,
         title: "Departure from Rio",
         description:
-          "All great adventures come to an end. Enjoy your final moments in Rio with a beach stroll or souvenir run before your airport transfer. Until next time â€” tchau, Brasil!",
+          "All great adventures come to an end. Enjoy your final moments in Rio with a beach stroll or souvenir run before your airport transfer. Until next time — tchau, Brasil!",
         image:
           "https://i0.wp.com/imheretravels.com/wp-content/uploads/2024/09/Rio-de-Janeiro-Afroturismo-20240314-0C0A6032-scaled.webp",
         imageAlt: "Rio departure",
@@ -415,7 +415,7 @@ export const brazilsTreasures: Tour = {
       {
         question: "Do you have an age limit for tours?",
         answer:
-          "Our tours cater to adventurous travelers aged 18â€“45, with most guests between 21â€“35 years old. It's perfect for people from diverse backgrounds to share travel experiences.",
+          "Our tours cater to adventurous travelers aged 18–45, with most guests between 21–35 years old. It's perfect for people from diverse backgrounds to share travel experiences.",
       },
       {
         question: "What is the local currency?",
@@ -424,7 +424,7 @@ export const brazilsTreasures: Tour = {
       },
       {
         question: "Which airport do I fly out from?",
-        answer: "Rio de Janeiroâ€“GaleÃ£o International Airport (GIG).",
+        answer: "Rio de Janeiro–Galeão International Airport (GIG).",
       },
     ],
   },
@@ -474,7 +474,7 @@ export const brazilsTreasures: Tour = {
         icon: "handshake",
         title: "Respect local customs",
         description:
-          "Dress modestly at temples, learn a few local greetings, and tip where appropriate â€” small gestures make a big difference.",
+          "Dress modestly at temples, learn a few local greetings, and tip where appropriate — small gestures make a big difference.",
       },
     ],
   },
@@ -483,8 +483,8 @@ export const brazilsTreasures: Tour = {
     routeLabel: "Manaus to Rio de Janeiro",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "Â£1,800",
-    depositAmount: "Â£200",
+    priceAmount: "£1,800",
+    depositAmount: "£200",
     ctaLabel: "Reserve Now",
     ctaHref:
       "https://admin.imheretravels.com/reservation-booking-form?tour=brazils-treasures",
@@ -494,7 +494,7 @@ export const brazilsTreasures: Tour = {
     duration: "12 Days and 11 Nights",
     description:
       "Amazon pink dolphins, Paraty island hopping, Christ the Redeemer, Sugarloaf, and front-row Sambadrome Carnival.",
-    price: "GBP Â£1,800",
+    price: "GBP £1,800",
     image:
       "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341307739_brazil-header-4.webp?alt=media&token=811f0f81-f1ba-4267-9da5-69c568c29335",
     imageAlt: "Brazil's Treasures",

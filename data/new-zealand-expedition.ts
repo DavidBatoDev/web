@@ -1,5 +1,5 @@
 ﻿/**
- * New Zealand Expedition â€” 15-day Auckland-to-Queenstown adventure.
+ * New Zealand Expedition — 15-day Auckland-to-Queenstown adventure.
  *
  * Originally generated from data/json/tourPackages-04142026.json; hand-
  * enriched with itinerary, accommodations, and FAQs sourced from the
@@ -11,13 +11,13 @@ export const newZealandExpedition: Tour = {
   slug: "new-zealand-expedition",
   name: "New Zealand Expedition",
   meta: {
-    title: "New Zealand Expedition â€” 15 Day Auckland to Queenstown Adventure",
+    title: "New Zealand Expedition — 15 Day Auckland to Queenstown Adventure",
     description:
       "Join the 15-day New Zealand Expedition: Auckland, Raglan surf, Waitomo glowworms, Rotorua, Milford Sound cruise, glacier adventures, and Queenstown thrills.",
   },
   gallery: {
     hero: "/images/wp-content/uploads/2025/02/new-zealand-day-11.webp",
-    heroAlt: "New Zealand Expedition â€” alpine peaks and coastal wonders",
+    heroAlt: "New Zealand Expedition — alpine peaks and coastal wonders",
     thumbnails: [],
   },
   header: {
@@ -29,7 +29,7 @@ export const newZealandExpedition: Tour = {
       { label: "Queenstown", icon: "location" },
     ],
     description:
-      "Embark on an unforgettable 15-day journey through Aotearoa, the land of the long white cloud. From the vibrant cityscapes of Auckland and Wellington to the serene beauty of Rotorua's geothermal wonders and Queenstown's adrenaline-pumping adventures, this expedition offers a perfect blend of culture, nature, and thrill. Experience MÄori traditions, explore glowworm-lit caves, cruise the majestic Milford Sound, and immerse yourself in the diverse landscapes that make New Zealand a traveler's paradise.",
+      "Embark on an unforgettable 15-day journey through Aotearoa, the land of the long white cloud. From the vibrant cityscapes of Auckland and Wellington to the serene beauty of Rotorua's geothermal wonders and Queenstown's adrenaline-pumping adventures, this expedition offers a perfect blend of culture, nature, and thrill. Experience Maori traditions, explore glowworm-lit caves, cruise the majestic Milford Sound, and immerse yourself in the diverse landscapes that make New Zealand a traveler's paradise.",
   },
   keyFacts: [
     { icon: "days", label: "Tour Dates", values: ["To be announced"] },
@@ -37,8 +37,8 @@ export const newZealandExpedition: Tour = {
       icon: "route",
       label: "Route",
       values: [
-        "North: Auckland â†’ Raglan â†’ Waitomo â†’ Rotorua â†’ Wellington",
-        "South: Christchurch â†’ Franz Josef â†’ Queenstown â†’ Milford Sound",
+        "North: Auckland → Raglan → Waitomo → Rotorua → Wellington",
+        "South: Christchurch → Franz Josef → Queenstown → Milford Sound",
       ],
     },
     { icon: "days", label: "Days", values: ["15 Days and 14 Nights"] },
@@ -51,7 +51,7 @@ export const newZealandExpedition: Tour = {
         icon: "transport",
         label: "Transport",
         value:
-          "Private Coach, Ferry (Wellington â†’ Picton), Coastal Pacific Scenic Train (Picton â†’ Christchurch)",
+          "Private Coach, Ferry (Wellington → Picton), Coastal Pacific Scenic Train (Picton → Christchurch)",
       },
       {
         icon: "accommodation",
@@ -62,7 +62,7 @@ export const newZealandExpedition: Tour = {
         icon: "activities",
         label: "Activities",
         value:
-          "Optional: Whakarewarewa Living MÄori Village and Traditional HÄngÄ« Lunch, Lake Tarawera Water Taxi, Guided Hike & Natural Hot Pools, Kiwi Hatchery Conservation Experience, Time Tripper Underwater Experience, Milford Sound Day Trip",
+          "Optional: Whakarewarewa Living Maori Village and Traditional Hangi Lunch, Lake Tarawera Water Taxi, Guided Hike & Natural Hot Pools, Kiwi Hatchery Conservation Experience, Time Tripper Underwater Experience, Milford Sound Day Trip",
       },
       {
         icon: "meals",
@@ -184,7 +184,7 @@ export const newZealandExpedition: Tour = {
         dayNumber: 4,
         title: "Kiwi Encounters & Redwood Walks",
         description:
-          "Start the day at the Kiwi Hatchery and learn about these iconic creatures and maybe even see a chick! Then stroll the towering Whakarewarewa Redwoods before diving into the living MÄori Village.",
+          "Start the day at the Kiwi Hatchery and learn about these iconic creatures and maybe even see a chick! Then stroll the towering Whakarewarewa Redwoods before diving into the living Maori Village.",
         image: "/images/wp-content/uploads/2025/02/new-zealand-header-6.webp",
         imageAlt: "Rotorua Redwoods",
         details: [
@@ -197,7 +197,7 @@ export const newZealandExpedition: Tour = {
             icon: "activities",
             label: "Activity",
             value:
-              "Optional: Kiwi Hatchery, Redwood Forest walk, Whakarewarewa Living MÄori Village",
+              "Optional: Kiwi Hatchery, Redwood Forest walk, Whakarewarewa Living Maori Village",
           },
           { icon: "meals", label: "Meals", value: "Breakfast, Lunch" },
         ],
@@ -206,7 +206,7 @@ export const newZealandExpedition: Tour = {
         dayNumber: 5,
         title: "Hot Pools & High Thrills",
         description:
-          "We hike the scenic Tarawera Trail to find secret lakeside hot pools â€” nature's spa! After lunch, choose your adventure: white-water rafting, ziplining, or relaxing at a geo spa. Your energy, your call.",
+          "We hike the scenic Tarawera Trail to find secret lakeside hot pools — nature's spa! After lunch, choose your adventure: white-water rafting, ziplining, or relaxing at a geo spa. Your energy, your call.",
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-5.webp",
         imageAlt: "Tarawera hot pools",
         details: [
@@ -248,7 +248,7 @@ export const newZealandExpedition: Tour = {
         dayNumber: 7,
         title: "Free to Roam the Capital",
         description:
-          "You're free to explore! Pop into the interactive Te Papa Museum, cafÃ©-hop, or hike up Mt. Victoria for killer views. Snap, sip, and soak it in.",
+          "You're free to explore! Pop into the interactive Te Papa Museum, café-hop, or hike up Mt. Victoria for killer views. Snap, sip, and soak it in.",
         image: "/images/wp-content/uploads/2025/05/new-zealand-day-72.webp",
         imageAlt: "Mt. Victoria Wellington",
         details: [
@@ -311,7 +311,7 @@ export const newZealandExpedition: Tour = {
         dayNumber: 10,
         title: "Glacier Day, Your Way",
         description:
-          "This is your glacier playground â€” heli-hike over icy terrain, kayak past blue ice, or walk scenic glacier trails. The Franz Josef Glacier is the kind of place that humbles and awes all at once.",
+          "This is your glacier playground — heli-hike over icy terrain, kayak past blue ice, or walk scenic glacier trails. The Franz Josef Glacier is the kind of place that humbles and awes all at once.",
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-10.webp",
         imageAlt: "Franz Josef Glacier",
         details: [
@@ -332,7 +332,7 @@ export const newZealandExpedition: Tour = {
         dayNumber: 11,
         title: "From Ice to Adventure! Queenstown Calls",
         description:
-          "After a quick stop at the reflective Lake Matheson, roll into Queenstown â€” the adrenaline capital! Get your bearings and start dreaming up your next thrill.",
+          "After a quick stop at the reflective Lake Matheson, roll into Queenstown — the adrenaline capital! Get your bearings and start dreaming up your next thrill.",
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-11.webp",
         imageAlt: "Queenstown arrival",
         details: [
@@ -353,7 +353,7 @@ export const newZealandExpedition: Tour = {
         dayNumber: 12,
         title: "Adventure Mode: ON",
         description:
-          "Today's yours to take it to the limit. Skydiving, bungy jumping, canyon swinging, or just soaking in mountain views over local brews â€” Queenstown lets you write your story.",
+          "Today's yours to take it to the limit. Skydiving, bungy jumping, canyon swinging, or just soaking in mountain views over local brews — Queenstown lets you write your story.",
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-12.webp",
         imageAlt: "Queenstown adventure",
         details: [
@@ -395,7 +395,7 @@ export const newZealandExpedition: Tour = {
         dayNumber: 14,
         title: "Wine, Water, or Whatever You Want",
         description:
-          "It's your last full day, and Queenstown's got range. Wine tasting, lake cruising, mountain biking, or last-minute shopping â€” choose your flavor.",
+          "It's your last full day, and Queenstown's got range. Wine tasting, lake cruising, mountain biking, or last-minute shopping — choose your flavor.",
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-14-1.webp",
         imageAlt: "Queenstown wine country",
         details: [
@@ -414,7 +414,7 @@ export const newZealandExpedition: Tour = {
       },
       {
         dayNumber: 15,
-        title: "Haere RÄ, Queenstown",
+        title: "Haere Ra, Queenstown",
         description:
           "Pack your bags and your memories, it's time to head home (or onward!). This goodbye hits different, but your travel fam and camera roll say it all.",
         image: "/images/wp-content/uploads/2025/05/new-zealand-day-15.webp",
@@ -497,7 +497,7 @@ export const newZealandExpedition: Tour = {
       {
         question: "Where does the trip start & finish?",
         answer:
-          "The trip starts in Auckland (Day 1 â€“ Arrival and Hotel Check-in) and ends in Queenstown (Day 15 â€“ Departure and Airport Transfers).",
+          "The trip starts in Auckland (Day 1 – Arrival and Hotel Check-in) and ends in Queenstown (Day 15 – Departure and Airport Transfers).",
       },
       {
         question: "Which airport do I need to fly into?",
@@ -512,7 +512,7 @@ export const newZealandExpedition: Tour = {
       {
         question: "Do you have an age limit for tours?",
         answer:
-          "Our tours cater to adventurous travelers aged 18â€“45, with most guests between 21â€“35 years old.",
+          "Our tours cater to adventurous travelers aged 18–45, with most guests between 21–35 years old.",
       },
       {
         question: "What is the local currency?",
@@ -572,7 +572,7 @@ export const newZealandExpedition: Tour = {
         icon: "handshake",
         title: "Respect local customs",
         description:
-          "Dress modestly at temples, learn a few local greetings, and tip where appropriate â€” small gestures make a big difference.",
+          "Dress modestly at temples, learn a few local greetings, and tip where appropriate — small gestures make a big difference.",
       },
     ],
   },
@@ -581,8 +581,8 @@ export const newZealandExpedition: Tour = {
     routeLabel: "Auckland to Queenstown",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "Â£1,899",
-    depositAmount: "Â£200",
+    priceAmount: "£1,899",
+    depositAmount: "£200",
     ctaLabel: "Reserve Now",
     ctaHref:
       "https://admin.imheretravels.com/reservation-booking-form?tour=new-zealand-expedition",
@@ -591,12 +591,11 @@ export const newZealandExpedition: Tour = {
   listingCard: {
     duration: "15 Days and 14 Nights",
     description:
-      "Auckland, Waitomo glowworms, MÄori culture in Rotorua, the Interislander ferry, Franz Josef Glacier, Milford Sound, and Queenstown thrills.",
-    price: "GBP Â£1,899",
+      "Auckland, Waitomo glowworms, Maori culture in Rotorua, the Interislander ferry, Franz Josef Glacier, Milford Sound, and Queenstown thrills.",
+    price: "GBP £1,899",
     image: "/images/wp-content/uploads/2025/02/new-zealand-day-11.webp",
     imageAlt: "New Zealand Expedition",
   },
 };
 
 export default newZealandExpedition;
-

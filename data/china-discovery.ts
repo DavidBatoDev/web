@@ -1,5 +1,5 @@
 ﻿/**
- * China Discovery â€” 10-day Beijing-to-Shanghai adventure.
+ * China Discovery — 10-day Beijing-to-Shanghai adventure.
  *
  * Originally generated from data/json/tourPackages-04142026.json; hand-
  * enriched with itinerary, accommodations, and FAQs sourced from the
@@ -11,13 +11,13 @@ export const chinaDiscovery: Tour = {
   slug: "china-discovery",
   name: "China Discovery",
   meta: {
-    title: "China Discovery â€” 10 Day Beijing to Shanghai Tour",
+    title: "China Discovery — 10 Day Beijing to Shanghai Tour",
     description:
-      "Join the 10-day China Discovery tour: Forbidden City, Mutianyu Great Wall, Shanghai Tower, Zhujiajiao Water Town. Small group, local guides, GBP Â£1,200.",
+      "Join the 10-day China Discovery tour: Forbidden City, Mutianyu Great Wall, Shanghai Tower, Zhujiajiao Water Town. Small group, local guides, GBP £1,200.",
   },
   gallery: {
     hero: "/images/wp-content/uploads/2025/10/china-trip-highlight-1.webp",
-    heroAlt: "China Discovery â€” Beijing and Shanghai",
+    heroAlt: "China Discovery — Beijing and Shanghai",
     thumbnails: [],
   },
   header: {
@@ -36,7 +36,7 @@ export const chinaDiscovery: Tour = {
       icon: "route",
       label: "Route",
       values: [
-        "Beijing â†’ Shanghai â†’ Mutianyu Great Wall â†’ Shanghai Tower â†’ Zhujiajiao Water Town",
+        "Beijing → Shanghai → Mutianyu Great Wall → Shanghai Tower → Zhujiajiao Water Town",
       ],
     },
     { icon: "days", label: "Days", values: ["10 Days and 9 Nights"] },
@@ -89,7 +89,7 @@ export const chinaDiscovery: Tour = {
         imageAlt: "Mutianyu Great Wall",
         title: "Mutianyu Great Wall",
         subtitle:
-          "Tick off one of the 7 wonders of the world â€” visit Mutianyu Great Wall either hiking along the wall or taking the cable car and admiring the views in comfort",
+          "Tick off one of the 7 wonders of the world — visit Mutianyu Great Wall either hiking along the wall or taking the cable car and admiring the views in comfort",
       },
       {
         image: "/images/wp-content/uploads/2025/10/china-trip-highlight-3.webp",
@@ -136,7 +136,7 @@ export const chinaDiscovery: Tour = {
         dayNumber: 2,
         title: "Beijing City Tour",
         description:
-          "Start your day at Tiananmen Square, the symbolic heart of Beijing, then visit the nearby Forbidden City to explore centuries of imperial history. Enjoy authentic Chinese cuisine for lunch before heading to the Hutongs, where you can stroll through traditional lanes and experience local life. Continue to Houhai, a lively lake area with cafÃ©s, street performances, and cultural sites. Return to the hotel in the evening to freshen up for dinner and drinks.",
+          "Start your day at Tiananmen Square, the symbolic heart of Beijing, then visit the nearby Forbidden City to explore centuries of imperial history. Enjoy authentic Chinese cuisine for lunch before heading to the Hutongs, where you can stroll through traditional lanes and experience local life. Continue to Houhai, a lively lake area with cafés, street performances, and cultural sites. Return to the hotel in the evening to freshen up for dinner and drinks.",
         image: "/images/wp-content/uploads/2025/10/china-day-2.webp",
         imageAlt: "Tiananmen Square and Forbidden City",
         details: [
@@ -260,7 +260,7 @@ export const chinaDiscovery: Tour = {
         dayNumber: 8,
         title: "Zhujiajiao Water Town",
         description:
-          "Grab some breakfast and fuel up before making our way to Zhujiajiao Water Town, an ancient Chinese town known for its picturesque canals, stone bridges, and traditional architecture. Walk along the cobblestone streets exploring local shops, try traditional snacks and just soak up the local culture. In the afternoon we make our way back to Shanghai where you have time to relax and chill or go out exploring more â€” it's entirely up to you.",
+          "Grab some breakfast and fuel up before making our way to Zhujiajiao Water Town, an ancient Chinese town known for its picturesque canals, stone bridges, and traditional architecture. Walk along the cobblestone streets exploring local shops, try traditional snacks and just soak up the local culture. In the afternoon we make our way back to Shanghai where you have time to relax and chill or go out exploring more — it's entirely up to you.",
         image: "/images/wp-content/uploads/2025/10/china-day-8.webp",
         imageAlt: "Zhujiajiao Water Town canals",
         details: [
@@ -281,7 +281,7 @@ export const chinaDiscovery: Tour = {
         dayNumber: 9,
         title: "Shanghai Free Day",
         description:
-          "The day is yours to do as you please. Take a well-deserved lay-in before grabbing some breakfast. Go out and explore more of Shanghai â€” check out shops and grab some amazing street food. The guide will be available throughout the day if you need any suggestions or help. In the evening we will meet again for one final dinner as a group.",
+          "The day is yours to do as you please. Take a well-deserved lay-in before grabbing some breakfast. Go out and explore more of Shanghai — check out shops and grab some amazing street food. The guide will be available throughout the day if you need any suggestions or help. In the evening we will meet again for one final dinner as a group.",
         image: "/images/wp-content/uploads/2025/10/china-day-9.webp",
         imageAlt: "Shanghai skyline",
         details: [
@@ -298,7 +298,7 @@ export const chinaDiscovery: Tour = {
         dayNumber: 10,
         title: "Until Next Time",
         description:
-          "It's time to check out. After breakfast, our local guide can assist you with your onward travels â€” he can give you guidance on getting from the metro to a direct train to the airport. Before leaving make sure you've gotten everyone's Instagram handles to stay in touch.",
+          "It's time to check out. After breakfast, our local guide can assist you with your onward travels — he can give you guidance on getting from the metro to a direct train to the airport. Before leaving make sure you've gotten everyone's Instagram handles to stay in touch.",
         image: "/images/wp-content/uploads/2025/10/china-day-10.webp",
         imageAlt: "Shanghai departure",
         details: [
@@ -341,12 +341,12 @@ export const chinaDiscovery: Tour = {
       {
         question: "What should I wear?",
         answer:
-          "Pack long pants, lighter pants or skirt/dress, tops long and short sleeved, sweater, light jacket, warmer jacket for Beijing nights, comfortable footwear, outfits for dinners, underwear, socks, sunglasses, scarf, hat. Temperatures vary between night and day â€” layering options are best.",
+          "Pack long pants, lighter pants or skirt/dress, tops long and short sleeved, sweater, light jacket, warmer jacket for Beijing nights, comfortable footwear, outfits for dinners, underwear, socks, sunglasses, scarf, hat. Temperatures vary between night and day — layering options are best.",
       },
       {
         question: "Do you have an age limit for tours?",
         answer:
-          "Our tours cater to adventurous travelers aged 18â€“45, with most guests between 21â€“35 years old. It's perfect for people from diverse backgrounds to share travel experiences.",
+          "Our tours cater to adventurous travelers aged 18–45, with most guests between 21–35 years old. It's perfect for people from diverse backgrounds to share travel experiences.",
       },
       {
         question: "What is the local currency?",
@@ -405,7 +405,7 @@ export const chinaDiscovery: Tour = {
         icon: "handshake",
         title: "Respect local customs",
         description:
-          "Dress modestly at temples, learn a few local greetings, and tip where appropriate â€” small gestures make a big difference.",
+          "Dress modestly at temples, learn a few local greetings, and tip where appropriate — small gestures make a big difference.",
       },
     ],
   },
@@ -414,8 +414,8 @@ export const chinaDiscovery: Tour = {
     routeLabel: "Beijing to Shanghai",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "Â£1,200",
-    depositAmount: "Â£200",
+    priceAmount: "£1,200",
+    depositAmount: "£200",
     ctaLabel: "Reserve Now",
     ctaHref:
       "https://admin.imheretravels.com/reservation-booking-form?tour=china-discovery",
@@ -425,7 +425,7 @@ export const chinaDiscovery: Tour = {
     duration: "10 Days and 9 Nights",
     description:
       "Tiananmen, the Forbidden City, Mutianyu Great Wall, Shanghai Tower, and a peaceful escape to Zhujiajiao Water Town.",
-    price: "GBP Â£1,200",
+    price: "GBP £1,200",
     image: "/images/wp-content/uploads/2025/10/china-trip-highlight-1.webp",
     imageAlt: "China Discovery",
   },

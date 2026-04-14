@@ -1,5 +1,5 @@
 ﻿/**
- * Nepal Horizons â€” 9-day Kathmandu-to-Pokhara Himalayan adventure.
+ * Nepal Horizons — 9-day Kathmandu-to-Pokhara Himalayan adventure.
  *
  * Originally generated from data/json/tourPackages-04142026.json; hand-
  * enriched with itinerary, accommodations, and FAQs sourced from the
@@ -11,13 +11,13 @@ export const nepalHorizons: Tour = {
   slug: "nepal-horizons",
   name: "Nepal Horizons",
   meta: {
-    title: "Nepal Horizons â€” 9 Day Kathmandu to Pokhara Himalayan Adventure",
+    title: "Nepal Horizons — 9 Day Kathmandu to Pokhara Himalayan Adventure",
     description:
-      "Join the 9-day Nepal Horizons tour: Kathmandu's sacred temples, Chitwan jungle safari, Bandipur village, and a hike to Australian Base Camp. GBP Â£1,099.",
+      "Join the 9-day Nepal Horizons tour: Kathmandu's sacred temples, Chitwan jungle safari, Bandipur village, and a hike to Australian Base Camp. GBP £1,099.",
   },
   gallery: {
     hero: "/images/wp-content/uploads/2025/08/nepal-triphighlight-1.webp",
-    heroAlt: "Nepal Horizons â€” Himalayan temples and peaks",
+    heroAlt: "Nepal Horizons — Himalayan temples and peaks",
     thumbnails: [],
   },
   header: {
@@ -36,7 +36,7 @@ export const nepalHorizons: Tour = {
     {
       icon: "route",
       label: "Route",
-      values: ["Kathmandu â†’ Chitwan â†’ Bandipur â†’ Pokhara"],
+      values: ["Kathmandu → Chitwan → Bandipur → Pokhara"],
     },
     { icon: "days", label: "Days", values: ["9 Days and 8 Nights"] },
     { icon: "people", label: "Group Size", values: ["Maximum 20 people"] },
@@ -116,7 +116,7 @@ export const nepalHorizons: Tour = {
         dayNumber: 1,
         title: "A Himalayan Welcome",
         description:
-          "Welcome to Kathmandu! Settle in at your hotel â€” the rest of the day is free for you to relax after your journey or explore the nearby area at your own pace. Let's have an evening of culture with a welcome dinner at a local Nepali restaurant.",
+          "Welcome to Kathmandu! Settle in at your hotel — the rest of the day is free for you to relax after your journey or explore the nearby area at your own pace. Let's have an evening of culture with a welcome dinner at a local Nepali restaurant.",
         image: "/images/wp-content/uploads/2025/08/nepal-day-1.webp",
         imageAlt: "Kathmandu arrival",
         details: [
@@ -181,7 +181,7 @@ export const nepalHorizons: Tour = {
         dayNumber: 4,
         title: "Into the Wild",
         description:
-          "Wake up to nature and kick off the day with a peaceful canoe ride through Chitwan's waterways, spotting rare birds and maybe a croc or two! Then, let's lace up for a jungle walk with our expert naturalist â€” the best way to see wildlife up close. After lunch, hop on a Jeep Safari deep into the forest, on the lookout for rhinos, sloth bears, and if luck is on your sideâ€¦ the legendary Royal Bengal Tiger! Cap off the day with a Tharu Tribal Dance under the stars and a hearty dinner.",
+          "Wake up to nature and kick off the day with a peaceful canoe ride through Chitwan's waterways, spotting rare birds and maybe a croc or two! Then, let's lace up for a jungle walk with our expert naturalist — the best way to see wildlife up close. After lunch, hop on a Jeep Safari deep into the forest, on the lookout for rhinos, sloth bears, and if luck is on your side... the legendary Royal Bengal Tiger! Cap off the day with a Tharu Tribal Dance under the stars and a hearty dinner.",
         image: "/images/wp-content/uploads/2025/08/nepal-day-4.webp",
         imageAlt: "Chitwan jungle safari",
         details: [
@@ -203,7 +203,7 @@ export const nepalHorizons: Tour = {
         dayNumber: 5,
         title: "Bandipur Awaits",
         description:
-          "Say goodbye to the jungle and hello to Bandipur, a charming hilltop town frozen in time. Stroll its colorful bazaar, soak up those Himalayan views, and breathe in the mountain air. Ready for a little adventure? Hike to Ramkot Village and experience authentic rural life. Bonus: if you're feeling curious, you can taste local homemade liquor (Raksi) straight from the source â€” cheers to that!",
+          "Say goodbye to the jungle and hello to Bandipur, a charming hilltop town frozen in time. Stroll its colorful bazaar, soak up those Himalayan views, and breathe in the mountain air. Ready for a little adventure? Hike to Ramkot Village and experience authentic rural life. Bonus: if you're feeling curious, you can taste local homemade liquor (Raksi) straight from the source — cheers to that!",
         image: "/images/wp-content/uploads/2025/08/nepal-day-5.webp",
         imageAlt: "Bandipur bazaar",
         details: [
@@ -246,7 +246,7 @@ export const nepalHorizons: Tour = {
         dayNumber: 7,
         title: "Hike to Heaven",
         description:
-          "Fuel up â€” it's hike day! From Kande, we'll begin our scenic trek to Australian Base Camp, winding through lush forests, Gurung villages, and stone-paved trails, rewarded with jaw-dropping views of Annapurna, Manaslu, and Fishtail. After our scenic trek, we'll return to Pokhara for some well-earned downtime.",
+          "Fuel up — it's hike day! From Kande, we'll begin our scenic trek to Australian Base Camp, winding through lush forests, Gurung villages, and stone-paved trails, rewarded with jaw-dropping views of Annapurna, Manaslu, and Fishtail. After our scenic trek, we'll return to Pokhara for some well-earned downtime.",
         image: "/images/wp-content/uploads/2025/08/nepal-day-7.webp",
         imageAlt: "Australian Base Camp trek",
         details: [
@@ -267,7 +267,7 @@ export const nepalHorizons: Tour = {
         dayNumber: 8,
         title: "Your Day, Your Way",
         description:
-          "Today is yours! Stroll the lakeside, sip coffee in cozy cafÃ©s, shop for souvenirs, or simply relax. In the evening, we'll gather for a farewell dinner to toast our adventure together. Laughter, stories, and good vibes guaranteed.",
+          "Today is yours! Stroll the lakeside, sip coffee in cozy cafés, shop for souvenirs, or simply relax. In the evening, we'll gather for a farewell dinner to toast our adventure together. Laughter, stories, and good vibes guaranteed.",
         image: "/images/wp-content/uploads/2025/08/nepal-day-8.webp",
         imageAlt: "Pokhara lakeside",
         details: [
@@ -338,7 +338,7 @@ export const nepalHorizons: Tour = {
       },
       {
         question: "Which airport do I need to fly into?",
-        answer: "Kathmandu â€” Tribhuvan International Airport (KTM).",
+        answer: "Kathmandu — Tribhuvan International Airport (KTM).",
       },
       {
         question: "What should I wear?",
@@ -348,7 +348,7 @@ export const nepalHorizons: Tour = {
       {
         question: "Do you have an age limit for tours?",
         answer:
-          "Our tours cater to adventurous travelers aged 18â€“45, with most guests between 21â€“35 years old.",
+          "Our tours cater to adventurous travelers aged 18–45, with most guests between 21–35 years old.",
       },
       {
         question: "What is the local currency?",
@@ -357,7 +357,7 @@ export const nepalHorizons: Tour = {
       },
       {
         question: "Which airport do I fly out from?",
-        answer: "Kathmandu â€” Tribhuvan International Airport (KTM).",
+        answer: "Kathmandu — Tribhuvan International Airport (KTM).",
       },
     ],
   },
@@ -407,7 +407,7 @@ export const nepalHorizons: Tour = {
         icon: "handshake",
         title: "Respect local customs",
         description:
-          "Dress modestly at temples, learn a few local greetings, and tip where appropriate â€” small gestures make a big difference.",
+          "Dress modestly at temples, learn a few local greetings, and tip where appropriate — small gestures make a big difference.",
       },
     ],
   },
@@ -416,8 +416,8 @@ export const nepalHorizons: Tour = {
     routeLabel: "Kathmandu to Pokhara",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "Â£1,099",
-    depositAmount: "Â£200",
+    priceAmount: "£1,099",
+    depositAmount: "£200",
     ctaLabel: "Reserve Now",
     ctaHref:
       "https://admin.imheretravels.com/reservation-booking-form?tour=nepal-horizons",
@@ -427,11 +427,10 @@ export const nepalHorizons: Tour = {
     duration: "9 Days and 8 Nights",
     description:
       "Kathmandu's sacred temples, Chitwan jungle safari, Bandipur's charm, and a scenic trek to Australian Base Camp.",
-    price: "GBP Â£1,099",
+    price: "GBP £1,099",
     image: "/images/wp-content/uploads/2025/08/nepal-triphighlight-1.webp",
     imageAlt: "Nepal Horizons",
   },
 };
 
 export default nepalHorizons;
-

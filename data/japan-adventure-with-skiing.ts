@@ -2,7 +2,7 @@
  * Japan Adventure (With Skiing)
  *
  * Auto-generated from data/json/tourPackages-04142026.json by
- * data/scripts/generate-tours.mjs. Safe to hand-edit â€” the generator
+ * data/scripts/generate-tours.mjs. Safe to hand-edit — the generator
  * only writes files that don't exist yet (run with --force to overwrite).
  *
  * Add richer sections (whatsIncluded, faqs, testimonials, etc.) here as
@@ -15,7 +15,7 @@ export const japanAdventureWithSkiing: Tour = {
   slug: "japan-adventure-with-skiing",
   name: "Japan Adventure (With Skiing)",
   meta: {
-    title: "Japan Adventure (With Skiing) â€” I'm Here Travels",
+    title: "Japan Adventure (With Skiing) — I'm Here Travels",
     description:
       "Experience the perfect blend of tradition and innovation on this unforgettable journey through Japan. We start off in Tokyo, the vibrant capital where modern skyscrapers meet historic temples. Enjoy a",
   },
@@ -33,13 +33,13 @@ export const japanAdventureWithSkiing: Tour = {
       },
     ],
     description:
-      "Experience the perfect blend of tradition and innovation on this unforgettable journey through Japan. We start off in Tokyo, the vibrant capital where modern skyscrapers meet historic temples. Enjoy a guided city tour featuring iconic sights like the Meiji Shrine and Shibuya Crossing. After a few days in Tokyo, we will ride the world-renowned bullet train to Kyoto, Japanâ€™s cultural heart. Explore ancient temples, serene gardens, and the famous Gion district, home to traditional tea houses and geisha culture. The final stop on the tour will be Sapporo. Discover its laid-back charm, local cuisine, and unique seasonal beauty during a scenic city tour. This tour offers the best of Japanâ€™s dynamic cities, rich heritage, and stunning landscapes.",
+      "Experience the perfect blend of tradition and innovation on this unforgettable journey through Japan. We start off in Tokyo, the vibrant capital where modern skyscrapers meet historic temples. Enjoy a guided city tour featuring iconic sights like the Meiji Shrine and Shibuya Crossing. After a few days in Tokyo, we will ride the world-renowned bullet train to Kyoto, Japan’s cultural heart. Explore ancient temples, serene gardens, and the famous Gion district, home to traditional tea houses and geisha culture. The final stop on the tour will be Sapporo. Discover its laid-back charm, local cuisine, and unique seasonal beauty during a scenic city tour. This tour offers the best of Japan’s dynamic cities, rich heritage, and stunning landscapes.",
   },
   keyFacts: [
     {
       icon: "days",
       label: "Tour Dates",
-      values: ["14 Mar 2026 â€“ 23 Mar 2026"],
+      values: ["14 Mar 2026 – 23 Mar 2026"],
     },
     {
       icon: "days",
@@ -97,7 +97,7 @@ export const japanAdventureWithSkiing: Tour = {
         dayNumber: 2,
         title: "Tokyo City Tour",
         description:
-          "Explore Japan's dynamic capital like a local! Hop on Tokyo's world-renowned public transport system and visit must-see neighborhoods and landmarks, each offering its own unique flavor of the city. The recommended stops for this tour are:\nâ€¢ Akihabara (anime, gaming and tech\nâ€¢ Ueno\nâ€¢ Asakusa with its famous Sensoji Temple and famous Nakamise Shopping Street\nâ€¢ Shibuya and the famous scramble crossing\nâ€¢ Harajukuâ€™s fashion district, which stands in stark contrast to the tranquil and traditional nearby Meiji-jingu, one of Japanâ€™s most important shinto shrines\nâ€¢ as well as Shinjuku, where we recommend getting a birds eye view of the city from the Tokyo Metropolitan Government Buildingâ€™s observation deck.\n\nFinish the day with a meal in a typical Japanese â€˜pubâ€™ (izakaya) and try some local specialties.",
+          "Explore Japan's dynamic capital like a local! Hop on Tokyo's world-renowned public transport system and visit must-see neighborhoods and landmarks, each offering its own unique flavor of the city. The recommended stops for this tour are:\n- Akihabara (anime, gaming and tech\n- Ueno\n- Asakusa with its famous Sensoji Temple and famous Nakamise Shopping Street\n- Shibuya and the famous scramble crossing\n- Harajuku’s fashion district, which stands in stark contrast to the tranquil and traditional nearby Meiji-jingu, one of Japan’s most important shinto shrines\n- as well as Shinjuku, where we recommend getting a birds eye view of the city from the Tokyo Metropolitan Government Building’s observation deck.\n\nFinish the day with a meal in a typical Japanese ‘pub’ (izakaya) and try some local specialties.",
         details: [],
       },
       {
@@ -118,7 +118,7 @@ export const japanAdventureWithSkiing: Tour = {
         dayNumber: 5,
         title: "Kyoto City Tour",
         description:
-          "Step into Japanâ€™s ancient capital and immerse yourself in serene temples, historical streets, and unforgettable scenic beauty â€” all in comfort with a chartered bus for the day. Throughout the city tour we will stop at such locations as:\n\nâ€¢ Kinakuji\nâ€¢ Arashiyama and its bamboo grove and picturesque river\nâ€¢ Nishiki Market (Kyotoâ€™s Kitchen - ideal for lunch)\nâ€¢ Kiyomizudera\nâ€¢ Gion\n\nAfterwards rest up and prepare for dinner and possibly a few drinks",
+          "Step into Japan’s ancient capital and immerse yourself in serene temples, historical streets, and unforgettable scenic beauty — all in comfort with a chartered bus for the day. Throughout the city tour we will stop at such locations as:\n\n- Kinakuji\n- Arashiyama and its bamboo grove and picturesque river\n- Nishiki Market (Kyoto’s Kitchen - ideal for lunch)\n- Kiyomizudera\n- Gion\n\nAfterwards rest up and prepare for dinner and possibly a few drinks",
         details: [],
       },
       {
@@ -132,14 +132,14 @@ export const japanAdventureWithSkiing: Tour = {
         dayNumber: 7,
         title: "Kyoto to Sapporo",
         description:
-          "You will transfer from Kyoto to one of Osakaâ€™s airports and then fly to Japanâ€™s northernmost prefecture and island of Hokkaido. After arriving in the regional capital of Sapporo the rest of the day is at leisure, go out exploring or just relax at the hotel itâ€™s entirely up to you.",
+          "You will transfer from Kyoto to one of Osaka’s airports and then fly to Japan’s northernmost prefecture and island of Hokkaido. After arriving in the regional capital of Sapporo the rest of the day is at leisure, go out exploring or just relax at the hotel it’s entirely up to you.",
         details: [],
       },
       {
         dayNumber: 8,
         title: "Sapporo City Tour",
         description:
-          "Enjoy the freedom of exploring Hokkaido's snowy capital at your own pace. Sapporo is a charming city with a cozy winter atmosphere, ideal for foodies, culture lovers, and snow seekers alike. Throughout the tour we will be stopping at\n\nâ€¢ Sapporo Clock Tower\nâ€¢ Nijo Market\nâ€¢ Sapporoâ€™s TV Tower and Odori Park\nâ€¢ Ramen Yokocho\nâ€¢ Sapporo Beer Museum or Shiroi Koibito Park\nâ€¢ Tanukikoji Shopping Street\n\nThen you have time to rest up and prepare for dinner.",
+          "Enjoy the freedom of exploring Hokkaido's snowy capital at your own pace. Sapporo is a charming city with a cozy winter atmosphere, ideal for foodies, culture lovers, and snow seekers alike. Throughout the tour we will be stopping at\n\n- Sapporo Clock Tower\n- Nijo Market\n- Sapporo’s TV Tower and Odori Park\n- Ramen Yokocho\n- Sapporo Beer Museum or Shiroi Koibito Park\n- Tanukikoji Shopping Street\n\nThen you have time to rest up and prepare for dinner.",
         details: [],
       },
       {
@@ -153,7 +153,7 @@ export const japanAdventureWithSkiing: Tour = {
         dayNumber: 10,
         title: "Until Next Time",
         description:
-          "Enjoy your last breakfast with a view before heading to the airport. Youâ€™re leaving Japan but trust us, part of your heart will stay behind.",
+          "Enjoy your last breakfast with a view before heading to the airport. You’re leaving Japan but trust us, part of your heart will stay behind.",
         details: [],
       },
     ],
@@ -204,7 +204,7 @@ export const japanAdventureWithSkiing: Tour = {
         icon: "handshake",
         title: "Respect local customs",
         description:
-          "Dress modestly at temples, learn a few local greetings, and tip where appropriate â€” small gestures make a big difference.",
+          "Dress modestly at temples, learn a few local greetings, and tip where appropriate — small gestures make a big difference.",
       },
     ],
   },
@@ -213,8 +213,8 @@ export const japanAdventureWithSkiing: Tour = {
     routeLabel: "Japan",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "Â£2,370",
-    depositAmount: "Â£300",
+    priceAmount: "£2,370",
+    depositAmount: "£300",
     ctaLabel: "Reserve Now",
     ctaHref:
       "https://admin.imheretravels.com/reservation-booking-form?tour=japan-adventure-with-skiing",
@@ -224,11 +224,10 @@ export const japanAdventureWithSkiing: Tour = {
     duration: "10 Days and 9 Nights",
     description:
       "Experience the perfect blend of tradition and innovation on this unforgettable journey through Japan. We start off in Tokyo, the vibrant capital where modern sk",
-    price: "GBP Â£2,370",
+    price: "GBP £2,370",
     image: "/images/wp-content/uploads/2025/10/japan-header-4.webp",
     imageAlt: "Japan Adventure (With Skiing)",
   },
 };
 
 export default japanAdventureWithSkiing;
-

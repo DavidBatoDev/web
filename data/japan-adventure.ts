@@ -1,5 +1,5 @@
 ﻿/**
- * Japan Adventure â€” 10-day Tokyo-to-Sapporo journey.
+ * Japan Adventure — 10-day Tokyo-to-Sapporo journey.
  *
  * Originally generated from data/json/tourPackages-04142026.json; hand-
  * enriched with itinerary, accommodations, and FAQs sourced from the
@@ -11,13 +11,13 @@ export const japanAdventure: Tour = {
   slug: "japan-adventure",
   name: "Japan Adventure",
   meta: {
-    title: "Japan Adventure â€” 10 Day Tokyo to Sapporo Tour",
+    title: "Japan Adventure — 10 Day Tokyo to Sapporo Tour",
     description:
-      "Join the 10-day Japan Adventure: Tokyo city tour, bullet train to Kyoto, tea ceremony, and Sapporo's snowy charm. Optional skiing. GBP Â£2,150.",
+      "Join the 10-day Japan Adventure: Tokyo city tour, bullet train to Kyoto, tea ceremony, and Sapporo's snowy charm. Optional skiing. GBP £2,150.",
   },
   gallery: {
     hero: "/images/wp-content/uploads/2025/10/japan-trip-highlight-1.webp",
-    heroAlt: "Japan Adventure â€” Tokyo, Kyoto, Sapporo",
+    heroAlt: "Japan Adventure — Tokyo, Kyoto, Sapporo",
     thumbnails: [],
   },
   header: {
@@ -32,7 +32,7 @@ export const japanAdventure: Tour = {
   },
   keyFacts: [
     { icon: "days", label: "Tour Dates", values: ["To be announced"] },
-    { icon: "route", label: "Route", values: ["Tokyo â†’ Kyoto â†’ Sapporo"] },
+    { icon: "route", label: "Route", values: ["Tokyo → Kyoto → Sapporo"] },
     { icon: "days", label: "Days", values: ["10 Days and 9 Nights"] },
     { icon: "people", label: "Group Size", values: ["Maximum 20 people"] },
   ],
@@ -131,7 +131,7 @@ export const japanAdventure: Tour = {
         dayNumber: 2,
         title: "Tokyo City Tour",
         description:
-          "Explore Japan's dynamic capital like a local! Hop on Tokyo's world-renowned public transport system and visit must-see neighborhoods and landmarks. Recommended stops: Akihabara (anime, gaming, tech), Ueno, Asakusa with its famous Sensoji Temple and Nakamise Shopping Street, Shibuya and the famous scramble crossing, Harajuku's fashion district and the nearby Meiji-jingu shrine, and Shinjuku â€” where we recommend getting a bird's-eye view of the city from the Tokyo Metropolitan Government Building's observation deck. Finish the day with a meal in a typical Japanese izakaya and try some local specialties.",
+          "Explore Japan's dynamic capital like a local! Hop on Tokyo's world-renowned public transport system and visit must-see neighborhoods and landmarks. Recommended stops: Akihabara (anime, gaming, tech), Ueno, Asakusa with its famous Sensoji Temple and Nakamise Shopping Street, Shibuya and the famous scramble crossing, Harajuku's fashion district and the nearby Meiji-jingu shrine, and Shinjuku — where we recommend getting a bird's-eye view of the city from the Tokyo Metropolitan Government Building's observation deck. Finish the day with a meal in a typical Japanese izakaya and try some local specialties.",
         image: "/images/wp-content/uploads/2025/10/japan-day-2.webp",
         imageAlt: "Tokyo Shibuya scramble",
         details: [
@@ -148,7 +148,7 @@ export const japanAdventure: Tour = {
         dayNumber: 3,
         title: "Tokyo Free Day",
         description:
-          "Explore other areas of Tokyo and the surrounding area at your own pace or relax at the hotel â€” the day is yours. Recommended day trips include Kamakura and Enoshima by the coast, or for something more traditional, Kawagoe in nearby Saitama prefecture. Otherwise, indulge in fun activities such as a visit to the teamLabs digital art museum or go shopping in one of the countless malls.",
+          "Explore other areas of Tokyo and the surrounding area at your own pace or relax at the hotel — the day is yours. Recommended day trips include Kamakura and Enoshima by the coast, or for something more traditional, Kawagoe in nearby Saitama prefecture. Otherwise, indulge in fun activities such as a visit to the teamLabs digital art museum or go shopping in one of the countless malls.",
         image: "/images/wp-content/uploads/2025/10/japan-day-3.webp",
         imageAlt: "Tokyo free day",
         details: [
@@ -182,7 +182,7 @@ export const japanAdventure: Tour = {
         dayNumber: 5,
         title: "Kyoto City Tour",
         description:
-          "Step into Japan's ancient capital and immerse yourself in serene temples, historical streets, and unforgettable scenic beauty â€” all in comfort with a chartered bus for the day. Stops include Kinkakuji, Arashiyama with its bamboo grove and picturesque river, Nishiki Market (Kyoto's Kitchen â€” ideal for lunch), Kiyomizudera, and Gion. Afterwards rest up and prepare for dinner and possibly a few drinks.",
+          "Step into Japan's ancient capital and immerse yourself in serene temples, historical streets, and unforgettable scenic beauty — all in comfort with a chartered bus for the day. Stops include Kinkakuji, Arashiyama with its bamboo grove and picturesque river, Nishiki Market (Kyoto's Kitchen — ideal for lunch), Kiyomizudera, and Gion. Afterwards rest up and prepare for dinner and possibly a few drinks.",
         image: "/images/wp-content/uploads/2025/10/japan-day-5.webp",
         imageAlt: "Kyoto Kinkakuji and Gion",
         details: [
@@ -216,7 +216,7 @@ export const japanAdventure: Tour = {
         dayNumber: 7,
         title: "Kyoto to Sapporo",
         description:
-          "You will transfer from Kyoto to one of Osaka's airports and then fly to Japan's northernmost prefecture and island of Hokkaido. After arriving in the regional capital of Sapporo the rest of the day is at leisure â€” go out exploring or just relax at the hotel, it's entirely up to you.",
+          "You will transfer from Kyoto to one of Osaka's airports and then fly to Japan's northernmost prefecture and island of Hokkaido. After arriving in the regional capital of Sapporo the rest of the day is at leisure — go out exploring or just relax at the hotel, it's entirely up to you.",
         image: "/images/wp-content/uploads/2025/10/japan-day-7.webp",
         imageAlt: "Travel to Sapporo",
         details: [
@@ -322,7 +322,7 @@ export const japanAdventure: Tour = {
       {
         question: "Do you have an age limit for tours?",
         answer:
-          "Our tours cater to adventurous travelers aged 18â€“45, with most guests between 21â€“35 years old. It's perfect for people from diverse backgrounds to share travel experiences.",
+          "Our tours cater to adventurous travelers aged 18–45, with most guests between 21–35 years old. It's perfect for people from diverse backgrounds to share travel experiences.",
       },
       {
         question: "What is the local currency?",
@@ -381,7 +381,7 @@ export const japanAdventure: Tour = {
         icon: "handshake",
         title: "Respect local customs",
         description:
-          "Dress modestly at temples, learn a few local greetings, and tip where appropriate â€” small gestures make a big difference.",
+          "Dress modestly at temples, learn a few local greetings, and tip where appropriate — small gestures make a big difference.",
       },
     ],
   },
@@ -390,12 +390,12 @@ export const japanAdventure: Tour = {
     routeLabel: "Tokyo - Sapporo",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "Â£2,150",
+    priceAmount: "£2,150",
     priceCategories: [
-      { label: "Standard", amount: "Â£2150", badge: "yellow" },
-      { label: "With Skiing", amount: "Â£2370", badge: "green" },
+      { label: "Standard", amount: "£2150", badge: "yellow" },
+      { label: "With Skiing", amount: "£2370", badge: "green" },
     ],
-    depositAmount: "Â£300",
+    depositAmount: "£300",
     ctaLabel: "Reserve Now",
     ctaHref:
       "https://admin.imheretravels.com/reservation-booking-form?tour=japan-adventure",
@@ -404,8 +404,8 @@ export const japanAdventure: Tour = {
   listingCard: {
     duration: "10 Days and 9 Nights",
     description:
-      "Tokyo's neon streets, the shinkansen to Kyoto, a traditional tea ceremony, and Sapporo's snowy charm â€” with optional skiing.",
-    price: "GBP Â£2,150",
+      "Tokyo's neon streets, the shinkansen to Kyoto, a traditional tea ceremony, and Sapporo's snowy charm — with optional skiing.",
+    price: "GBP £2,150",
     image: "/images/wp-content/uploads/2025/10/japan-trip-highlight-1.webp",
     imageAlt: "Japan Adventure",
   },
