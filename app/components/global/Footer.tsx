@@ -81,17 +81,17 @@ export default function Footer() {
     <footer className="bg-light-grey">
       {/* Links section */}
       <div className="bg-white border-t border-light-grey">
-        <div className="mx-auto w-full max-w-7xl px-4 py-10 md:px-8 md:py-16">
-          <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
+        <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 md:py-12 lg:px-8 lg:py-16">
+          <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
             {/* Logo */}
-            <div className="col-span-2 flex items-start md:col-span-1">
+            <div className="col-span-2 flex items-start sm:col-span-3 md:col-span-4 lg:col-span-1">
               <Link href="/" aria-label="I'm Here Travels home">
                 <Image
                   src="/logos/Horizontal/Digital/SVG/Red/Digital_Horizontal_Red.svg"
                   alt="I'm Here Travels"
                   width={112}
                   height={42}
-                  className="h-10 w-auto"
+                  className="h-9 w-auto sm:h-10"
                 />
               </Link>
             </div>
@@ -118,7 +118,7 @@ export default function Footer() {
             ))}
 
             {/* Connect */}
-            <div>
+            <div className="col-span-2 sm:col-span-3 md:col-span-1">
               <p className="font-sans font-bold text-h6-mobile md:text-h6-desktop text-crimson-red">
                 Connect
               </p>
@@ -141,19 +141,21 @@ export default function Footer() {
 
       {/* Credits bar */}
       <div className="bg-midnight">
-        <div className="mx-auto w-full max-w-7xl px-4 py-6 md:px-8">
+        <div className="mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center gap-4 md:flex-row md:justify-between">
-            <p className="font-body text-b2-mobile text-white/80 text-center md:text-left">
-              © 2024 I&apos;m Here Travels. All rights reserved.
-            </p>
-            <Image
-              src="/logos/Clover/Digital/SVG/White/Digital_Clover_White.svg"
-              alt=""
-              width={42}
-              height={42}
-              className="size-10 shrink-0"
-            />
-            <div className="flex gap-4 items-center">
+            <div className="flex flex-col-reverse items-center gap-3 md:flex-row md:gap-4">
+              <Image
+                src="/logos/Clover/Digital/SVG/White/Digital_Clover_White.svg"
+                alt=""
+                width={42}
+                height={42}
+                className="size-9 shrink-0 sm:size-10"
+              />
+              <p className="font-body text-b2-mobile text-white/80 text-center md:text-left">
+                © 2024 I&apos;m Here Travels. All rights reserved.
+              </p>
+            </div>
+            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
               <Link
                 href="/terms-and-conditions"
                 className="font-body text-b2-mobile text-white/80 hover:text-white transition-colors whitespace-nowrap"
