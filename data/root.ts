@@ -3,7 +3,7 @@
 /* -------------------------------------------------------------------------- */
 
 export const hero = {
-  image: "/tours/philippine-sunrise/day-4.jpg",
+  image: "/tours/philippine-sunrise/thumb-2.jpg",
   imageAlt: "Discover the Philippines",
   badge: "FEATURED TRIP",
   title: "Discover the Philippines\nSunrise to Sunset",
@@ -184,7 +184,6 @@ export const features = [
   {
     icon: "/Stickers/Print/PNG/Globe/Print_Globe_Green.png",
     title: "Ethical & Sustainable",
-    description:
-      "We do right by the community and the planet when we travel.",
+    description: "We do right by the community and the planet when we travel.",
   },
 ];

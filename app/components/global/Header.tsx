@@ -20,22 +20,15 @@ const navItems = [
       { label: "Japan Adventure", href: "/tours/japan-adventure" },
       { label: "Maldives Bucketlist", href: "/tours/maldives-bucketlist" },
       { label: "Nepal Horizons", href: "/tours/nepal-horizons" },
-      { label: "New Zealand Expedition", href: "/tours/new-zealand-expedition" },
+      {
+        label: "New Zealand Expedition",
+        href: "/tours/new-zealand-expedition",
+      },
       { label: "Philippines Sunrise", href: "/tours/philippine-sunrise" },
       { label: "Philippines Sunset", href: "/tours/philippine-sunset" },
       { label: "Sri Lanka Wander", href: "/tours/sri-langka-wander-tour" },
       { label: "Tanzania Exploration", href: "/tours/tanzania-exploration" },
       { label: "Vietnam Expedition", href: "/tours/vietnam-expedition" },
-    ],
-  },
-  {
-    label: "Travel Information",
-    href: "/travel-information",
-    dropdown: [
-      { label: "Travel Information", href: "/travel-information" },
-      { label: "Travel/Visa Requirements", href: "/travel-requirements" },
-      { label: "Pre-departure Info", href: "/pre-departure" },
-      { label: "Travel Safety", href: "/travel-safety" },
     ],
   },
   { label: "About Us", href: "/about-us" },
@@ -86,7 +79,7 @@ export default function Header() {
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-5 md:px-8 md:py-6">
         <Link href="/" aria-label="I'm Here Travels home">
           <Image
-            src="/Logos/Horizontal/Digital/SVG/Red/Digital_Horizontal_Red.svg"
+            src="/logos/Horizontal/Digital/SVG/Red/Digital_Horizontal_Red.svg"
             alt="I'm Here Travels"
             width={120}
             height={36}
@@ -131,7 +124,7 @@ export default function Header() {
               >
                 {item.label}
               </Link>
-            )
+            ),
           )}
         </nav>
 
