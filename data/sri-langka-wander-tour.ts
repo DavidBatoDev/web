@@ -1,8 +1,8 @@
-/**
+﻿/**
  * Sri Lanka Wander Tour
  *
  * Auto-generated from data/json/tourPackages-04142026.json by
- * data/scripts/generate-tours.mjs. Safe to hand-edit — the generator
+ * data/scripts/generate-tours.mjs. Safe to hand-edit â€” the generator
  * only writes files that don't exist yet (run with --force to overwrite).
  *
  * Add richer sections (whatsIncluded, faqs, testimonials, etc.) here as
@@ -434,7 +434,7 @@ export const sriLangkaWanderTour: Tour = {
         dayNumber: 12,
         title: "Checkout",
         description:
-          "Exchange contacts with your new friends and check out after breakfast. Our trustee tour guide can help you organise your onward travel plans. It's not goodbye—it's see you later!",
+          "Exchange contacts with your new friends and check out after breakfast. Our trustee tour guide can help you organise your onward travel plans. It's not goodbyeâ€”it's see you later!",
         image: "/images/wp-content/uploads/2024/08/srilanka-header-5.webp",
         imageAlt: "Checkout",
         details: [
@@ -571,7 +571,7 @@ export const sriLangkaWanderTour: Tour = {
         icon: "handshake",
         title: "Respect local customs",
         description:
-          "Dress modestly at temples, learn a few local greetings, and tip where appropriate — small gestures make a big difference.",
+          "Dress modestly at temples, learn a few local greetings, and tip where appropriate â€” small gestures make a big difference.",
       },
     ],
   },
@@ -581,18 +581,18 @@ export const sriLangkaWanderTour: Tour = {
       "Negombo -> Habarana -> Kandy -> Ella -> Arugam Bay -> Hikkaduwa",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "£1,200",
-    depositAmount: "£200",
+    priceAmount: "Â£1,200",
+    depositAmount: "Â£200",
     ctaLabel: "Reserve Now",
     ctaHref:
-      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
+      "https://admin.imheretravels.com/reservation-booking-form?tour=sri-langka-wander-tour",
     footnote: "Additional fees may apply",
   },
   listingCard: {
     duration: "12 Days and 11 Nights",
     description:
       "Negombo, Habarana, Kandy, Ella, Arugam Bay, and Hikkaduwa with trekking, surfing, safaris, and scenic train rides.",
-    price: "GBP £1,200",
+    price: "GBP Â£1,200",
     image:
       "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341313258_srilanka-header-22.webp?alt=media&token=a9755c83-5fac-4284-87dd-9325e1b24727",
     imageAlt: "Sri Lanka Wander Tour",
@@ -600,3 +600,4 @@ export const sriLangkaWanderTour: Tour = {
 };
 
 export default sriLangkaWanderTour;
+

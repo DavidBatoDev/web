@@ -1,5 +1,5 @@
-/**
- * Philippine Sunrise — 11-day Cebu-to-Siargao tour.
+﻿/**
+ * Philippine Sunrise â€” 11-day Cebu-to-Siargao tour.
  *
  * Content sourced from Figma node 1658:15532 (desktop frame).
  * Image assets live in `public/tours/philippine-sunrise/` and were
@@ -14,10 +14,10 @@ import type { Tour } from "@/types/tour";
 const IMG = "/tours/philippine-sunrise";
 
 export const philippineSunrise: Tour = {
-  // URL slug — must match the key used in `data/tours.ts`.
+  // URL slug â€” must match the key used in `data/tours.ts`.
   slug: "philippine-sunrise",
 
-  // Short name — used as the page H1 and the breadcrumb leaf.
+  // Short name â€” used as the page H1 and the breadcrumb leaf.
   name: "Philippines Sunrise",
 
   // <title> and meta description set via `generateMetadata` in the page.
@@ -75,7 +75,7 @@ export const philippineSunrise: Tour = {
     { icon: "people", label: "Group Size", values: ["Maximum 22 people"] },
   ],
   // "What's Included" two-column icon list. `value` can be a string or an
-  // array of strings — arrays render as a checkmark list (used for "Others").
+  // array of strings â€” arrays render as a checkmark list (used for "Others").
   whatsIncluded: {
     heading: "What's Included",
     items: [
@@ -152,7 +152,7 @@ export const philippineSunrise: Tour = {
   },
   // Day-by-day itinerary. Each day is a collapsible accordion in the UI;
   // `dayNumber` drives the badge label and ordering.
-  // `downloadHref` should resolve to a PDF — currently a placeholder path.
+  // `downloadHref` should resolve to a PDF â€” currently a placeholder path.
   itinerary: {
     heading: "Itinerary",
     downloadLabel: "Download Itinerary",
@@ -385,7 +385,7 @@ export const philippineSunrise: Tour = {
       },
     ],
   },
-  // Accommodation cards — image + name + nights. "(or similar)" is used
+  // Accommodation cards â€” image + name + nights. "(or similar)" is used
   // because we book the listed property OR an equivalent if unavailable.
   whereWeStay: {
     heading: "Where We Stay",
@@ -461,7 +461,7 @@ export const philippineSunrise: Tour = {
       },
     ],
   },
-  // Universal travel tips shown on every tour — override per-tour when
+  // Universal travel tips shown on every tour â€” override per-tour when
   // a trip has destination-specific advice worth surfacing.
   tips: {
     heading: "Tips",
@@ -488,7 +488,7 @@ export const philippineSunrise: Tour = {
         icon: "handshake",
         title: "Respect local customs",
         description:
-          "Dress modestly at temples, learn a few local greetings, and tip where appropriate — small gestures make a big difference.",
+          "Dress modestly at temples, learn a few local greetings, and tip where appropriate â€” small gestures make a big difference.",
       },
     ],
   },
@@ -500,11 +500,11 @@ export const philippineSunrise: Tour = {
     routeLabel: "Cebu -> Moalboal -> Siargao",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "£950",
-    depositAmount: "£200",
+    priceAmount: "Â£950",
+    depositAmount: "Â£200",
     ctaLabel: "Reserve Now",
     ctaHref:
-      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
+      "https://admin.imheretravels.com/reservation-booking-form?tour=philippine-sunrise",
     footnote: "Additional fees may apply",
   },
   // Related-tour cards are auto-attached in `data/tours.ts` by picking
@@ -530,10 +530,11 @@ export const philippineSunrise: Tour = {
     duration: "11 Days / 10 Nights",
     description:
       "Cebu, Moalboal, and Siargao with city tours, canyoneering, sardine run, surf, and island hopping.",
-    price: "GBP £950",
+    price: "GBP Â£950",
     image: "/figma/tour-philippines-sunrise.png",
     imageAlt: "Philippines Sunrise tour",
   },
 };
 
 export default philippineSunrise;
+

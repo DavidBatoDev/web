@@ -1,8 +1,8 @@
-/**
+﻿/**
  * India Holi Festival Tour
  *
  * Auto-generated from data/json/tourPackages-04142026.json by
- * data/scripts/generate-tours.mjs. Safe to hand-edit — the generator
+ * data/scripts/generate-tours.mjs. Safe to hand-edit â€” the generator
  * only writes files that don't exist yet (run with --force to overwrite).
  *
  * Add richer sections (whatsIncluded, faqs, testimonials, etc.) here as
@@ -15,9 +15,9 @@ export const indiaHoliFestivalTour: Tour = {
   slug: "india-holi-festival-tour",
   name: "India Holi Festival Tour",
   meta: {
-    title: "India Holi Festival Tour — I'm Here Travels",
+    title: "India Holi Festival Tour â€” I'm Here Travels",
     description:
-      "It’s time to start exploring India. This tour is perfect for those first time travellers that have always wanted to explore the wonders of India but don’t want to do it alone. This tour will let you e",
+      "Itâ€™s time to start exploring India. This tour is perfect for those first time travellers that have always wanted to explore the wonders of India but donâ€™t want to do it alone. This tour will let you e",
   },
   gallery: {
     hero: "/images/wp-content/uploads/2025/01/india-header-2.webp",
@@ -45,13 +45,13 @@ export const indiaHoliFestivalTour: Tour = {
       },
     ],
     description:
-      "It’s time to start exploring India. This tour is perfect for those first time travellers that have always wanted to explore the wonders of India but don’t want to do it alone. This tour will let you experience the amazing different sites India has to offer such as citadel, bustling local markets to the great monuments including the infamous Taj Mahal, the Pink Palaces of Jaipur and Ranthambhore National Park. We begin the tour in India’s capital New Delhi and finish in Agra with various different locations along the way, throughout the trip guests will get to immerse themselves in India’s rich culture experiencing many Indian traditions and tasting some of the amazing dishes India has to offer. Join us for a once in a lifetime experience that will make you want to travel more.",
+      "Itâ€™s time to start exploring India. This tour is perfect for those first time travellers that have always wanted to explore the wonders of India but donâ€™t want to do it alone. This tour will let you experience the amazing different sites India has to offer such as citadel, bustling local markets to the great monuments including the infamous Taj Mahal, the Pink Palaces of Jaipur and Ranthambhore National Park. We begin the tour in Indiaâ€™s capital New Delhi and finish in Agra with various different locations along the way, throughout the trip guests will get to immerse themselves in Indiaâ€™s rich culture experiencing many Indian traditions and tasting some of the amazing dishes India has to offer. Join us for a once in a lifetime experience that will make you want to travel more.",
   },
   keyFacts: [
     {
       icon: "days",
       label: "Tour Dates",
-      values: ["1 Mar 2026 – 13 Mar 2026"],
+      values: ["1 Mar 2026 â€“ 13 Mar 2026"],
     },
     {
       icon: "days",
@@ -105,21 +105,21 @@ export const indiaHoliFestivalTour: Tour = {
         dayNumber: 1,
         title: "Airport Pickup and Welcome Dinner",
         description:
-          "You’ve made it to New Delhi the capital of India where this amazing cultural journey begins. New Delhi is beautiful city that offers many different attractions from small bazaars to large temples. Once you arrive at New Delhi International Airport you will be met by a local tour guide who will take you to our start hotel, here they will assist you in checking in and making sure everything runs smoothly. In the evening after you’ve had a chance to rest we will meet for our welcome dinner where you get the chance to meet everyone you will be travelling with for the next 12 days. And make some new lifelong friends.",
+          "Youâ€™ve made it to New Delhi the capital of India where this amazing cultural journey begins. New Delhi is beautiful city that offers many different attractions from small bazaars to large temples. Once you arrive at New Delhi International Airport you will be met by a local tour guide who will take you to our start hotel, here they will assist you in checking in and making sure everything runs smoothly. In the evening after youâ€™ve had a chance to rest we will meet for our welcome dinner where you get the chance to meet everyone you will be travelling with for the next 12 days. And make some new lifelong friends.",
         details: [],
       },
       {
         dayNumber: 2,
         title: "Sightseeing Old Delhi and New Delhi",
         description:
-          "Now that the ice is broken with all your new travel companions the fun begins. We start the day with a good breakfast and afterwards you get the chance to chill for a bit before our first activity as the long travels can be exhausting. After we breakfast we make our way to visit Qutub Minar which is one of India’s many UNESCO World Heritage sites. In the afternoon we will check out and do some sightseeing around Old Delhi and New Delhi. Throughout the afternoon we will visit Jama Masjid which is India’s largest mosque that can accommodate 20,000 people at one time to pray, Raj Ghat which is the Mahatma Gandhi’s memorial situated on the banks of the river Yamuna then onto the India Gate which has been known to have a distinct resemblance to the Arc de Triomphe in Paris. Once we are finished sightseeing we will make our way to the station for everyone to experience an overnight train journey.",
+          "Now that the ice is broken with all your new travel companions the fun begins. We start the day with a good breakfast and afterwards you get the chance to chill for a bit before our first activity as the long travels can be exhausting. After we breakfast we make our way to visit Qutub Minar which is one of Indiaâ€™s many UNESCO World Heritage sites. In the afternoon we will check out and do some sightseeing around Old Delhi and New Delhi. Throughout the afternoon we will visit Jama Masjid which is Indiaâ€™s largest mosque that can accommodate 20,000 people at one time to pray, Raj Ghat which is the Mahatma Gandhiâ€™s memorial situated on the banks of the river Yamuna then onto the India Gate which has been known to have a distinct resemblance to the Arc de Triomphe in Paris. Once we are finished sightseeing we will make our way to the station for everyone to experience an overnight train journey.",
         details: [],
       },
       {
         dayNumber: 3,
         title: "Arrival in Jodhpur",
         description:
-          "Rise and shine we hope everyone had a good night’s sleep and enjoyed the overnight train especially if it’s your first time, after we get off the train we will be met by our local driver in Jodhpur station, from here we then make our way to the next hotel to check in and freshen up before visiting our next stop Jaswant Thada which is an intricately carved white marble built in 1899. In the evening we will all go out for dinner and maybe a few drinks where everyone can get to know each other a bit more.\n\n(optional activities)\nThe Bishnoi Village Safari - Here guest will experience some of the beautiful wildlife India has to offer, get a demonstration of some poetry making and even some weaving demonstrations so guests can see how Durry’s are made by hand, all of this is done by open top jeeps.",
+          "Rise and shine we hope everyone had a good nightâ€™s sleep and enjoyed the overnight train especially if itâ€™s your first time, after we get off the train we will be met by our local driver in Jodhpur station, from here we then make our way to the next hotel to check in and freshen up before visiting our next stop Jaswant Thada which is an intricately carved white marble built in 1899. In the evening we will all go out for dinner and maybe a few drinks where everyone can get to know each other a bit more.\n\n(optional activities)\nThe Bishnoi Village Safari - Here guest will experience some of the beautiful wildlife India has to offer, get a demonstration of some poetry making and even some weaving demonstrations so guests can see how Durryâ€™s are made by hand, all of this is done by open top jeeps.",
         details: [],
       },
       {
@@ -140,14 +140,14 @@ export const indiaHoliFestivalTour: Tour = {
         dayNumber: 6,
         title: "Time to Explore Udaipur",
         description:
-          "We hope everyone had a pretty chill evening as today we’re going to explore Udaipur where we will visit the majestic City Palace complex which is overlooking the beautiful Lake Pichola. The City Palace is definitely a must do when visiting India the various buildings added over the years along with the impeccable architecture make it an experience you won't forget from here we move onto Sahelion – Ki – Bari a major garden and a very popular tourist attraction in Udaipur. The day doesn’t finish there as we set sail on a sunset cruise on Lake Pichola with local expert guides explaining the fascinating history of Udaipur City.",
+          "We hope everyone had a pretty chill evening as today weâ€™re going to explore Udaipur where we will visit the majestic City Palace complex which is overlooking the beautiful Lake Pichola. The City Palace is definitely a must do when visiting India the various buildings added over the years along with the impeccable architecture make it an experience you won't forget from here we move onto Sahelion â€“ Ki â€“ Bari a major garden and a very popular tourist attraction in Udaipur. The day doesnâ€™t finish there as we set sail on a sunset cruise on Lake Pichola with local expert guides explaining the fascinating history of Udaipur City.",
         details: [],
       },
       {
         dayNumber: 7,
         title: "Sawai Madhopur",
         description:
-          "Today we have a very early start as it’s time to make our way to ‘Ranthambore’ Sawai Madhopur via train also known as the land of Tigers, to get checked into our new hotel and grab some lunch before visiting Ranthambore National Park. Ranthambore National Park is home to landmarks such as the 10th Century Ranthambore Fort and Ganesh Mandir Temple throughout the park you also get the chance to witness different wildlife such as leopards and tigers. When we finish up at the National Park the rest of the afternoon is your own to roam around or just relax before meeting in the evening for dinner and drinks.",
+          "Today we have a very early start as itâ€™s time to make our way to â€˜Ranthamboreâ€™ Sawai Madhopur via train also known as the land of Tigers, to get checked into our new hotel and grab some lunch before visiting Ranthambore National Park. Ranthambore National Park is home to landmarks such as the 10th Century Ranthambore Fort and Ganesh Mandir Temple throughout the park you also get the chance to witness different wildlife such as leopards and tigers. When we finish up at the National Park the rest of the afternoon is your own to roam around or just relax before meeting in the evening for dinner and drinks.",
         details: [],
       },
       {
@@ -161,35 +161,35 @@ export const indiaHoliFestivalTour: Tour = {
         dayNumber: 9,
         title: "Arrival in Jaipur",
         description:
-          "It’s a new day and a new destination, once everyone has filled up with breakfast we make our way to Jaipur a vibrant colourful city and Rajasthan’s capital. In our first few days we have already explored a lot of what India has to offer so today once we arrive at the hotel everyone can relax and do things at their own pace, although we do have some optional activities guests can opt to do if they wish. In the evening we will meet for dinner to try some more great Indian dishes and maybe a few drinks.",
+          "Itâ€™s a new day and a new destination, once everyone has filled up with breakfast we make our way to Jaipur a vibrant colourful city and Rajasthanâ€™s capital. In our first few days we have already explored a lot of what India has to offer so today once we arrive at the hotel everyone can relax and do things at their own pace, although we do have some optional activities guests can opt to do if they wish. In the evening we will meet for dinner to try some more great Indian dishes and maybe a few drinks.",
         details: [],
       },
       {
         dayNumber: 10,
-        title: "Let’s explore Jaipur",
+        title: "Letâ€™s explore Jaipur",
         description:
-          "If you didn’t explore Jaipur in your free time yesterday well then today is the day. After breakfast we set off to take a look at what landmarks Jaipur has to offer starting with Amer Fort, we will be taken by jeep right up to the main gate so we can walk through it’s incredibly designed chambers and hallways. Next stop is the City Palace Museum, here everyone can view the superb collection of Rasjasthani costumes and armoury. To finish this day tour off we will visit Brila Temple which is a national landmark built of pure white marble in 1988. Afterwards everyone is free to explore the local bazaars maybe collect some souvenirs for family and friends.",
+          "If you didnâ€™t explore Jaipur in your free time yesterday well then today is the day. After breakfast we set off to take a look at what landmarks Jaipur has to offer starting with Amer Fort, we will be taken by jeep right up to the main gate so we can walk through itâ€™s incredibly designed chambers and hallways. Next stop is the City Palace Museum, here everyone can view the superb collection of Rasjasthani costumes and armoury. To finish this day tour off we will visit Brila Temple which is a national landmark built of pure white marble in 1988. Afterwards everyone is free to explore the local bazaars maybe collect some souvenirs for family and friends.",
         details: [],
       },
       {
         dayNumber: 11,
         title: "Taj Mahal",
         description:
-          "The day has come where we get to visit the biggest highlight attraction of India the Taj Mahal one of the seven wonders of the world, known for its impeccable symmetry and intricate marble architecture. After breakfast we check out of our hotel and make our way to Agra and check into our new hotel just to drop our bags off and go explore. Agra is a prime tourist destination in India mainly because of the Taj Mahal where people from all over the world come to visit and now it’s your turn.",
+          "The day has come where we get to visit the biggest highlight attraction of India the Taj Mahal one of the seven wonders of the world, known for its impeccable symmetry and intricate marble architecture. After breakfast we check out of our hotel and make our way to Agra and check into our new hotel just to drop our bags off and go explore. Agra is a prime tourist destination in India mainly because of the Taj Mahal where people from all over the world come to visit and now itâ€™s your turn.",
         details: [],
       },
       {
         dayNumber: 12,
         title: "Agra back to Delhi",
         description:
-          "After everyone has had some breakfast it’s time to checkout of our hotel but before making our way back to Delhi we have one more stop for everyone. Today we will visit Agra Fort, home to many pavilion, gardens, mosques and royal audience halls it was home of the Emperors for 3 generations, it truly has some breath taking architecture. We then make our way to Delhi to check into our hotel and chill for a bit before our farewell dinner and drinks.",
+          "After everyone has had some breakfast itâ€™s time to checkout of our hotel but before making our way back to Delhi we have one more stop for everyone. Today we will visit Agra Fort, home to many pavilion, gardens, mosques and royal audience halls it was home of the Emperors for 3 generations, it truly has some breath taking architecture. We then make our way to Delhi to check into our hotel and chill for a bit before our farewell dinner and drinks.",
         details: [],
       },
       {
         dayNumber: 13,
         title: "Checkout",
         description:
-          "The time has come to go our separate ways but it’s not goodbye it’s see you later. One final breakfast together where everyone can exchange Instagram handles if you haven’t already. Some people may have planned more travels with your new friends for life and our guides will be able to assist you on any further travels.",
+          "The time has come to go our separate ways but itâ€™s not goodbye itâ€™s see you later. One final breakfast together where everyone can exchange Instagram handles if you havenâ€™t already. Some people may have planned more travels with your new friends for life and our guides will be able to assist you on any further travels.",
         details: [],
       },
     ],
@@ -240,7 +240,7 @@ export const indiaHoliFestivalTour: Tour = {
         icon: "handshake",
         title: "Respect local customs",
         description:
-          "Dress modestly at temples, learn a few local greetings, and tip where appropriate — small gestures make a big difference.",
+          "Dress modestly at temples, learn a few local greetings, and tip where appropriate â€” small gestures make a big difference.",
       },
     ],
   },
@@ -249,21 +249,22 @@ export const indiaHoliFestivalTour: Tour = {
     routeLabel: "India",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "£1,099",
-    depositAmount: "£200",
+    priceAmount: "Â£1,099",
+    depositAmount: "Â£200",
     ctaLabel: "Reserve Now",
     ctaHref:
-      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
+      "https://admin.imheretravels.com/reservation-booking-form?tour=india-holi-festival-tour",
     footnote: "Additional fees may apply",
   },
   listingCard: {
     duration: "13 Days and 12 Nights",
     description:
-      "It’s time to start exploring India. This tour is perfect for those first time travellers that have always wanted to explore the wonders of India but don’t want ",
-    price: "GBP £1,099",
+      "Itâ€™s time to start exploring India. This tour is perfect for those first time travellers that have always wanted to explore the wonders of India but donâ€™t want ",
+    price: "GBP Â£1,099",
     image: "/images/wp-content/uploads/2025/01/india-header-2.webp",
     imageAlt: "India Holi Festival Tour",
   },
 };
 
 export default indiaHoliFestivalTour;
+

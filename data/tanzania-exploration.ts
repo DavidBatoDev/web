@@ -1,8 +1,8 @@
-/**
+﻿/**
  * Tanzania Exploration
  *
  * Auto-generated from data/json/tourPackages-04142026.json by
- * data/scripts/generate-tours.mjs. Safe to hand-edit — the generator
+ * data/scripts/generate-tours.mjs. Safe to hand-edit â€” the generator
  * only writes files that don't exist yet (run with --force to overwrite).
  *
  * Add richer sections (whatsIncluded, faqs, testimonials, etc.) here as
@@ -497,18 +497,18 @@ export const tanzaniaExploration: Tour = {
     routeLabel: "Kilimanjaro -> Arusha -> Karatu -> Zanzibar",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "£2,049",
-    depositAmount: "£300",
+    priceAmount: "Â£2,049",
+    depositAmount: "Â£300",
     ctaLabel: "Reserve Now",
     ctaHref:
-      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
+      "https://admin.imheretravels.com/reservation-booking-form?tour=tanzania-exploration",
     footnote: "Additional fees may apply",
   },
   listingCard: {
     duration: "10 Days and 9 Nights",
     description:
       "Kilimanjaro mini trek, safari game drives, and Zanzibar marine adventures across 10 unforgettable days.",
-    price: "GBP £2,049",
+    price: "GBP Â£2,049",
     image:
       "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341299042_tanzania-header-1.webp?alt=media&token=889b4689-5d81-4658-9afd-3066ddc16fbb",
     imageAlt: "Tanzania Exploration",
@@ -516,3 +516,4 @@ export const tanzaniaExploration: Tour = {
 };
 
 export default tanzaniaExploration;
+
