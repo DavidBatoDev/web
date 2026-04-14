@@ -46,29 +46,9 @@ export const contactLinks = {
   heading: "Get in touch",
   items: [
     {
-      label: "Whatsapp",
-      href: "#whatsapp",
-      type: "whatsapp" as const,
-    },
-    {
-      label: "Telegram",
-      href: "#telegram",
-      type: "telegram" as const,
-    },
-    {
-      label: "Viber",
-      href: "#viber",
-      type: "viber" as const,
-    },
-    {
-      label: "sales@imheretravels.com",
-      href: "mailto:sales@imheretravels.com",
+      label: "bella@imheretravels.com",
+      href: "mailto:bella@imheretravels.com",
       type: "email" as const,
-    },
-    {
-      label: "+63 917 000 0000",
-      href: "tel:+639170000000",
-      type: "phone" as const,
     },
   ],
 };

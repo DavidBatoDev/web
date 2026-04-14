@@ -131,7 +131,7 @@ export default function Header() {
         </nav>
 
         <Link
-          href="#inquire"
+          href="/contact-us"
           className="inline-flex items-center justify-center rounded-full bg-crimson-red px-6 py-3 font-body font-medium text-b4-mobile text-white transition-colors hover:bg-light-red md:text-b4-desktop"
         >
           Inquire Now
