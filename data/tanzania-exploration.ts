@@ -120,23 +120,20 @@ export const tanzaniaExploration: Tour = {
     heading: "Trip Highlights",
     items: [
       {
-        image:
-          "/images/wp-content/uploads/2025/01/tanzania-day-3.webp",
+        image: "/images/wp-content/uploads/2025/01/tanzania-day-3.webp",
         imageAlt: "Kilimanjaro Mini Day Hike",
         title: "Kilimanjaro Mini Day Hike",
         subtitle:
           "Experience a mini trek up a section of the famous Kilimanjaro",
       },
       {
-        image:
-          "/images/wp-content/uploads/2025/01/tanzania-day-5.webp",
+        image: "/images/wp-content/uploads/2025/01/tanzania-day-5.webp",
         imageAlt: "Safari Game Drive",
         title: "Safari Game Drive",
         subtitle: "Experience two game drives at different times to",
       },
       {
-        image:
-          "/images/wp-content/uploads/2025/01/tanzania-day-9.webp",
+        image: "/images/wp-content/uploads/2025/01/tanzania-day-9.webp",
         imageAlt: "Blue Lagoon",
         title: "Blue Lagoon",
         subtitle: "Experience the vibrant marine life Zanzibar has to offer",
@@ -153,8 +150,7 @@ export const tanzaniaExploration: Tour = {
         title: "Meet & Greet Dinner",
         description:
           "Today is the day that your dreams finally become a reality - you have arrived in this once in a lifetime destination Tanzania. You will be collected at the airport by one of our representatives and transported to our first accommodation to rest up before dinner.",
-        image:
-          "/images/wp-content/uploads/2025/01/tanzania-day-1.webp",
+        image: "/images/wp-content/uploads/2025/01/tanzania-day-1.webp",
         imageAlt: "Meet & Greet Dinner",
         details: [
           {
@@ -179,8 +175,7 @@ export const tanzaniaExploration: Tour = {
         title: "The Chemka Hot Springs",
         description:
           "Relax and recover from long flights during the day and in the afternoon visit the beautiful mineral spring originating from Kilimanjaro ground waters.",
-        image:
-          "/images/wp-content/uploads/2025/08/tanzania-day-22.webp",
+        image: "/images/wp-content/uploads/2025/08/tanzania-day-22.webp",
         imageAlt: "The Chemka Hot Springs",
         details: [
           {
@@ -205,8 +200,7 @@ export const tanzaniaExploration: Tour = {
         title: "Kilimanjaro Day Hike",
         description:
           "Begin with a pickup in Moshi and drive to Marangu Gate (1860m). Hike 3-4 hours through lush rainforest to Mandara Hut (2700m), spotting monkeys and vibrant birds. After lunch, visit Maundi Crater for stunning views, then return to the gate and drive back to your hotel at sunset.",
-        image:
-          "/images/wp-content/uploads/2025/01/tanzania-day-3.webp",
+        image: "/images/wp-content/uploads/2025/01/tanzania-day-3.webp",
         imageAlt: "Kilimanjaro Day Hike",
         details: [
           {
@@ -231,8 +225,7 @@ export const tanzaniaExploration: Tour = {
         title: "Visit Tarangire National Park",
         description:
           "In the morning once everyone's gotten breakfast we will make our journey to Karatu via Tarangire National Park. In the Tarangire National Park we will experience a guided game drive where we will see elephants, baobabs and there's even the possibility of sighting lions, giraffes, hippo to name a few. From here we make our way to our accommodation in Karatu to check in and relax.",
-        image:
-          "/images/wp-content/uploads/2025/01/tanzania-day-4.webp",
+        image: "/images/wp-content/uploads/2025/01/tanzania-day-4.webp",
         imageAlt: "Visit Tarangire National Park",
         details: [
           {
@@ -257,8 +250,7 @@ export const tanzaniaExploration: Tour = {
         title: "Early Morning Game Drive (Safari)",
         description:
           "Dress warmly for an early game drive in Ngorongoro Crater, where wildlife and stunning landscapes offer incredible photo opportunities. After capturing the perfect shots, enjoy lunch before heading to Arusha.",
-        image:
-          "/images/wp-content/uploads/2025/01/tanzania-day-5.webp",
+        image: "/images/wp-content/uploads/2025/01/tanzania-day-5.webp",
         imageAlt: "Early Morning Game Drive (Safari)",
         details: [
           {
@@ -283,8 +275,7 @@ export const tanzaniaExploration: Tour = {
         title: "Travel to Zanzibar",
         description:
           "After breakfast today, we'll head to the airport for our flight to the magnificent Zanzibar. Upon arrival, we'll be transferred to our new accommodation, where you'll have time to relax, rest, or head out for some afternoon exploring before dinner, the choice is yours!",
-        image:
-          "/images/wp-content/uploads/2025/01/tanzania-day-6.webp",
+        image: "/images/wp-content/uploads/2025/01/tanzania-day-6.webp",
         imageAlt: "Travel to Zanzibar",
         details: [
           {
@@ -309,8 +300,7 @@ export const tanzaniaExploration: Tour = {
         title: "Relax and Chill Day",
         description:
           "Enjoy some downtime relaxing in Paje. It's a chance to charge your batteries, organise your photos and enjoy replenishing your energy levels.",
-        image:
-          "/images/wp-content/uploads/2025/08/tanzania-day-72.webp",
+        image: "/images/wp-content/uploads/2025/08/tanzania-day-72.webp",
         imageAlt: "Relax and Chill Day",
         details: [
           {
@@ -335,8 +325,7 @@ export const tanzaniaExploration: Tour = {
         title: "Blue Lagoon Zanzibar and Sunset Cruise",
         description:
           "The Blue Lagoon Snorkeling Tour in Zanzibar offers a refreshing escape into the island's vibrant marine world. Departing in the late afternoon, you will board a traditional wooden dhow-beautifully crafted and guided by experienced local sailors. As the boat gently sails along the Indian Ocean, you'll be treated to panoramic views of the sun setting over the horizon, painting the sky in hues of orange, pink, and gold.",
-        image:
-          "/images/wp-content/uploads/2025/01/tanzania-day-10.webp",
+        image: "/images/wp-content/uploads/2025/01/tanzania-day-10.webp",
         imageAlt: "Blue Lagoon Zanzibar and Sunset Cruise",
         details: [
           {
@@ -361,8 +350,7 @@ export const tanzaniaExploration: Tour = {
         title: "Mnemba & Changuu Islands",
         description:
           "During the day, you will visit Mnemba Island for an unforgettable marine adventure, especially known for the chance to swim with wild dolphins in their natural habitat. In the afternoon we will visit Changuu (Prison) Island to see some giant Aldabra tortoises and also enjoy a mix of history, sea wildlife and leisure.",
-        image:
-          "/images/wp-content/uploads/2025/01/tanzania-day-9.webp",
+        image: "/images/wp-content/uploads/2025/01/tanzania-day-9.webp",
         imageAlt: "Mnemba & Changuu Islands",
         details: [
           {
@@ -387,8 +375,7 @@ export const tanzaniaExploration: Tour = {
         title: "Checkout",
         description:
           "It's not goodbye, it's see you later. Time to exchange insta handles if you haven't already with your new friends before our transport picks us up for the airport and onward travels. Safe journeys!",
-        image:
-          "/images/wp-content/uploads/2025/01/tanzania-day-8.webp",
+        image: "/images/wp-content/uploads/2025/01/tanzania-day-8.webp",
         imageAlt: "Checkout",
         details: [
           {
@@ -513,7 +500,8 @@ export const tanzaniaExploration: Tour = {
     priceAmount: "£2,049",
     depositAmount: "£300",
     ctaLabel: "Reserve Now",
-    ctaHref: "https://book.stripe.com/5kAdT10X54ZfcA87uK",
+    ctaHref:
+      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
     footnote: "Additional fees may apply",
   },
   listingCard: {

@@ -36,7 +36,9 @@ export const indiaDiscoveryTour: Tour = {
     {
       icon: "route",
       label: "Route",
-      values: ["New Delhi → Jodhpur → Udaipur → Jaipur → Sawai Madhopur → Agra"],
+      values: [
+        "New Delhi → Jodhpur → Udaipur → Jaipur → Sawai Madhopur → Agra",
+      ],
     },
     { icon: "days", label: "Days", values: ["13 Days and 12 Nights"] },
     { icon: "people", label: "Group Size", values: ["Maximum 20 people"] },
@@ -45,14 +47,22 @@ export const indiaDiscoveryTour: Tour = {
     heading: "What's Included",
     items: [
       { icon: "transport", label: "Transport", value: "Van, Train" },
-      { icon: "accommodation", label: "Accommodation", value: "12 nights in Hotel" },
+      {
+        icon: "accommodation",
+        label: "Accommodation",
+        value: "12 nights in Hotel",
+      },
       {
         icon: "activities",
         label: "Activities",
         value:
           "Sightseeing Old and New Delhi, Visit Mehrangarh Fort, Visit Ranakpur Jain Temples, Cruise over Lake Pichola, Visit Amer Fort, Canter Safari into Ranthambhore National Park, Visit the Taj Mahal",
       },
-      { icon: "meals", label: "Meals", value: "11 Breakfasts, 2 Lunches, 2 Dinners" },
+      {
+        icon: "meals",
+        label: "Meals",
+        value: "11 Breakfasts, 2 Lunches, 2 Dinners",
+      },
       { icon: "team", label: "Team", value: "Trip Manager + Local Guides" },
       {
         icon: "plus",
@@ -101,7 +111,11 @@ export const indiaDiscoveryTour: Tour = {
         image: "/images/wp-content/uploads/2025/01/india-header-3.webp",
         imageAlt: "Arrival in New Delhi",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Deventure Hotel" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Deventure Hotel",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -117,11 +131,16 @@ export const indiaDiscoveryTour: Tour = {
         image: "/images/wp-content/uploads/2025/01/india-day-2.webp",
         imageAlt: "Old Delhi sightseeing",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Mandore Express Overnight Train" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Mandore Express Overnight Train",
+          },
           {
             icon: "activities",
             label: "Activity",
-            value: "Sightseeing — Jama Masjid, Raj Ghat, India Gate — Overnight Train",
+            value:
+              "Sightseeing — Jama Masjid, Raj Ghat, India Gate — Overnight Train",
           },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -134,8 +153,16 @@ export const indiaDiscoveryTour: Tour = {
         image: "/images/wp-content/uploads/2025/01/india-day-3.webp",
         imageAlt: "Jodhpur arrival",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Devi Bhawan Boutique Hotel" },
-          { icon: "activities", label: "Activity", value: "Mehrangarh Fort and Jaswant Thada" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Devi Bhawan Boutique Hotel",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Mehrangarh Fort and Jaswant Thada",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -147,7 +174,11 @@ export const indiaDiscoveryTour: Tour = {
         image: "/images/wp-content/uploads/2025/01/india-header-4.webp",
         imageAlt: "Mehrangarh Fort Jodhpur",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Devi Bhawan Boutique Hotel" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Devi Bhawan Boutique Hotel",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -164,8 +195,16 @@ export const indiaDiscoveryTour: Tour = {
         image: "/images/wp-content/uploads/2025/01/india-day-5.webp",
         imageAlt: "Ranakpur Jain Temples",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Aaram Mahal Udaipur" },
-          { icon: "activities", label: "Activity", value: "Ranakpur Jain Temples" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Aaram Mahal Udaipur",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Ranakpur Jain Temples",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -177,7 +216,11 @@ export const indiaDiscoveryTour: Tour = {
         image: "/images/wp-content/uploads/2025/01/india-header-6.webp",
         imageAlt: "Udaipur City Palace and Lake Pichola",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Aaram Mahal Udaipur" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Aaram Mahal Udaipur",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -194,8 +237,16 @@ export const indiaDiscoveryTour: Tour = {
         image: "/images/wp-content/uploads/2025/01/india-day-7.webp",
         imageAlt: "Ranthambore National Park",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Ranthambhore Heritage Haveli" },
-          { icon: "activities", label: "Activity", value: "Ranthambore National Park" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Ranthambhore Heritage Haveli",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Ranthambore National Park",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -207,8 +258,16 @@ export const indiaDiscoveryTour: Tour = {
         image: "/images/wp-content/uploads/2025/01/india-header-7.webp",
         imageAlt: "Canter safari in Ranthambore",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Ranthambhore Heritage Haveli" },
-          { icon: "activities", label: "Activity", value: "Ranthambore National Park Safari" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Ranthambhore Heritage Haveli",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Ranthambore National Park Safari",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -220,7 +279,11 @@ export const indiaDiscoveryTour: Tour = {
         image: "/images/wp-content/uploads/2025/01/india-day-9.webp",
         imageAlt: "Jaipur arrival",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Hotel Mahal Khandela" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Hotel Mahal Khandela",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -237,7 +300,11 @@ export const indiaDiscoveryTour: Tour = {
         image: "/images/wp-content/uploads/2025/01/india-day-10.webp",
         imageAlt: "Amer Fort Jaipur",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Hotel Mahal Khandela" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Hotel Mahal Khandela",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -254,7 +321,11 @@ export const indiaDiscoveryTour: Tour = {
         image: "/images/wp-content/uploads/2025/01/india-triphighlight-1.webp",
         imageAlt: "Taj Mahal",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Hotel Sun Ring Agra" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Hotel Sun Ring Agra",
+          },
           { icon: "activities", label: "Activity", value: "Taj Mahal" },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -267,7 +338,11 @@ export const indiaDiscoveryTour: Tour = {
         image: "/images/wp-content/uploads/2025/01/india-header-2.webp",
         imageAlt: "Agra Fort",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Deventure Hotel Delhi" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Deventure Hotel Delhi",
+          },
           { icon: "activities", label: "Activity", value: "Agra Fort" },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -426,7 +501,8 @@ export const indiaDiscoveryTour: Tour = {
     priceAmount: "£1,099",
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
-    ctaHref: "https://book.stripe.com/eVacOX5dlezP6bK4if",
+    ctaHref:
+      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
     footnote: "Additional fees may apply",
   },
   listingCard: {

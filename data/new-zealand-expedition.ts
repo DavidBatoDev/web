@@ -53,14 +53,22 @@ export const newZealandExpedition: Tour = {
         value:
           "Private Coach, Ferry (Wellington → Picton), Coastal Pacific Scenic Train (Picton → Christchurch)",
       },
-      { icon: "accommodation", label: "Accommodation", value: "14 nights in shared hostel accommodation" },
+      {
+        icon: "accommodation",
+        label: "Accommodation",
+        value: "14 nights in shared hostel accommodation",
+      },
       {
         icon: "activities",
         label: "Activities",
         value:
           "Optional: Whakarewarewa Living Māori Village and Traditional Hāngī Lunch, Lake Tarawera Water Taxi, Guided Hike & Natural Hot Pools, Kiwi Hatchery Conservation Experience, Time Tripper Underwater Experience, Milford Sound Day Trip",
       },
-      { icon: "meals", label: "Meals", value: "15 Breakfasts, 1 Lunch, 1 Dinner" },
+      {
+        icon: "meals",
+        label: "Meals",
+        value: "15 Breakfasts, 1 Lunch, 1 Dinner",
+      },
       { icon: "team", label: "Team", value: "Local Guides" },
       {
         icon: "plus",
@@ -83,16 +91,19 @@ export const newZealandExpedition: Tour = {
         subtitle: "Catch your first waves in a beginner-friendly surf session",
       },
       {
-        image: "/images/wp-content/uploads/2025/08/new-zealand-trip-highlight-4.webp",
+        image:
+          "/images/wp-content/uploads/2025/08/new-zealand-trip-highlight-4.webp",
         imageAlt: "Kuirau Park geothermal wonders",
         title: "Kuirau Park",
-        subtitle: "Stroll through the park and witness bubbling, hissing geothermal wonders",
+        subtitle:
+          "Stroll through the park and witness bubbling, hissing geothermal wonders",
       },
       {
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-9.webp",
         imageAlt: "Arthur's Pass",
         title: "Arthur's Pass",
-        subtitle: "Cross dramatic mountain ranges via Arthur's Pass to reach Franz Josef",
+        subtitle:
+          "Cross dramatic mountain ranges via Arthur's Pass to reach Franz Josef",
       },
       {
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-13.webp",
@@ -115,7 +126,11 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-1.webp",
         imageAlt: "Auckland arrival",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Haka House Auckland" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Haka House Auckland",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -131,8 +146,16 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/05/new-zealand-day-22.webp",
         imageAlt: "Raglan Beach surf",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Raglan Backpackers" },
-          { icon: "activities", label: "Activity", value: "Optional: Surf lesson, Beach Time" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Raglan Backpackers",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Optional: Surf lesson, Beach Time",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -144,7 +167,11 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/05/new-zealand-day-32.webp",
         imageAlt: "Waitomo glowworm caves",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Kiwipaka Waitomo" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Kiwipaka Waitomo",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -161,11 +188,16 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/02/new-zealand-header-6.webp",
         imageAlt: "Rotorua Redwoods",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Rock Solid Backpackers Rotorua" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Rock Solid Backpackers Rotorua",
+          },
           {
             icon: "activities",
             label: "Activity",
-            value: "Optional: Kiwi Hatchery, Redwood Forest walk, Whakarewarewa Living Māori Village",
+            value:
+              "Optional: Kiwi Hatchery, Redwood Forest walk, Whakarewarewa Living Māori Village",
           },
           { icon: "meals", label: "Meals", value: "Breakfast, Lunch" },
         ],
@@ -178,7 +210,11 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-5.webp",
         imageAlt: "Tarawera hot pools",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Rock Solid Backpackers Rotorua" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Rock Solid Backpackers Rotorua",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -195,8 +231,16 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-6.webp",
         imageAlt: "Wellington waterfront",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Haka House Wellington" },
-          { icon: "activities", label: "Activity", value: "Drive from Rotorua to Wellington" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Haka House Wellington",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Drive from Rotorua to Wellington",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -208,8 +252,16 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/05/new-zealand-day-72.webp",
         imageAlt: "Mt. Victoria Wellington",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Haka House Wellington" },
-          { icon: "activities", label: "Activity", value: "Explore the Capital" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Haka House Wellington",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Explore the Capital",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -221,7 +273,11 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/05/new-zealand-day-82.webp",
         imageAlt: "Interislander Ferry Marlborough Sounds",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "The Bealey Christchurch" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "The Bealey Christchurch",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -238,8 +294,16 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-9.webp",
         imageAlt: "Arthur's Pass",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Rainforest Retreat Franz Josef" },
-          { icon: "activities", label: "Activity", value: "Arthur's Pass Scenic Drive" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Rainforest Retreat Franz Josef",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Arthur's Pass Scenic Drive",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast, Dinner" },
         ],
       },
@@ -251,7 +315,11 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-10.webp",
         imageAlt: "Franz Josef Glacier",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Rainforest Retreat Franz Josef" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Rainforest Retreat Franz Josef",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -268,8 +336,16 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-11.webp",
         imageAlt: "Queenstown arrival",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Haka House Queenstown" },
-          { icon: "activities", label: "Activity", value: "Lake Matheson walk" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Haka House Queenstown",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Lake Matheson walk",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -281,7 +357,11 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-12.webp",
         imageAlt: "Queenstown adventure",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Haka House Queenstown" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Haka House Queenstown",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -298,8 +378,16 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-13.webp",
         imageAlt: "Milford Sound cruise",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Haka House Queenstown" },
-          { icon: "activities", label: "Activity", value: "Optional: Milford Sound Day Cruise" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Haka House Queenstown",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Optional: Milford Sound Day Cruise",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -311,7 +399,11 @@ export const newZealandExpedition: Tour = {
         image: "/images/wp-content/uploads/2025/02/new-zealand-day-14-1.webp",
         imageAlt: "Queenstown wine country",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Haka House Queenstown" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Haka House Queenstown",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -429,7 +521,8 @@ export const newZealandExpedition: Tour = {
       },
       {
         question: "Which airport do I fly out from?",
-        answer: "You will fly out from Queenstown Airport (ZQN) at the end of the tour.",
+        answer:
+          "You will fly out from Queenstown Airport (ZQN) at the end of the tour.",
       },
     ],
   },
@@ -491,7 +584,8 @@ export const newZealandExpedition: Tour = {
     priceAmount: "£1,899",
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
-    ctaHref: "https://book.stripe.com/8wM5mv35dfDTas02aV",
+    ctaHref:
+      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
     footnote: "Additional fees may apply",
   },
   listingCard: {

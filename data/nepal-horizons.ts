@@ -33,22 +33,38 @@ export const nepalHorizons: Tour = {
   },
   keyFacts: [
     { icon: "days", label: "Tour Dates", values: ["March 15, 2027"] },
-    { icon: "route", label: "Route", values: ["Kathmandu → Chitwan → Bandipur → Pokhara"] },
+    {
+      icon: "route",
+      label: "Route",
+      values: ["Kathmandu → Chitwan → Bandipur → Pokhara"],
+    },
     { icon: "days", label: "Days", values: ["9 Days and 8 Nights"] },
     { icon: "people", label: "Group Size", values: ["Maximum 20 people"] },
   ],
   whatsIncluded: {
     heading: "What's Included",
     items: [
-      { icon: "transport", label: "Transport", value: "Private vehicle for all sightseeing transfers" },
-      { icon: "accommodation", label: "Accommodation", value: "8 nights in Hotel" },
+      {
+        icon: "transport",
+        label: "Transport",
+        value: "Private vehicle for all sightseeing transfers",
+      },
+      {
+        icon: "accommodation",
+        label: "Accommodation",
+        value: "8 nights in Hotel",
+      },
       {
         icon: "activities",
         label: "Activities",
         value:
           "Visit Pashupatinath Temple, Visit Boudhanath Stupa, Bhaktapur Golden Gate, Village Walk & Sunset by Riverbank, Canoeing in Chitwan, Jeep Safari in Chitwan National Park, Hike to Ramkot Village, Boating on Phewa Lake, Visit Tal Barahi Temple, Hike to Australian Base Camp, Panoramic Annapurna & Fishtail Views",
       },
-      { icon: "meals", label: "Meals", value: "8 Breakfasts, 2 Lunches, 4 Dinners" },
+      {
+        icon: "meals",
+        label: "Meals",
+        value: "8 Breakfasts, 2 Lunches, 4 Dinners",
+      },
       {
         icon: "plus",
         label: "Others",
@@ -67,13 +83,15 @@ export const nepalHorizons: Tour = {
         image: "/images/wp-content/uploads/2025/08/nepal-triphighlight-1.webp",
         imageAlt: "Pashupatinath Temple and Durbar Square",
         title: "Sacred temples of Kathmandu",
-        subtitle: "Explore Pashupatinath & Durbar Square, the spiritual heart of Nepal",
+        subtitle:
+          "Explore Pashupatinath & Durbar Square, the spiritual heart of Nepal",
       },
       {
         image: "/images/wp-content/uploads/2025/08/nepal-triphighlight-2.webp",
         imageAlt: "Jeep safari in Chitwan National Park",
         title: "Jungle adventure in Chitwan",
-        subtitle: "Jungle walk & jeep safari in search of rhinos, tigers & rare birds",
+        subtitle:
+          "Jungle walk & jeep safari in search of rhinos, tigers & rare birds",
       },
       {
         image: "/images/wp-content/uploads/2025/08/nepal-triphighlight-3.webp",
@@ -102,8 +120,16 @@ export const nepalHorizons: Tour = {
         image: "/images/wp-content/uploads/2025/08/nepal-day-1.webp",
         imageAlt: "Kathmandu arrival",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Hotel Ama-La" },
-          { icon: "activities", label: "Activity", value: "Meet & greet at the airport, Check in" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Hotel Ama-La",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Meet & greet at the airport, Check in",
+          },
           { icon: "meals", label: "Meals", value: "Dinner" },
         ],
       },
@@ -115,7 +141,11 @@ export const nepalHorizons: Tour = {
         image: "/images/wp-content/uploads/2025/08/nepal-day-2.webp",
         imageAlt: "Pashupatinath Temple and Bhaktapur",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Hotel Ama-La" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Hotel Ama-La",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -133,7 +163,11 @@ export const nepalHorizons: Tour = {
         image: "/images/wp-content/uploads/2025/08/nepal-day-3.webp",
         imageAlt: "Trishuli River drive to Chitwan",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Hotel Landmark Forest Park" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Hotel Landmark Forest Park",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -151,11 +185,16 @@ export const nepalHorizons: Tour = {
         image: "/images/wp-content/uploads/2025/08/nepal-day-4.webp",
         imageAlt: "Chitwan jungle safari",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Hotel Landmark Forest Park" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Hotel Landmark Forest Park",
+          },
           {
             icon: "activities",
             label: "Activity",
-            value: "Canoeing, Jungle walk, Bird watching, Jeep safari & Tharu Tribal Dance",
+            value:
+              "Canoeing, Jungle walk, Bird watching, Jeep safari & Tharu Tribal Dance",
           },
           { icon: "meals", label: "Meals", value: "Breakfast, Lunch & Dinner" },
         ],
@@ -168,8 +207,16 @@ export const nepalHorizons: Tour = {
         image: "/images/wp-content/uploads/2025/08/nepal-day-5.webp",
         imageAlt: "Bandipur bazaar",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Hotel Durbar Himalaya" },
-          { icon: "activities", label: "Activity", value: "Transfer to Bandipur, Hike to Ramkot Village" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Hotel Durbar Himalaya",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Transfer to Bandipur, Hike to Ramkot Village",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -181,11 +228,16 @@ export const nepalHorizons: Tour = {
         image: "/images/wp-content/uploads/2025/08/nepal-day-6.webp",
         imageAlt: "Phewa Lake and Fishtail Peak",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Hotel Landmark" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Hotel Landmark",
+          },
           {
             icon: "activities",
             label: "Activity",
-            value: "Transfer to Pokhara, boating on Phewa Lake, Tal Barahi Temple visit",
+            value:
+              "Transfer to Pokhara, boating on Phewa Lake, Tal Barahi Temple visit",
           },
           { icon: "meals", label: "Meals", value: "Breakfast and Dinner" },
         ],
@@ -198,8 +250,16 @@ export const nepalHorizons: Tour = {
         image: "/images/wp-content/uploads/2025/08/nepal-day-7.webp",
         imageAlt: "Australian Base Camp trek",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Hotel Landmark" },
-          { icon: "activities", label: "Activity", value: "Scenic trek to Australian Base Camp" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Hotel Landmark",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Scenic trek to Australian Base Camp",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -211,8 +271,16 @@ export const nepalHorizons: Tour = {
         image: "/images/wp-content/uploads/2025/08/nepal-day-8.webp",
         imageAlt: "Pokhara lakeside",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Hotel Landmark" },
-          { icon: "activities", label: "Activity", value: "(Optional) Souvenir Shopping, Cafe Hopping" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Hotel Landmark",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "(Optional) Souvenir Shopping, Cafe Hopping",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -351,7 +419,8 @@ export const nepalHorizons: Tour = {
     priceAmount: "£1,099",
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
-    ctaHref: "https://book.stripe.com/eVq14n2Bt1qxfGjgIDco03j",
+    ctaHref:
+      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
     footnote: "Additional fees may apply",
   },
   listingCard: {

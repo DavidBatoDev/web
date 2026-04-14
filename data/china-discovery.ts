@@ -45,8 +45,16 @@ export const chinaDiscovery: Tour = {
   whatsIncluded: {
     heading: "What's Included",
     items: [
-      { icon: "transport", label: "Transport", value: "Private vehicle, All sightseeing transfers" },
-      { icon: "accommodation", label: "Accommodation", value: "9 nights in Hotel" },
+      {
+        icon: "transport",
+        label: "Transport",
+        value: "Private vehicle, All sightseeing transfers",
+      },
+      {
+        icon: "accommodation",
+        label: "Accommodation",
+        value: "9 nights in Hotel",
+      },
       {
         icon: "activities",
         label: "Activities",
@@ -112,8 +120,16 @@ export const chinaDiscovery: Tour = {
         image: "/images/wp-content/uploads/2025/10/china-day-1.webp",
         imageAlt: "Beijing arrival",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Beijing Longge Hotel" },
-          { icon: "activities", label: "Activity", value: "Meet & Greet at the Airport, Check In" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Beijing Longge Hotel",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Meet & Greet at the Airport, Check In",
+          },
         ],
       },
       {
@@ -124,11 +140,16 @@ export const chinaDiscovery: Tour = {
         image: "/images/wp-content/uploads/2025/10/china-day-2.webp",
         imageAlt: "Tiananmen Square and Forbidden City",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Beijing Longge Hotel" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Beijing Longge Hotel",
+          },
           {
             icon: "activities",
             label: "Activity",
-            value: "City Tour (Tiananmen Square, Forbidden City, Hutongs, Houhai)",
+            value:
+              "City Tour (Tiananmen Square, Forbidden City, Hutongs, Houhai)",
           },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -141,8 +162,16 @@ export const chinaDiscovery: Tour = {
         image: "/images/wp-content/uploads/2025/10/china-day-3.webp",
         imageAlt: "Mutianyu Great Wall",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Beijing Longge Hotel" },
-          { icon: "activities", label: "Activity", value: "Mutianyu Great Wall, Summer Palace" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Beijing Longge Hotel",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Mutianyu Great Wall, Summer Palace",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -154,7 +183,11 @@ export const chinaDiscovery: Tour = {
         image: "/images/wp-content/uploads/2025/10/china-day-4.webp",
         imageAlt: "789 Art Zone Beijing",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Beijing Longge Hotel" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Beijing Longge Hotel",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -171,7 +204,11 @@ export const chinaDiscovery: Tour = {
         image: "/images/wp-content/uploads/2025/10/china-day-5.webp",
         imageAlt: "Beijing free day",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Beijing Longge Hotel" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Beijing Longge Hotel",
+          },
           { icon: "activities", label: "Activity", value: "Free Day" },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -213,7 +250,8 @@ export const chinaDiscovery: Tour = {
           {
             icon: "activities",
             label: "Activity",
-            value: "Yu Garden, City God Temple Market, Shanghai Tower, Shanghai Museum",
+            value:
+              "Yu Garden, City God Temple Market, Shanghai Tower, Shanghai Museum",
           },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -231,7 +269,11 @@ export const chinaDiscovery: Tour = {
             label: "Accommodation",
             value: "Holiday Inn Express Shanghai Gongkang",
           },
-          { icon: "activities", label: "Activity", value: "Zhujiajiao Water Town" },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Zhujiajiao Water Town",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -375,7 +417,8 @@ export const chinaDiscovery: Tour = {
     priceAmount: "£1,200",
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
-    ctaHref: "https://book.stripe.com/3cI6oHekb8SZdybakfco03I",
+    ctaHref:
+      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
     footnote: "Additional fees may apply",
   },
   listingCard: {

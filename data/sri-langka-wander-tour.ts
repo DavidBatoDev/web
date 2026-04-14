@@ -121,8 +121,7 @@ export const sriLangkaWanderTour: Tour = {
     heading: "Trip Highlights",
     items: [
       {
-        image:
-          "/images/wp-content/uploads/2024/08/srilanka-day-10.webp",
+        image: "/images/wp-content/uploads/2024/08/srilanka-day-10.webp",
         imageAlt: "Surf & Safari Experience",
         title: "Surf & Safari Experience",
         subtitle: "Ride waves, roam wild, unforgettable encounters",
@@ -161,8 +160,7 @@ export const sriLangkaWanderTour: Tour = {
         title: "Arrival in Negombo",
         description:
           "You've just arrived, time to start the trip of a lifetime! Once you've collected your bags at Bandaranaike International Airport, our local guide will be there to assist you and transfer you to our first hotel. Relax for a bit or head out exploring; it's all up to you. In the evening, it's time to meet your fellow travelers.",
-        image:
-          "/images/wp-content/uploads/2024/08/srilanka-day-1.webp",
+        image: "/images/wp-content/uploads/2024/08/srilanka-day-1.webp",
         imageAlt: "Arrival in Negombo",
         details: [
           {
@@ -182,8 +180,7 @@ export const sriLangkaWanderTour: Tour = {
         title: "Travel to Colombo and City Tour",
         description:
           "After breakfast, we set off to Colombo to delve into the country's culture, history, and modernity. We'll visit the National Museum and the famous Lotus Tower for breathtaking city views. Get that perfect city pic and prepare for dinner back at the hotel.",
-        image:
-          "/images/wp-content/uploads/2024/08/srilanka-day-2.webp",
+        image: "/images/wp-content/uploads/2024/08/srilanka-day-2.webp",
         imageAlt: "Travel to Colombo and City Tour",
         details: [
           {
@@ -208,8 +205,7 @@ export const sriLangkaWanderTour: Tour = {
         title: "Visit Dambulla Rock Temple",
         description:
           "We journey to Dambulla to explore the stunning cave temples and the Golden Temple. After checking into our accommodation in Habarana, we'll hike to the top of Pidurangala for amazing sunset views.",
-        image:
-          "/images/wp-content/uploads/2024/08/srilanka-day-3.webp",
+        image: "/images/wp-content/uploads/2024/08/srilanka-day-3.webp",
         imageAlt: "Visit Dambulla Rock Temple",
         details: [
           {
@@ -234,8 +230,7 @@ export const sriLangkaWanderTour: Tour = {
         title: "Sigiriya and Cycling Tour",
         description:
           "On the morning of day four, embark on a cycling tour that takes you through the scenic surroundings of Sigiriya. The tour highlights include a visit to the iconic World Heritage Site of Sigiriya, where you'll climb the stairs through the great lion's paws and explore the ancient fortress and its innovative hydraulic system.",
-        image:
-          "/images/wp-content/uploads/2024/08/srilanka-day-4.webp",
+        image: "/images/wp-content/uploads/2024/08/srilanka-day-4.webp",
         imageAlt: "Sigiriya and Cycling Tour",
         details: [
           {
@@ -260,8 +255,7 @@ export const sriLangkaWanderTour: Tour = {
         title: "Matale Spice Gardens and Kandy",
         description:
           "Explore Matale's spice gardens and sample herbal tea before heading to the vibrant city of Kandy. Visit Buddhist sites, stroll through local markets, and enjoy traditional music and a cultural show in the evening.",
-        image:
-          "/images/wp-content/uploads/2024/08/srilanka-day-5.webp",
+        image: "/images/wp-content/uploads/2024/08/srilanka-day-5.webp",
         imageAlt: "Matale Spice Gardens and Kandy",
         details: [
           {
@@ -286,8 +280,7 @@ export const sriLangkaWanderTour: Tour = {
         title: "Nuwara Eliya & Train Ride to Ella",
         description:
           "Drive through tea-covered hills to Nuwara Eliya, then take the iconic scenic train ride from Nanu Oya to Ella, capturing stunning views of green valleys and small villages along the way.",
-        image:
-          "/images/wp-content/uploads/2024/08/srilanka-day-6.webp",
+        image: "/images/wp-content/uploads/2024/08/srilanka-day-6.webp",
         imageAlt: "Nuwara Eliya & Train Ride to Ella",
         details: [
           {
@@ -312,8 +305,7 @@ export const sriLangkaWanderTour: Tour = {
         title: "It's Time to Explore Ella",
         description:
           "Hike to Ella's Rock or Little Adams Peak, visit tea estates, or stroll through tranquil forests. After a day of exploring, prepare for dinner and maybe a few drinks.",
-        image:
-          "/images/wp-content/uploads/2024/08/srilanka-day-7.webp",
+        image: "/images/wp-content/uploads/2024/08/srilanka-day-7.webp",
         imageAlt: "It's Time to Explore Ella",
         details: [
           {
@@ -338,8 +330,7 @@ export const sriLangkaWanderTour: Tour = {
         title: "Rest and Recharge",
         description:
           "Travel to Arugam Bay for a chill day. Relax by the beach with cocktails or take a surf lesson. In the evening, meet up for dinner and drinks.",
-        image:
-          "/images/wp-content/uploads/2024/08/srilanka-day-82.webp",
+        image: "/images/wp-content/uploads/2024/08/srilanka-day-82.webp",
         imageAlt: "Rest and Recharge",
         details: [
           {
@@ -364,8 +355,7 @@ export const sriLangkaWanderTour: Tour = {
         title: "Surfing & Jeep Safari Kumana National Park",
         description:
           "Fuel up with a big breakfast and get ready for a day of surfing with highly qualified instructors. After surfing, a jeep safari through Kumana National Park. Spot crocodiles, leopards, and elephants!",
-        image:
-          "/images/wp-content/uploads/2024/08/srilanka-day-10.webp",
+        image: "/images/wp-content/uploads/2024/08/srilanka-day-10.webp",
         imageAlt: "Surfing & Jeep Safari Kumana National Park",
         details: [
           {
@@ -395,8 +385,7 @@ export const sriLangkaWanderTour: Tour = {
         title: "Galle City Tour",
         description:
           "Head to Galle to explore the mesmerizing Galle Fort and enjoy panoramic views of the Indian Ocean.",
-        image:
-          "/images/wp-content/uploads/2024/08/srilanka-day-11.webp",
+        image: "/images/wp-content/uploads/2024/08/srilanka-day-11.webp",
         imageAlt: "Galle City Tour",
         details: [
           {
@@ -421,8 +410,7 @@ export const sriLangkaWanderTour: Tour = {
         title: "Madu Ganga Experience",
         description:
           "Experience a cruise in a canopied, outboard motor-powered boat. Boat safari along the river is a relaxing trip with plenty of interesting stops. Later visit Kosgoda Turtle hatchery - discover the inspiring conservation efforts at the Kosgoda Turtle Hatchery, a sanctuary dedicated to protecting endangered sea turtles.",
-        image:
-          "/images/wp-content/uploads/2024/08/srilanka-day-10.webp",
+        image: "/images/wp-content/uploads/2024/08/srilanka-day-10.webp",
         imageAlt: "Madu Ganga Experience",
         details: [
           {
@@ -447,8 +435,7 @@ export const sriLangkaWanderTour: Tour = {
         title: "Checkout",
         description:
           "Exchange contacts with your new friends and check out after breakfast. Our trustee tour guide can help you organise your onward travel plans. It's not goodbye—it's see you later!",
-        image:
-          "/images/wp-content/uploads/2024/08/srilanka-header-5.webp",
+        image: "/images/wp-content/uploads/2024/08/srilanka-header-5.webp",
         imageAlt: "Checkout",
         details: [
           {
@@ -469,8 +456,7 @@ export const sriLangkaWanderTour: Tour = {
     heading: "Where We Stay",
     items: [
       {
-        image:
-          "/images/wp-content/uploads/2025/10/hive-68-accommodation.webp",
+        image: "/images/wp-content/uploads/2025/10/hive-68-accommodation.webp",
         imageAlt: "Hive 68 Hotel",
         name: "Hive 68 Hotel",
         nights: "2 nights",
@@ -598,7 +584,8 @@ export const sriLangkaWanderTour: Tour = {
     priceAmount: "£1,200",
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
-    ctaHref: "https://buy.stripe.com/00g02b9tB0IZbw47t6",
+    ctaHref:
+      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
     footnote: "Additional fees may apply",
   },
   listingCard: {

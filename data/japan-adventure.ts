@@ -39,8 +39,16 @@ export const japanAdventure: Tour = {
   whatsIncluded: {
     heading: "What's Included",
     items: [
-      { icon: "transport", label: "Transport", value: "Private vehicle, All sightseeing transfers" },
-      { icon: "accommodation", label: "Accommodation", value: "9 nights in Hotel" },
+      {
+        icon: "transport",
+        label: "Transport",
+        value: "Private vehicle, All sightseeing transfers",
+      },
+      {
+        icon: "accommodation",
+        label: "Accommodation",
+        value: "9 nights in Hotel",
+      },
       {
         icon: "activities",
         label: "Activities",
@@ -75,7 +83,8 @@ export const japanAdventure: Tour = {
         image: "/images/wp-content/uploads/2025/10/japan-trip-highlight-2.webp",
         imageAlt: "Japan bullet train",
         title: "Famous Bullet Train",
-        subtitle: "Hop aboard the infamous bullet train and make your way to Kyoto",
+        subtitle:
+          "Hop aboard the infamous bullet train and make your way to Kyoto",
       },
       {
         image: "/images/wp-content/uploads/2025/10/japan-trip-highlight-3.webp",
@@ -88,7 +97,8 @@ export const japanAdventure: Tour = {
         image: "/images/wp-content/uploads/2025/10/japan-trip-highlight-4.webp",
         imageAlt: "Skiing in Sapporo",
         title: "Skiing in Sapporo (optional)",
-        subtitle: "Extend your winter adventure with a trip to a nearby ski resort",
+        subtitle:
+          "Extend your winter adventure with a trip to a nearby ski resort",
       },
     ],
   },
@@ -159,7 +169,11 @@ export const japanAdventure: Tour = {
         image: "/images/wp-content/uploads/2025/10/japan-day-4.webp",
         imageAlt: "Shinkansen bullet train to Kyoto",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "S-Peria Hotel (or similar)" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "S-Peria Hotel (or similar)",
+          },
           { icon: "activities", label: "Activity", value: "Bullet Train" },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -172,7 +186,11 @@ export const japanAdventure: Tour = {
         image: "/images/wp-content/uploads/2025/10/japan-day-5.webp",
         imageAlt: "Kyoto Kinkakuji and Gion",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "S-Peria Hotel (or similar)" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "S-Peria Hotel (or similar)",
+          },
           { icon: "activities", label: "Activity", value: "Kyoto City Tour" },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -185,7 +203,11 @@ export const japanAdventure: Tour = {
         image: "/images/wp-content/uploads/2025/10/japan-day-6.webp",
         imageAlt: "Japanese tea ceremony",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "S-Peria Hotel (or similar)" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "S-Peria Hotel (or similar)",
+          },
           { icon: "activities", label: "Activity", value: "Tea Ceremony" },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -198,7 +220,11 @@ export const japanAdventure: Tour = {
         image: "/images/wp-content/uploads/2025/10/japan-day-7.webp",
         imageAlt: "Travel to Sapporo",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "New Otani Inn (or similar)" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "New Otani Inn (or similar)",
+          },
           { icon: "activities", label: "Activity", value: "Travel to Sapporo" },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -211,7 +237,11 @@ export const japanAdventure: Tour = {
         image: "/images/wp-content/uploads/2025/10/japan-day-8.webp",
         imageAlt: "Sapporo snowy streets",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "New Otani Inn (or similar)" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "New Otani Inn (or similar)",
+          },
           { icon: "activities", label: "Activity", value: "Sapporo City Tour" },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -224,7 +254,11 @@ export const japanAdventure: Tour = {
         image: "/images/wp-content/uploads/2025/10/japan-day-9-1.webp",
         imageAlt: "Skiing in Hokkaido",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "New Otani Inn (or similar)" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "New Otani Inn (or similar)",
+          },
           { icon: "activities", label: "Activity", value: "Ski (Optional)" },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -363,7 +397,8 @@ export const japanAdventure: Tour = {
     ],
     depositAmount: "£300",
     ctaLabel: "Reserve Now",
-    ctaHref: "https://book.stripe.com/fZubJ1ekbfhngKneAvco03G",
+    ctaHref:
+      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
     footnote: "Additional fees may apply",
   },
   listingCard: {

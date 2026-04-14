@@ -34,20 +34,33 @@ export const bhutanQuest: Tour = {
   keyFacts: [
     { icon: "days", label: "Tour Dates", values: ["To be announced"] },
     { icon: "days", label: "Duration", values: ["7 Days and 6 Nights"] },
-    { icon: "route", label: "Route", values: ["Punakha → Gangtey → Thimphu → Paro"] },
+    {
+      icon: "route",
+      label: "Route",
+      values: ["Punakha → Gangtey → Thimphu → Paro"],
+    },
     { icon: "people", label: "Group Size", values: ["Maximum 20 people"] },
   ],
   whatsIncluded: {
     heading: "What's Included",
     items: [
       { icon: "transport", label: "Transport", value: "Van / Coach" },
-      { icon: "accommodation", label: "Accommodation", value: "6 nights in Hotel" },
+      {
+        icon: "accommodation",
+        label: "Accommodation",
+        value: "6 nights in Hotel",
+      },
       {
         icon: "activities",
         label: "Activities",
-        value: "Sightseeing Dzongs, Trekking, White water rafting, Beer Tasting",
+        value:
+          "Sightseeing Dzongs, Trekking, White water rafting, Beer Tasting",
       },
-      { icon: "meals", label: "Meals", value: "6 Breakfasts, 5 Lunches, 6 Dinners" },
+      {
+        icon: "meals",
+        label: "Meals",
+        value: "6 Breakfasts, 5 Lunches, 6 Dinners",
+      },
       {
         icon: "plus",
         label: "Others",
@@ -87,8 +100,7 @@ export const bhutanQuest: Tour = {
           "Hike to Bhutan's iconic Tiger's Nest Temple in Paro for breathtaking views of the valley and river",
       },
       {
-        image:
-          "/images/wp-content/uploads/2025/10/bhutan-triphighlight-4.webp",
+        image: "/images/wp-content/uploads/2025/10/bhutan-triphighlight-4.webp",
         imageAlt: "Dochula Pass with 108 chortens",
         title: "Dochula Pass",
         subtitle:
@@ -109,8 +121,16 @@ export const bhutanQuest: Tour = {
         image: "/images/wp-content/uploads/2025/08/bhutan-day-1.webp",
         imageAlt: "Bhutan Day 1 — Arrival in Paro",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "River Valley Resort (or similar)" },
-          { icon: "activities", label: "Activity", value: "Meet and greet dinner" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "River Valley Resort (or similar)",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Meet and greet dinner",
+          },
           { icon: "meals", label: "Meals", value: "Dinner" },
         ],
       },
@@ -122,7 +142,11 @@ export const bhutanQuest: Tour = {
         image: "/images/wp-content/uploads/2025/08/bhutan-day-2.webp",
         imageAlt: "White-water rafting on Mo Chhu River",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "ABC Eco Lodge" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "ABC Eco Lodge",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -139,11 +163,16 @@ export const bhutanQuest: Tour = {
         image: "/images/wp-content/uploads/2025/08/bhutan-day-3.webp",
         imageAlt: "Gangteng Monastery valley",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Damisa Bhutan" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Damisa Bhutan",
+          },
           {
             icon: "activities",
             label: "Activity",
-            value: "Visit Gangteng Monastery, Nature trail of the valley, Visit Tashichho Dzong",
+            value:
+              "Visit Gangteng Monastery, Nature trail of the valley, Visit Tashichho Dzong",
           },
           { icon: "meals", label: "Meals", value: "Breakfast, Lunch, Dinner" },
         ],
@@ -156,11 +185,16 @@ export const bhutanQuest: Tour = {
         image: "/images/wp-content/uploads/2025/08/bhutan-day-4.webp",
         imageAlt: "Thimphu city Memorial Chorten",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Damisa Bhutan" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Damisa Bhutan",
+          },
           {
             icon: "activities",
             label: "Activity",
-            value: "City tour, Memorial Chorten, Folk Heritage Museum, National Library of Bhutan",
+            value:
+              "City tour, Memorial Chorten, Folk Heritage Museum, National Library of Bhutan",
           },
           { icon: "meals", label: "Meals", value: "Breakfast, Lunch, Dinner" },
         ],
@@ -173,11 +207,16 @@ export const bhutanQuest: Tour = {
         image: "/images/wp-content/uploads/2025/08/bhutan-day-5.webp",
         imageAlt: "Paro Dzong",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Rema Resort" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Rema Resort",
+          },
           {
             icon: "activities",
             label: "Activity",
-            value: "National Museum of Bhutan, Paro Dzong, Namgay Artisanal Brewery",
+            value:
+              "National Museum of Bhutan, Paro Dzong, Namgay Artisanal Brewery",
           },
           { icon: "meals", label: "Meals", value: "Breakfast, Lunch, Dinner" },
         ],
@@ -190,8 +229,16 @@ export const bhutanQuest: Tour = {
         image: "/images/wp-content/uploads/2025/08/bhutan-day-6.webp",
         imageAlt: "Tiger's Nest Temple hike",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Rema Resort" },
-          { icon: "activities", label: "Activity", value: "Tiger's Nest, Farewell dinner" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Rema Resort",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Tiger's Nest, Farewell dinner",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast, Lunch, Dinner" },
         ],
       },
@@ -203,7 +250,11 @@ export const bhutanQuest: Tour = {
         image: "/images/wp-content/uploads/2025/08/bhutan-day-7.webp",
         imageAlt: "Paro airport departure",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Rema Resort (checkout)" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Rema Resort (checkout)",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -333,7 +384,7 @@ export const bhutanQuest: Tour = {
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
     ctaHref:
-      "https://book.stripe.com/28E7sLgsj2uB1Ptcsnco03i?fbclid=IwY2xjawMejFRleHRuA2FlbQIxMABicmlkETF6TXRsZ2dPRUJYZEt4SVN4AR4N7sepwMB2yPOiNSxBQhjiiy_PYWltBBXk1ltQS67XVIfzH2qoeeaJ85QuEw_aem_XT90MlTlbaajhPYS5OBpAg",
+      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
     footnote: "Additional fees may apply",
   },
   listingCard: {

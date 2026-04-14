@@ -350,8 +350,7 @@ export const philippineSunrise: Tour = {
         title: "Free Day in Siargao",
         description:
           "It's your day, your way! Whether you want to catch some extra waves, discover hidden cafes, explore the island at your own pace, or simply soak up the sun, this free day is all about doing what feels good. Embrace the Siargao vibes and make the most of your island escape.",
-        image:
-          "/images/wp-content/uploads/2024/05/siargao-day-6.webp",
+        image: "/images/wp-content/uploads/2024/05/siargao-day-6.webp",
         imageAlt: "Free Day in Siargao",
         details: [
           {
@@ -406,8 +405,7 @@ export const philippineSunrise: Tour = {
         nights: "3 nights (Days 3-5)",
       },
       {
-        image:
-          "/images/wp-content/uploads/2024/05/seasky-accommodation.webp",
+        image: "/images/wp-content/uploads/2024/05/seasky-accommodation.webp",
         imageAlt: "Siargao Seasky hotel",
         name: "Siargao Seasky (or similar)",
         nights: "5 nights (Days 6-10, checkout Day 11)",
@@ -505,7 +503,8 @@ export const philippineSunrise: Tour = {
     priceAmount: "£950",
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
-    ctaHref: "https://book.stripe.com/9B63cv2Bt2uB8dR8c7co032",
+    ctaHref:
+      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
     footnote: "Additional fees may apply",
   },
   // Related-tour cards are auto-attached in `data/tours.ts` by picking

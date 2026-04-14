@@ -33,22 +33,38 @@ export const brazilsTreasures: Tour = {
   },
   keyFacts: [
     { icon: "days", label: "Tour Dates", values: ["February 3, 2026"] },
-    { icon: "route", label: "Route", values: ["Manaus → São Paulo → Paraty → Rio de Janeiro"] },
+    {
+      icon: "route",
+      label: "Route",
+      values: ["Manaus → São Paulo → Paraty → Rio de Janeiro"],
+    },
     { icon: "days", label: "Days", values: ["12 Days and 11 Nights"] },
     { icon: "people", label: "Group Size", values: ["Maximum 20 people"] },
   ],
   whatsIncluded: {
     heading: "What's Included",
     items: [
-      { icon: "transport", label: "Transport", value: "Boat, Domestic Flight, Off-road Jeep" },
-      { icon: "accommodation", label: "Accommodation", value: "11 nights in Hotel" },
+      {
+        icon: "transport",
+        label: "Transport",
+        value: "Boat, Domestic Flight, Off-road Jeep",
+      },
+      {
+        icon: "accommodation",
+        label: "Accommodation",
+        value: "11 nights in Hotel",
+      },
       {
         icon: "activities",
         label: "Activities",
         value:
           "Amazon River Cruise, Pink Dolphin Feeding, Indigenous Village Visit, City Tours, Beaches, Sugarloaf and Christ the Redeemer Tour, Jeep Favela Tour, Sambadrome Carnival Experience",
       },
-      { icon: "meals", label: "Meals", value: "11 Breakfasts, 1 Lunch, 1 Dinner" },
+      {
+        icon: "meals",
+        label: "Meals",
+        value: "11 Breakfasts, 1 Lunch, 1 Dinner",
+      },
       { icon: "team", label: "Team", value: "Trip Manager + Local Guides" },
       {
         icon: "plus",
@@ -76,21 +92,25 @@ export const brazilsTreasures: Tour = {
     heading: "Trip Highlights",
     items: [
       {
-        image: "/images/wp-content/uploads/2025/07/brazil-trip-highlight-1.webp",
+        image:
+          "/images/wp-content/uploads/2025/07/brazil-trip-highlight-1.webp",
         imageAlt: "Amazon River with pink dolphins",
         title: "Cruise the Amazon River and meet Pink Dolphins",
         subtitle: "",
       },
       {
-        image: "/images/wp-content/uploads/2025/07/brazil-trip-highlight-2.webp",
+        image:
+          "/images/wp-content/uploads/2025/07/brazil-trip-highlight-2.webp",
         imageAlt: "São Paulo neighborhoods",
         title: "Explore São Paulo's buzzing Neighborhoods",
         subtitle: "",
       },
       {
-        image: "/images/wp-content/uploads/2025/07/brazil-trip-highlight-3.webp",
+        image:
+          "/images/wp-content/uploads/2025/07/brazil-trip-highlight-3.webp",
         imageAlt: "Sambadrome Carnival",
-        title: "Experience the electric energy of the Sambadrome during Carnival",
+        title:
+          "Experience the electric energy of the Sambadrome during Carnival",
         subtitle: "",
       },
     ],
@@ -108,7 +128,11 @@ export const brazilsTreasures: Tour = {
         image: "/images/wp-content/uploads/2025/07/brazil-day-1.webp",
         imageAlt: "Arrival in Manaus",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "TRYP by Wyndham Manaus" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "TRYP by Wyndham Manaus",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -124,11 +148,16 @@ export const brazilsTreasures: Tour = {
         image: "/images/wp-content/uploads/2025/07/brazil-day-2.webp",
         imageAlt: "Amazon River cruise",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "TRYP by Wyndham Manaus" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "TRYP by Wyndham Manaus",
+          },
           {
             icon: "activities",
             label: "Activity",
-            value: "Amazon River Cruise, Pink Dolphin Feeding, Indigenous Village Visit",
+            value:
+              "Amazon River Cruise, Pink Dolphin Feeding, Indigenous Village Visit",
           },
           { icon: "meals", label: "Meals", value: "Breakfast, Lunch" },
         ],
@@ -141,8 +170,16 @@ export const brazilsTreasures: Tour = {
         image: "/images/wp-content/uploads/2025/07/brazil-day-3.webp",
         imageAlt: "São Paulo skyline",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Mercure Sao Paulo Paulista" },
-          { icon: "activities", label: "Activity", value: "Domestic Flight to São Paulo, Transfer" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Mercure Sao Paulo Paulista",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Domestic Flight to São Paulo, Transfer",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -154,8 +191,16 @@ export const brazilsTreasures: Tour = {
         image: "/images/wp-content/uploads/2025/07/brazil-day-4.webp",
         imageAlt: "Paraty colonial town",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Pousada Porto Imperial" },
-          { icon: "activities", label: "Activity", value: "Transfer / Scenic Drive" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Pousada Porto Imperial",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Transfer / Scenic Drive",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -167,7 +212,11 @@ export const brazilsTreasures: Tour = {
         image: "/images/wp-content/uploads/2025/07/brazil-day-5.webp",
         imageAlt: "Paraty island hopping",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Pousada Porto Imperial" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Pousada Porto Imperial",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -184,8 +233,16 @@ export const brazilsTreasures: Tour = {
         image: "/images/wp-content/uploads/2025/07/brazil-day-6.webp",
         imageAlt: "Copacabana Beach Rio",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Americas Copacabana Hotel" },
-          { icon: "activities", label: "Activity", value: "Private Transfer to Rio" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Americas Copacabana Hotel",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Private Transfer to Rio",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -198,8 +255,16 @@ export const brazilsTreasures: Tour = {
           "https://i0.wp.com/imheretravels.com/wp-content/uploads/2024/09/Novo-Airao-20240315-Barco-KaterreDJI_0351-scaled.webp",
         imageAlt: "Guanabara Bay cruise",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Americas Copacabana Hotel" },
-          { icon: "activities", label: "Activity", value: "Guanabara Bay Cruise (Optional)" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Americas Copacabana Hotel",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Guanabara Bay Cruise (Optional)",
+          },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
@@ -211,7 +276,11 @@ export const brazilsTreasures: Tour = {
         image: "/images/wp-content/uploads/2025/07/brazil-day-8.webp",
         imageAlt: "Christ the Redeemer and Sugarloaf",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Americas Copacabana Hotel" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Americas Copacabana Hotel",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -228,7 +297,11 @@ export const brazilsTreasures: Tour = {
         image: "/images/wp-content/uploads/2025/07/brazil-day-9.webp",
         imageAlt: "Rio favela jeep tour",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Americas Copacabana Hotel" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Americas Copacabana Hotel",
+          },
           { icon: "activities", label: "Activity", value: "Jeep Favela Tour" },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -241,7 +314,11 @@ export const brazilsTreasures: Tour = {
         image: "/images/wp-content/uploads/2025/07/brazil-day-10.webp",
         imageAlt: "Helicopter over Rio",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Americas Copacabana Hotel" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Americas Copacabana Hotel",
+          },
           { icon: "activities", label: "Activity", value: "Helicopter Ride" },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -254,7 +331,11 @@ export const brazilsTreasures: Tour = {
         image: "/images/wp-content/uploads/2025/07/brazil-day-11.webp",
         imageAlt: "Sambadrome Carnival parade",
         details: [
-          { icon: "accommodation", label: "Accommodation", value: "Americas Copacabana Hotel" },
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Americas Copacabana Hotel",
+          },
           {
             icon: "activities",
             label: "Activity",
@@ -405,7 +486,8 @@ export const brazilsTreasures: Tour = {
     priceAmount: "£1,800",
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
-    ctaHref: "https://book.stripe.com/fZu8wP2Btd9f51F63Zco02Z",
+    ctaHref:
+      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
     footnote: "Additional fees may apply",
   },
   listingCard: {

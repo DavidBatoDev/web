@@ -415,8 +415,7 @@ export const philippineSunset: Tour = {
     heading: "Where We Stay",
     items: [
       {
-        image:
-          "/images/wp-content/uploads/2024/05/lubd-accommodation.webp",
+        image: "/images/wp-content/uploads/2024/05/lubd-accommodation.webp",
         imageAlt: "Lub D Makati (or similar)",
         name: "Lub D Makati (or similar)",
         nights: "2 nights in Hotel",
@@ -429,8 +428,7 @@ export const philippineSunset: Tour = {
         nights: "2 nights in Cottages",
       },
       {
-        image:
-          "/images/wp-content/uploads/2024/05/isla-accommodation-1.webp",
+        image: "/images/wp-content/uploads/2024/05/isla-accommodation-1.webp",
         imageAlt: "Isla Experience",
         name: "Isla Experience",
         nights: "2 nights in Beach Hut",
@@ -529,7 +527,8 @@ export const philippineSunset: Tour = {
     priceAmount: "£1,200",
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
-    ctaHref: "https://book.stripe.com/cNi00jdg71qxdyb8c7co033",
+    ctaHref:
+      "https://admin.imheretravels.com/reservation-booking-form?tour=bhutan-quest",
     footnote: "Additional fees may apply",
   },
   listingCard: {
