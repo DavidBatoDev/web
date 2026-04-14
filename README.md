@@ -85,7 +85,7 @@ VSCode is our recommended editor.
 
    ```bash
    cd ~/projects                                   # or your chosen folder
-   git clone https://github.com/YOUR-ORG/ImHereTravels.git
+   git clone https://github.com/DavidBatoDev/ImHereTravels.git
    cd ImHereTravels/web
    ```
 

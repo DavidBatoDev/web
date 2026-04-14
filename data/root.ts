@@ -23,6 +23,7 @@ export const tours = [
     price: "GBP £1200",
     image:
       "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341320242_philippinessunrise-header-1-3.webp?alt=media&token=176752d3-cd01-486b-b97b-d397a869db93",
+    href: "/tours/philippine-sunrise",
   },
   {
     title: "Philippines Sunset",
@@ -32,6 +33,7 @@ export const tours = [
     price: "GBP £1200",
     image:
       "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341317907_philippinessunset-day-11.webp?alt=media&token=d3c35f6b-4503-438e-9cd4-c6d6848d0e8f",
+    href: "/tours/philippine-sunset",
   },
   {
     title: "Maldives Bucketlist",
@@ -41,6 +43,7 @@ export const tours = [
     price: "GBP £1400",
     image:
       "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341315607_maldives-header-1.webp?alt=media&token=f8ec555a-c844-4b1d-a4ce-cac0ca5fdd0e",
+    href: "/tours/maldives-bucketlist",
   },
 ];
 

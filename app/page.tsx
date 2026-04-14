@@ -127,42 +127,47 @@ function NewTours() {
             as="li"
             delay={i * 80}
             key={tour.title}
-            className="flex h-full flex-col overflow-hidden rounded-lg bg-white shadow-small"
+            className="h-full"
           >
-            <div className="relative aspect-[4/3] w-full">
-              <Image
-                src={tour.image}
-                alt={tour.title}
-                fill
-                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="object-cover"
-              />
-            </div>
-            <div className="flex flex-1 flex-col p-5 md:p-6">
-              <span className="inline-flex w-fit items-center gap-2 rounded-full bg-light-grey px-3 py-1 font-body text-b4-desktop text-midnight">
+            <Link
+              href={tour.href}
+              className="group flex h-full flex-col overflow-hidden rounded-lg bg-white shadow-small transition-shadow hover:shadow-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-crimson-red"
+            >
+              <div className="relative aspect-[4/3] w-full overflow-hidden">
                 <Image
-                  src="/Icons/SVG/Pin/pin-solid-red.svg"
-                  alt=""
-                  width={14}
-                  height={14}
+                  src={tour.image}
+                  alt={tour.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                {tour.duration}
-              </span>
-              <h3 className="mt-4 font-sans text-h5-mobile md:text-h5-desktop text-midnight">
-                {tour.title}
-              </h3>
-              <p className="mt-2 font-body text-b4-mobile md:text-b4-desktop text-dark-gray">
-                {tour.description}
-              </p>
-              <div className="mt-auto flex items-baseline gap-2 pt-5">
-                <span className="font-body text-b4-desktop text-dark-gray">
-                  From
-                </span>
-                <span className="font-sans text-h6-mobile md:text-h6-desktop text-midnight">
-                  {tour.price}
-                </span>
               </div>
-            </div>
+              <div className="flex flex-1 flex-col p-5 md:p-6">
+                <span className="inline-flex w-fit items-center gap-2 rounded-full bg-light-grey px-3 py-1 font-body text-b4-desktop text-midnight">
+                  <Image
+                    src="/Icons/SVG/Pin/pin-solid-red.svg"
+                    alt=""
+                    width={14}
+                    height={14}
+                  />
+                  {tour.duration}
+                </span>
+                <h3 className="mt-4 font-sans text-h5-mobile md:text-h5-desktop text-midnight group-hover:text-crimson-red">
+                  {tour.title}
+                </h3>
+                <p className="mt-2 font-body text-b4-mobile md:text-b4-desktop text-dark-gray">
+                  {tour.description}
+                </p>
+                <div className="mt-auto flex items-baseline gap-2 pt-5">
+                  <span className="font-body text-b4-desktop text-dark-gray">
+                    From
+                  </span>
+                  <span className="font-sans text-h6-mobile md:text-h6-desktop text-midnight">
+                    {tour.price}
+                  </span>
+                </div>
+              </div>
+            </Link>
           </Reveal>
         ))}
       </ul>
