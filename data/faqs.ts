@@ -3,9 +3,9 @@
 /* -------------------------------------------------------------------------- */
 
 export const faqsMetadata = {
-  title: "FAQs | I'm Here Travels",
+  title: "Frequently Asked Questions — I'm Here Travels Tours",
   description:
-    "Find answers to the most common questions about I'm Here Travels tours, bookings, what's included, and what to expect on your trip.",
+    "Find answers to common questions about I'm Here Travels — what's included, how to book, flights, accommodation, travel insurance, visas and more.",
 };
 
 /* -------------------------------------------------------------------------- */

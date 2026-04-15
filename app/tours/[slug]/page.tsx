@@ -4,6 +4,7 @@ import Header from "@/app/components/global/Header";
 import Footer from "@/app/components/global/Footer";
 import ShareButton from "./_components/ShareButton";
 import { getAllTourSlugs, getTourBySlug } from "@/data/tours";
+import type { Tour } from "@/types/tour";
 import Breadcrumbs from "./_components/Breadcrumbs";
 import TourGallery from "./_components/TourGallery";
 import TourHeader from "./_components/TourHeader";
@@ -22,6 +23,8 @@ import CommunityGrid from "./_components/CommunityGrid";
 import BookingCard from "./_components/BookingCard";
 import TourViewRecorder from "./_components/TourViewRecorder";
 
+const BASE_URL = "https://www.imheretravels.com";
+
 type Params = Promise<{ slug: string }>;
 
 export async function generateStaticParams() {
@@ -39,6 +42,64 @@ export async function generateMetadata({
   return {
     title: tour.meta.title,
     description: tour.meta.description,
+    openGraph: {
+      title: tour.meta.title,
+      description: tour.meta.description,
+      type: "website",
+      images: [{ url: tour.gallery.hero, alt: tour.gallery.heroAlt }],
+    },
+  };
+}
+
+function buildTourJsonLd(tour: Tour) {
+  const durationFact = tour.keyFacts.find((f) => f.label === "Duration");
+  const routeFact = tour.keyFacts.find((f) => f.label === "Route");
+  const groupFact = tour.keyFacts.find((f) => f.label === "Group Size");
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+          { "@type": "ListItem", position: 2, name: "Tours", item: `${BASE_URL}/tours` },
+          { "@type": "ListItem", position: 3, name: tour.name, item: `${BASE_URL}/tours/${tour.slug}` },
+        ],
+      },
+      {
+        "@type": "TouristTrip",
+        "@id": `${BASE_URL}/tours/${tour.slug}`,
+        name: tour.meta.title,
+        description: tour.meta.description,
+        url: `${BASE_URL}/tours/${tour.slug}`,
+        image: `${BASE_URL}${tour.gallery.hero}`,
+        provider: { "@id": `${BASE_URL}/#organization` },
+        ...(durationFact ? { duration: durationFact.values[0] } : {}),
+        ...(routeFact ? { itinerary: { "@type": "ItemList", name: routeFact.values[0] } } : {}),
+        ...(groupFact ? { maximumAttendeeCapacity: parseInt(groupFact.values[0]) || undefined } : {}),
+        offers: {
+          "@type": "Offer",
+          url: tour.booking.ctaHref,
+          priceCurrency: tour.booking.priceCurrency,
+          price: tour.booking.priceAmount.replace(/[^0-9.]/g, ""),
+          availability: "https://schema.org/InStock",
+          validFrom: new Date().toISOString().split("T")[0],
+        },
+        ...(tour.faqs?.items.length
+          ? {
+              subjectOf: {
+                "@type": "FAQPage",
+                mainEntity: tour.faqs.items.map((faq) => ({
+                  "@type": "Question",
+                  name: faq.question,
+                  acceptedAnswer: { "@type": "Answer", text: faq.answer },
+                })),
+              },
+            }
+          : {}),
+      },
+    ],
   };
 }
 
@@ -49,6 +110,10 @@ export default async function TourDetailPage({ params }: { params: Params }) {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildTourJsonLd(tour)) }}
+      />
       <Header />
       <main className="flex-1">
         <TourViewRecorder slug={tour.slug} />

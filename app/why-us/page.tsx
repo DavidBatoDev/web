@@ -19,9 +19,15 @@ import {
 } from "@/data/whyUs";
 
 export const metadata: Metadata = {
-  title: "Why Us | I'm Here Travels",
+  title: "Why Choose I'm Here Travels for Your Next Group Tour",
   description:
-    "Discover why I'm Here Travels is the best choice for your next adventure — small group tours, handpicked destinations, and unforgettable experiences.",
+    "Small groups. Handpicked routes. Real local experiences. Discover why thousands of travellers choose I'm Here Travels for their next adventure across Asia, Africa and beyond.",
+  openGraph: {
+    title: "Why Choose I'm Here Travels for Your Next Group Tour",
+    description:
+      "Small groups. Handpicked routes. Real local experiences. Discover why thousands of travellers choose I'm Here Travels for their next adventure.",
+    type: "website",
+  },
 };
 
 /* ---------- Icons ---------- */

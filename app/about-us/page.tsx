@@ -15,9 +15,15 @@ import {
 } from "@/data/aboutUs";
 
 export const metadata: Metadata = {
-  title: "About Us | I'm Here Travels",
+  title: "About Us — Meet the Team Behind I'm Here Travels",
   description:
-    "Founded in 2023 by Amer and Shawn from the shores of Siargao Island, Philippines. At I'm Here Travels, we create awesome, fun, and unforgettable travel experiences.",
+    "Founded in 2023 by Amer and Shawn on the shores of Siargao Island, Philippines. We build small-group tours that connect people with places and create a positive impact together.",
+  openGraph: {
+    title: "About Us — Meet the Team Behind I'm Here Travels",
+    description:
+      "Founded in 2023 by Amer and Shawn on the shores of Siargao Island, Philippines. We build small-group tours that connect people with places and create a positive impact together.",
+    type: "website",
+  },
 };
 
 /* ---------- Sections ---------- */

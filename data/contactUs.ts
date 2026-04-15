@@ -3,9 +3,9 @@
 /* -------------------------------------------------------------------------- */
 
 export const contactMetadata = {
-  title: "Contact Us | I'm Here Travels",
+  title: "Contact I'm Here Travels — Book a Tour or Get in Touch",
   description:
-    "Get in touch with I'm Here Travels. Send us a message or reach out via WhatsApp, Telegram, Viber, or email.",
+    "Questions about a tour? Ready to book? Reach our team via WhatsApp, Telegram, Viber, or email. We're here to help you plan your next adventure.",
 };
 
 /* -------------------------------------------------------------------------- */

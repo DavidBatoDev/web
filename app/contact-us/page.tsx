@@ -14,6 +14,25 @@ import ContactForm from "./ContactForm";
 
 export const metadata: Metadata = contactMetadata;
 
+const BASE_URL = "https://www.imheretravels.com";
+
+const contactJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "@id": `${BASE_URL}/contact-us`,
+  name: "Contact I'm Here Travels",
+  description: "Questions about a tour? Ready to book? Reach our team via WhatsApp, Telegram, Viber, or email.",
+  url: `${BASE_URL}/contact-us`,
+  publisher: { "@id": `${BASE_URL}/#organization` },
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+      { "@type": "ListItem", position: 2, name: "Contact Us", item: `${BASE_URL}/contact-us` },
+    ],
+  },
+};
+
 /* ---------- Icons ---------- */
 
 function EmailIcon() {
@@ -135,6 +154,10 @@ function FaqCtaSection() {
 export default function ContactUsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactJsonLd) }}
+      />
       <Header />
       <main className="flex-1 bg-light-grey">
         <Hero />

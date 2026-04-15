@@ -12,8 +12,51 @@ import {
   getDestinationBySlug,
   getAllDestinationSlugs,
   type DestinationQuickFact,
+  type Destination,
 } from "@/data/destinations";
 import { getTourBySlug } from "@/data/tours";
+
+const BASE_URL = "https://www.imheretravels.com";
+
+function buildDestinationJsonLd(destination: Destination) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+          { "@type": "ListItem", position: 2, name: "All Destinations", item: `${BASE_URL}/all-destinations` },
+          { "@type": "ListItem", position: 3, name: destination.name, item: `${BASE_URL}/all-destinations/${destination.slug}` },
+        ],
+      },
+      {
+        "@type": "TouristDestination",
+        "@id": `${BASE_URL}/all-destinations/${destination.slug}`,
+        name: destination.name,
+        description: destination.meta.description,
+        url: `${BASE_URL}/all-destinations/${destination.slug}`,
+        image: destination.heroImage,
+        touristType: {
+          "@type": "Audience",
+          audienceType: "Adventure Travellers",
+        },
+        ...(destination.faqs?.length
+          ? {
+              subjectOf: {
+                "@type": "FAQPage",
+                mainEntity: destination.faqs.map((faq) => ({
+                  "@type": "Question",
+                  name: faq.question,
+                  acceptedAnswer: { "@type": "Answer", text: faq.answer },
+                })),
+              },
+            }
+          : {}),
+      },
+    ],
+  };
+}
 
 /* -------------------------------------------------------------------------- */
 /* Static generation                                                           */
@@ -112,6 +155,10 @@ export default async function DestinationPage({
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildDestinationJsonLd(destination)) }}
+      />
       <Header />
       <main className="flex-1">
         {/* ── Hero ─────────────────────────────────────────────────────── */}
