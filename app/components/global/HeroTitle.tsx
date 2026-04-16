@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion, type Variants } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 
 type HeroTitleProps = {
   text: string;
@@ -8,7 +8,6 @@ type HeroTitleProps = {
 };
 
 export default function HeroTitle({ text, className = "" }: HeroTitleProps) {
-  const reduce = useReducedMotion();
   const lines = text.split("\n");
 
   const container: Variants = {
@@ -16,7 +15,7 @@ export default function HeroTitle({ text, className = "" }: HeroTitleProps) {
     visible: {
       transition: {
         delayChildren: 0.1,
-        staggerChildren: reduce ? 0 : 0.08,
+        staggerChildren: 0.08,
       },
     },
   };
@@ -24,8 +23,8 @@ export default function HeroTitle({ text, className = "" }: HeroTitleProps) {
   const word: Variants = {
     hidden: {
       opacity: 0,
-      y: reduce ? 0 : 28,
-      filter: reduce ? "blur(0px)" : "blur(10px)",
+      y: 28,
+      filter: "blur(10px)",
     },
     visible: {
       opacity: 1,

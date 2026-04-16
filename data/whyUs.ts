@@ -6,7 +6,7 @@ export const whyUsHero = {
   image:
     "https://www.figma.com/api/mcp/asset/68900032-2673-48dd-b555-e551b1424cb8",
   title: "Be here with us",
-  cta: { label: "View Tours", href: "#tours" },
+  cta: { label: "View Tours", href: "/tours" },
 };
 
 /* -------------------------------------------------------------------------- */

@@ -5,7 +5,7 @@
 export const contactMetadata = {
   title: "Contact I'm Here Travels — Book a Tour or Get in Touch",
   description:
-    "Questions about a tour? Ready to book? Reach our team via WhatsApp, Telegram, Viber, or email. We're here to help you plan your next adventure.",
+    "Questions about a tour? Ready to book? Reach our team via WhatsApp, Messenger, email, or phone. We're here to help you plan your next adventure.",
 };
 
 /* -------------------------------------------------------------------------- */
@@ -46,9 +46,26 @@ export const contactLinks = {
   heading: "Get in touch",
   items: [
     {
+      label: "Whatsapp",
+      href: "https://api.whatsapp.com/send?phone=639982476847",
+      type: "whatsapp" as const,
+      external: true,
+    },
+    {
+      label: "Messenger",
+      href: "https://www.facebook.com/profile.php?id=100089932897402",
+      type: "messenger" as const,
+      external: true,
+    },
+    {
       label: "bella@imheretravels.com",
       href: "mailto:bella@imheretravels.com",
       type: "email" as const,
+    },
+    {
+      label: "+63 998 247 6847",
+      href: "tel:+639982476847",
+      type: "phone" as const,
     },
   ],
 };

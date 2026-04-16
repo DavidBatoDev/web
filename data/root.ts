@@ -7,7 +7,7 @@ export const hero = {
   imageAlt: "Discover the Philippines",
   badge: "FEATURED TRIP",
   title: "Discover the Philippines\nSunrise to Sunset",
-  cta: { label: "View trips", href: "#tours" },
+  cta: { label: "View trips", href: "/all-destinations/philippines" },
 };
 
 /* -------------------------------------------------------------------------- */

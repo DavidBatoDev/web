@@ -47,9 +47,8 @@ const footerColumns = [
   {
     heading: "About",
     links: [
-      { label: "Destinations", href: "#destinations" },
+      { label: "About Us", href: "/about-us" },
       { label: "Why Us?", href: "/why-us" },
-      { label: "Tours", href: "#tours" },
     ],
   },
   {
@@ -57,7 +56,7 @@ const footerColumns = [
     links: [
       { label: "Contact Us", href: "/contact-us" },
       { label: "FAQs", href: "/faqs" },
-      { label: "Personalized Tours", href: "/contact-us" },
+      { label: "Personalized Tour", href: "/personalized-tours" },
     ],
   },
   {
@@ -65,15 +64,28 @@ const footerColumns = [
     links: [
       { label: "Travel Info", href: "/travel-information" },
       { label: "Newsletter", href: "/join-our-community" },
-      { label: "Reviews", href: "#reviews" },
     ],
   },
 ];
 
+const SOCIAL_UTM = "?utm_source=imheretravels&utm_medium=footer";
+
 const socialLinks = [
-  { label: "TikTok", href: "#tiktok", Icon: TikTokIcon },
-  { label: "Facebook", href: "#facebook", Icon: FacebookIcon },
-  { label: "Instagram", href: "#instagram", Icon: InstagramIcon },
+  {
+    label: "TikTok",
+    href: `https://www.tiktok.com/@imheretravels${SOCIAL_UTM}`,
+    Icon: TikTokIcon,
+  },
+  {
+    label: "Facebook",
+    href: `https://www.facebook.com/people/Im-Here-Travels/100089932897402/${SOCIAL_UTM}`,
+    Icon: FacebookIcon,
+  },
+  {
+    label: "Instagram",
+    href: `https://www.instagram.com/imheretravels/${SOCIAL_UTM}`,
+    Icon: InstagramIcon,
+  },
 ];
 
 export default function Footer() {
@@ -127,6 +139,8 @@ export default function Footer() {
                   <Link
                     key={label}
                     href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     aria-label={label}
                     className="flex items-center justify-center size-10 rounded-full border-2 border-crimson-red text-crimson-red hover:bg-crimson-red hover:text-white transition-colors"
                   >

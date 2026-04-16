@@ -6,6 +6,7 @@ import Reveal from "@/app/components/global/Reveal";
 import HeroTitle from "@/app/components/global/HeroTitle";
 import { hero, tours, destinations, testimonials, features } from "@/data/root";
 import DestinationsMarquee from "@/app/components/global/DestinationsMarquee";
+import NewToursCarousel from "@/app/components/home/NewToursCarousel";
 
 /* -------------------------------------------------------------------------- */
 /* Shared UI                                                                   */
@@ -112,83 +113,20 @@ function Hero() {
   );
 }
 
-function NewTours() {
-  return (
-    <section id="tours" className="mx-auto w-full max-w-7xl px-4 py-10 md:px-8 md:py-14">
-      <div className="mb-8 md:mb-12">
-        <h2 className="font-sans text-h3-mobile md:text-h3-desktop text-midnight">
-          New Tours
-        </h2>
-      </div>
-
-      <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {tours.map((tour, i) => (
-          <Reveal
-            as="li"
-            delay={i * 80}
-            key={tour.title}
-            className="h-full"
-          >
-            <Link
-              href={tour.href}
-              className="group flex h-full flex-col overflow-hidden rounded-lg bg-white shadow-small transition-shadow hover:shadow-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-crimson-red"
-            >
-              <div className="relative aspect-4/3 w-full overflow-hidden">
-                <Image
-                  src={tour.image}
-                  alt={tour.title}
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover transition-transform duration-300 group-hover:scale-105"
-                />
-              </div>
-              <div className="flex flex-1 flex-col p-5 md:p-6">
-                <span className="inline-flex w-fit items-center gap-2 rounded-full bg-light-grey px-3 py-1 font-body text-b4-desktop text-midnight">
-                  <Image
-                    src="/Icons/SVG/Pin/pin-solid-red.svg"
-                    alt=""
-                    width={14}
-                    height={14}
-                  />
-                  {tour.duration}
-                </span>
-                <h3 className="mt-4 font-sans text-h5-mobile md:text-h5-desktop text-midnight group-hover:text-crimson-red">
-                  {tour.title}
-                </h3>
-                <p className="mt-2 font-body text-b4-mobile md:text-b4-desktop text-dark-gray">
-                  {tour.description}
-                </p>
-                <div className="mt-auto flex items-baseline gap-2 pt-5">
-                  <span className="font-body text-b4-desktop text-dark-gray">
-                    From
-                  </span>
-                  <span className="font-sans text-h6-mobile md:text-h6-desktop text-midnight">
-                    {tour.price}
-                  </span>
-                </div>
-              </div>
-            </Link>
-          </Reveal>
-        ))}
-      </ul>
-
-      <div className="mt-10 flex justify-center">
-        <PillButton href="#all-tours">View All Tours</PillButton>
-      </div>
-    </section>
-  );
-}
-
 function Destinations() {
   return (
     <section
       id="destinations"
       className="mx-auto w-full max-w-7xl px-4 py-10 md:px-8 md:py-14"
     >
-      <h2 className="mb-8 text-center font-sans text-h3-mobile md:text-h3-desktop text-midnight md:mb-12">
-        Your next destination
-      </h2>
-      <DestinationsMarquee items={destinations} />
+      <Reveal>
+        <h2 className="mb-8 text-center font-sans text-h3-mobile md:text-h3-desktop text-midnight md:mb-12">
+          Your next destination
+        </h2>
+      </Reveal>
+      <Reveal delay={120}>
+        <DestinationsMarquee items={destinations} />
+      </Reveal>
     </section>
   );
 }
@@ -196,9 +134,11 @@ function Destinations() {
 function Testimonials() {
   return (
     <section className="mx-auto w-full max-w-7xl px-4 py-10 md:px-8 md:py-14">
-      <h2 className="mb-8 text-center font-sans text-h3-mobile md:text-h3-desktop text-midnight md:mb-12">
-        What people say about us
-      </h2>
+      <Reveal>
+        <h2 className="mb-8 text-center font-sans text-h3-mobile md:text-h3-desktop text-midnight md:mb-12">
+          What people say about us
+        </h2>
+      </Reveal>
       <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {testimonials.map((t, i) => (
           <Reveal
@@ -246,14 +186,16 @@ function WhyChooseUs() {
       id="why-us"
       className="mx-auto w-full max-w-7xl px-4 py-10 md:px-8 md:py-14"
     >
-      <h2 className="mb-10 text-center font-sans text-h3-mobile md:text-h3-desktop text-midnight md:mb-14">
-        Why choose us?
-      </h2>
+      <Reveal>
+        <h2 className="mb-10 text-center font-sans text-h3-mobile md:text-h3-desktop text-midnight md:mb-14">
+          Why choose us?
+        </h2>
+      </Reveal>
       <ul className="grid grid-cols-1 gap-6 md:grid-cols-3">
         {features.map((feature, i) => (
           <Reveal
             as="li"
-            delay={i * 100}
+            delay={i * 80}
             key={feature.title}
             className="flex flex-col items-center gap-6 rounded-lg bg-white px-8 py-10 text-center shadow-small"
           >
@@ -275,11 +217,11 @@ function WhyChooseUs() {
           </Reveal>
         ))}
       </ul>
-      <div className="mt-10 flex justify-center">
+      <Reveal className="mt-10 flex justify-center" delay={features.length * 80 + 120}>
         <PillButton href="/why-us" variant="outline">
           Learn more
         </PillButton>
-      </div>
+      </Reveal>
     </section>
   );
 }
@@ -287,11 +229,12 @@ function WhyChooseUs() {
 function JoinCommunity() {
   return (
     <section className="mx-auto w-full max-w-7xl px-4 py-10 md:px-8 md:py-14">
-      <div
-        className="overflow-hidden rounded-lg bg-white shadow-small"
-        style={{ width: "1200px", maxWidth: "100%", height: "640px" }}
-      >
-        <div className="grid h-full grid-cols-1 md:grid-cols-2">
+      <Reveal>
+        <div
+          className="overflow-hidden rounded-lg bg-white shadow-small"
+          style={{ width: "1200px", maxWidth: "100%", height: "640px" }}
+        >
+          <div className="grid h-full grid-cols-1 md:grid-cols-2">
           <div className="flex flex-col justify-center gap-4 p-8 md:p-12">
             <h2 className="font-sans text-h3-mobile md:text-h3-desktop text-midnight">
               Join our community
@@ -340,7 +283,8 @@ function JoinCommunity() {
             />
           </div>
         </div>
-      </div>
+        </div>
+      </Reveal>
     </section>
   );
 }
@@ -356,7 +300,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
-        <NewTours />
+        <NewToursCarousel tours={tours} />
         <Destinations />
         <Testimonials />
         <WhyChooseUs />

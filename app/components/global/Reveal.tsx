@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion, type Variants } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 
 type RevealProps = {
   children: React.ReactNode;
@@ -19,10 +19,8 @@ export default function Reveal({
   y = 24,
   once = true,
 }: RevealProps) {
-  const reduce = useReducedMotion();
-
   const variants: Variants = {
-    hidden: { opacity: 0, y: reduce ? 0 : y },
+    hidden: { opacity: 0, y },
     visible: { opacity: 1, y: 0 },
   };
 
