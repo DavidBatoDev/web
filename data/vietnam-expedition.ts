@@ -51,7 +51,7 @@ export const vietnamExpedition: Tour = {
     {
       icon: "days",
       label: "Tour Dates",
-      values: ["5 Aug 2026 – 15 Aug 2026"],
+      values: ["August 5, 2026"],
     },
     {
       icon: "days",

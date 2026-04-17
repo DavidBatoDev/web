@@ -7,14 +7,25 @@ export default function TourMap({ section }: { section: NonNullable<Tour["map"]>
       <h2 className="font-sans text-h3-mobile md:text-h3-desktop text-midnight">
         {section.heading}
       </h2>
-      <div className="mt-8 relative aspect-[16/9] w-full overflow-hidden rounded-lg bg-light-grey">
-        <Image
-          src={section.image}
-          alt={section.imageAlt}
-          fill
-          sizes="(max-width: 768px) 100vw, 1200px"
-          className="object-cover"
-        />
+      <div className="mt-8 relative aspect-video w-full overflow-hidden rounded-lg bg-light-grey">
+        {section.embedUrl ? (
+          <iframe
+            src={section.embedUrl}
+            title={section.imageAlt}
+            className="absolute inset-0 w-full h-full border-0"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+          />
+        ) : (
+          <Image
+            src={section.image}
+            alt={section.imageAlt}
+            fill
+            sizes="(max-width: 768px) 100vw, 1200px"
+            className="object-cover"
+          />
+        )}
       </div>
     </section>
   );

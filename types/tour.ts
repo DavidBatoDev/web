@@ -151,7 +151,7 @@ export interface Tour {
   // Most JSON-sourced tours won't have all of these.
   whatsIncluded?: { heading: string; items: TourIncludedItem[] };
   tripHighlights?: { heading: string; items: TourHighlight[] };
-  map?: { heading: string; image: string; imageAlt: string };
+  map?: { heading: string; image: string; imageAlt: string; embedUrl?: string };
   itinerary: {
     heading: string;
     downloadLabel: string;

@@ -55,7 +55,10 @@ export const tanzaniaExploration: Tour = {
     {
       icon: "days",
       label: "Tour Dates",
-      values: ["July 18, 2026", "September 18, 2026"],
+      values: [
+        "July 18, 2026 - £2,049",
+        "September 18, 2026 - £1,949",
+      ],
     },
     {
       icon: "days",
@@ -497,7 +500,7 @@ export const tanzaniaExploration: Tour = {
     routeLabel: "Kilimanjaro -> Arusha -> Karatu -> Zanzibar",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "£2,049",
+    priceAmount: "£1,949",
     depositAmount: "£300",
     ctaLabel: "Reserve Now",
     ctaHref:
@@ -508,7 +511,7 @@ export const tanzaniaExploration: Tour = {
     duration: "10 Days and 9 Nights",
     description:
       "Kilimanjaro mini trek, safari game drives, and Zanzibar marine adventures across 10 unforgettable days.",
-    price: "GBP £2,049",
+    price: "GBP £1,949",
     image:
       "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341299042_tanzania-header-1.webp?alt=media&token=889b4689-5d81-4658-9afd-3066ddc16fbb",
     imageAlt: "Tanzania Exploration",

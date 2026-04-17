@@ -89,7 +89,7 @@ const ALL_DESTINATIONS: Destination[] = [
       description:
         "Explore the Philippines with I'm Here Travels. From canyoneering in Cebu and the sardine run in Moalboal to surfing in Siargao and island-hopping in El Nido — discover our small-group Philippines tours.",
     },
-    heroImage: "/tours/philippine-sunrise/hero-1.jpg",
+    heroImage: "/tours/philippine-sunrise/Sunrise_1.jpg",
     heroImageAlt: "Travelers at a canyon waterfall in Moalboal, Philippines",
     description: [
       "The Philippines is a tropical archipelago of over 7,000 islands, blessed with pristine white-sand beaches, crystal-clear turquoise waters, and some of the world's best diving and snorkelling spots. From the historic streets of Cebu and Manila to the legendary surf breaks of Siargao and the dramatic limestone karsts of El Nido, the Philippines offers an unmatched blend of adventure, culture, and natural beauty.",

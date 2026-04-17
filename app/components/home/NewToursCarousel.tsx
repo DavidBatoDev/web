@@ -71,10 +71,10 @@ export default function NewToursCarousel({ tours }: { tours: TourCard[] }) {
         allowTouchMove
         slidesPerView="auto"
         spaceBetween={16}
-        className="overflow-hidden!"
+        className="overflow-hidden! [&_.swiper-wrapper]:items-stretch"
       >
         {tours.map((tour) => (
-          <SwiperSlide key={tour.title} style={{ width: "min(88vw, 380px)", flexShrink: 0 }}>
+          <SwiperSlide key={tour.title} style={{ width: "min(88vw, 380px)", flexShrink: 0, height: "auto" }}>
             <Link
               href={tour.href}
               className="group flex h-full flex-col overflow-hidden rounded-lg bg-white shadow-small transition-shadow hover:shadow-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-crimson-red"

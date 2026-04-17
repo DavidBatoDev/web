@@ -52,7 +52,6 @@ export const philippineSunset: Tour = {
       icon: "days",
       label: "Tour Dates",
       values: [
-        "March 5, 2026",
         "April 22, 2026",
         "May 16, 2026",
         "June 3, 2026",

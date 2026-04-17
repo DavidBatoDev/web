@@ -58,7 +58,6 @@ export const philippineSunrise: Tour = {
       icon: "days",
       label: "Tour Dates",
       values: [
-        "March 17, 2026",
         "April 25, 2026",
         "May 5, 2026",
         "May 17, 2026",
@@ -149,6 +148,8 @@ export const philippineSunrise: Tour = {
     image: `${IMG}/map.jpg`,
     imageAlt:
       "Map of the Philippine Sunrise route from Cebu to Moalboal to Siargao",
+    embedUrl:
+      "https://maps.google.com/maps?saddr=Cebu+City,+Philippines&daddr=Moalboal,+Cebu,+Philippines+to:Siargao+Island,+Surigao+del+Norte,+Philippines&output=embed",
   },
   // Day-by-day itinerary. Each day is a collapsible accordion in the UI;
   // `dayNumber` drives the badge label and ordering.
@@ -500,7 +501,7 @@ export const philippineSunrise: Tour = {
     routeLabel: "Cebu -> Moalboal -> Siargao",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "£950",
+    priceAmount: "£1200",
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
     ctaHref:
@@ -530,7 +531,7 @@ export const philippineSunrise: Tour = {
     duration: "11 Days / 10 Nights",
     description:
       "Cebu, Moalboal, and Siargao with city tours, canyoneering, sardine run, surf, and island hopping.",
-    price: "GBP £950",
+    price: "GBP £1200",
     image: "/figma/tour-philippines-sunrise.png",
     imageAlt: "Philippines Sunrise tour",
   },
