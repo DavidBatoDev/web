@@ -121,7 +121,7 @@ export const vietnamExpedition: Tour = {
     heading: "Trip Highlights",
     items: [
       {
-        image: `${IMG}/vietnam-highlight-1.webp`,
+        image: `${IMG}/vietnam-highlight-1.png`,
         imageAlt: "Cruising Bai Tu Long Bay",
         title: "Ninh Binh → Bai Tu Long",
         subtitle:
@@ -135,7 +135,7 @@ export const vietnamExpedition: Tour = {
           "Explore Hue's rich history and culture on a scenic jeep tour, visiting royal tombs and the Imperial Citadel and experiencing local coffee traditions.",
       },
       {
-        image: `${IMG}/vietnam-highlight-3.webp`,
+        image: `${IMG}/vietnam-highlight-3.png`,
         imageAlt: "Hoi An ancient town walking tour",
         title: "Hoi An Walking Tour",
         subtitle:
@@ -172,7 +172,7 @@ export const vietnamExpedition: Tour = {
         title: "Hanoi City Tour — Street Food Tasting",
         description:
           "Now that we've gotten to know each other a little, the adventure begins! Start your day exploring Hanoi's cultural and historical landmarks, including the Ho Chi Minh Complex and Temple of Literature. Continue with optional visits to museums or temples such as Hoa Lo Prison or Quan Thanh Temple. In the afternoon, enjoy a cyclo/electric car ride around Hoan Kiem Lake and the Old Quarter. End the day with a guided street food tour, tasting Hanoi's iconic dishes while discovering its vibrant local food culture.",
-        image: `${IMG}/vietnam-day-2.webp`,
+        image: `${IMG}/vietnam-day-2.jpg`,
         imageAlt: "Hanoi street food and Old Quarter",
         details: [
           { icon: "accommodation", label: "Accommodation", value: "San Premium Hotel" },
@@ -186,7 +186,7 @@ export const vietnamExpedition: Tour = {
         title: "Hanoi → Ninh Binh — Trang An Boat Trip",
         description:
           "After breakfast and hotel check-out, we travel by road to Ninh Binh. Upon arrival, you'll settle in before heading out in the afternoon to explore the stunning Trang An Grottoes, an extraordinary natural wonder featuring majestic limestone mountains rising dramatically over a vast landscape of rice fields and waterways.",
-        image: `${IMG}/vietnam-day-3.webp`,
+        image: `${IMG}/vietnam-day-3.png`,
         imageAlt: "Trang An limestone karsts and waterways, Ninh Binh",
         details: [
           { icon: "accommodation", label: "Accommodation", value: "Tam Coc Botique Garden" },
@@ -200,7 +200,7 @@ export const vietnamExpedition: Tour = {
         title: "Ninh Binh → Bai Tu Long Bay",
         description:
           "Depart for the legendary Ha Long Bay/Bai Tu Long Bay. Upon arrival at the port, you'll be warmly welcomed on board your cruise. Settle into your cabin before a short trip briefing, then enjoy a delicious fresh seafood lunch as you sail into the breathtaking waters of Bai Tu Long Bay, surrounded by dramatic limestone formations rising from emerald-green seas.\n\nIn the afternoon, dive into adventure with kayaking around hidden corners of the bay, getting up close to its stunning natural beauty. Return to the cruise to relax and take in a magical sunset over the water.\n\nEnd the day with a delightful dinner on board, followed by an overnight stay surrounded by the peaceful beauty of the bay.",
-        image: `${IMG}/vietnam-day-4.webp`,
+        image: `${IMG}/vietnam-day-4.png`,
         imageAlt: "Kayaking through Bai Tu Long Bay limestone karsts",
         details: [
           { icon: "accommodation", label: "Accommodation", value: "Verdure Lotus Cruise" },
@@ -214,7 +214,7 @@ export const vietnamExpedition: Tour = {
         title: "Bai Tu Long Bay → Hanoi → Night Train to Hue",
         description:
           "Start your morning with a final breath of fresh air in the stunning Bai Tu Long Bay as you enjoy breakfast on board and cruise through its peaceful scenery. Relax as you check out of your cabin while the boat heads back to port, followed by a tasty lunch onboard.\n\nBy late morning, you'll be back on shore and heading to Hanoi. Once there, you'll have a short break to soak in the city vibe before continuing your journey with a night train to Hue.",
-        image: `${IMG}/vietnam-day-5.webp`,
+        image: `${IMG}/vietnam-day-5.jpg`,
         imageAlt: "Overnight sleeper train from Hanoi to Hue",
         details: [
           { icon: "accommodation", label: "Accommodation", value: "Overnight Train" },
@@ -227,7 +227,7 @@ export const vietnamExpedition: Tour = {
         title: "Hue Arrival — Discover the City by Jeep",
         description:
           "Arrive in Hue and transfer to your hotel and settle in. Begin your Jeep adventure with a taste of traditional Vietnamese salt coffee while discovering local culture and everyday life. Explore the impressive Khai Dinh Tomb, a striking fusion of Eastern and Western architecture, then continue to the peaceful Minh Mang Tomb, beautifully set within nature. In the afternoon, step back in time at the historic Hue Citadel, the former heart of the Nguyen Dynasty, rich with imperial history and stories of Vietnam's past. After the tour, return to your hotel with unforgettable memories of Hue.",
-        image: `${IMG}/vietnam-day-6.webp`,
+        image: `${IMG}/vietnam-day-6.jpeg`,
         imageAlt: "Hue Imperial Citadel, Vietnam",
         details: [
           { icon: "accommodation", label: "Accommodation", value: "Thanh Lich Hotel" },
@@ -254,7 +254,7 @@ export const vietnamExpedition: Tour = {
         title: "Hoi An Walking Tour",
         description:
           "Our guide will pick you up from your hotel for a half-day walking tour through the enchanting Hoi An Ancient Town, a UNESCO World Cultural Heritage site.\n\nStroll through its charming old streets while discovering local flavors and rich history. Along the way, visit iconic landmarks such as the Japanese Covered Bridge, Chinese Assembly Halls, Phuoc Kien Pagoda, Sa Huynh Museum, and the bustling local market.\n\nThis experience offers a perfect blend of culture, history, and cuisine before ending your tour in the heart of Hoi An.",
-        image: `${IMG}/vietnam-day-8.webp`,
+        image: `${IMG}/vietnam-day-8.png`,
         imageAlt: "Hoi An ancient town Japanese Bridge",
         details: [
           { icon: "accommodation", label: "Accommodation", value: "Kiman Hoi An Hotel" },
@@ -268,7 +268,7 @@ export const vietnamExpedition: Tour = {
         title: "Hoi An → Da Nang — Free Day",
         description:
           "Enjoy a comfortable transfer from your hotel to Da Nang. After checking in, the rest of the day is yours to unwind, soak up the sun, feel the sea breeze, and relax on Da Nang's beautiful sandy beaches. A perfect day to slow down and enjoy the coastal charm.",
-        image: `${IMG}/vietnam-day-9.webp`,
+        image: `${IMG}/vietnam-day-9.png`,
         imageAlt: "Da Nang beach and coastline",
         details: [
           { icon: "accommodation", label: "Accommodation", value: "Sekong Hotel" },
@@ -281,7 +281,7 @@ export const vietnamExpedition: Tour = {
         title: "Da Nang City Tour",
         description:
           "Get ready for an exciting full-day adventure in Da Nang! Starting with a morning pick-up from your hotel. Discover the stunning Marble Mountains, explore the artistry of Non Nuoc Stone Carving Village, and dive into history at the Cham Sculpture Museum.\n\nIn the afternoon, head to the breathtaking Son Tra Peninsula and visit the iconic Linh Ung Pagoda, where you'll be rewarded with panoramic city views and the towering 67m Lady Buddha statue. Wrap up the day with a lively visit to Han Market before returning to your hotel, then celebrate the perfect ending with a memorable farewell dinner.",
-        image: `${IMG}/vietnam-day-10.webp`,
+        image: `${IMG}/vietnam-day-10.png`,
         imageAlt: "Lady Buddha statue at Linh Ung Pagoda, Da Nang",
         details: [
           { icon: "accommodation", label: "Accommodation", value: "Sekong Hotel" },
@@ -295,7 +295,7 @@ export const vietnamExpedition: Tour = {
         title: "Checkout",
         description:
           "It's not goodbye, it's see you later. Exchange contact info with your new friends before our vans pick us up for the airport and onward travels. Safe journeys!",
-        image: `${IMG}/vietnam-day-11.webp`,
+        image: `${IMG}/vietnam-day-11.png`,
         imageAlt: "Farewell day in Da Nang, Vietnam",
         details: [
           { icon: "accommodation", label: "Accommodation", value: "Sekong Hotel" },
@@ -309,43 +309,43 @@ export const vietnamExpedition: Tour = {
     heading: "Where We Stay",
     items: [
       {
-        image: `${IMG}/vietnam-day-1.webp`,
+        image: `${IMG}/San Premuim Hotel.png`,
         imageAlt: "San Premium Hotel, Hanoi",
         name: "San Premium Hotel",
         nights: "2 nights in hotel (Days 1-2)",
       },
       {
-        image: `${IMG}/vietnam-day-3.webp`,
+        image: `${IMG}/Tam Coc Botique Garden.png`,
         imageAlt: "Tam Coc Botique Garden, Ninh Binh",
         name: "Tam Coc Botique Garden",
         nights: "1 night in hotel (Day 3)",
       },
       {
-        image: `${IMG}/vietnam-day-4.webp`,
+        image: `${IMG}/verdure lotus cruise.png`,
         imageAlt: "Verdure Lotus Cruise, Bai Tu Long Bay",
         name: "Verdure Lotus Cruise",
         nights: "1 night on cruise (Day 4)",
       },
       {
-        image: `${IMG}/vietnam-day-5.webp`,
+        image: `${IMG}/overnight-train-accommodation.webp`,
         imageAlt: "Overnight sleeper train, Hanoi to Hue",
         name: "Overnight Train",
         nights: "1 night on sleeper train (Day 5)",
       },
       {
-        image: `${IMG}/vietnam-day-6.webp`,
+        image: `${IMG}/Thanh Lich Hotel.png`,
         imageAlt: "Thanh Lich Hotel, Hue",
         name: "Thanh Lich Hotel",
         nights: "1 night in hotel (Day 6)",
       },
       {
-        image: `${IMG}/vietnam-day-8.webp`,
+        image: `${IMG}/Kiman Hoi an.png`,
         imageAlt: "Kiman Hoi An Hotel",
         name: "Kiman Hoi An Hotel",
         nights: "2 nights in hotel (Days 7-8)",
       },
       {
-        image: `${IMG}/vietnam-day-10.webp`,
+        image: `${IMG}/Sekong Dananng.png`,
         imageAlt: "Sekong Hotel, Da Nang",
         name: "Sekong Hotel",
         nights: "2 nights in hotel (Days 9-10)",
