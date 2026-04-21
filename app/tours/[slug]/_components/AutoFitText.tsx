@@ -24,6 +24,9 @@ export default function AutoFitText({
       const text = textRef.current;
       if (!wrapper || !text) return;
       text.style.transform = "";
+      // Below the lg breakpoint the text wraps naturally (see className),
+      // so skip the scale-to-fit logic — otherwise we'd shrink wrapped lines.
+      if (window.innerWidth < 1024) return;
       const available = wrapper.clientWidth;
       const natural = text.scrollWidth;
       if (natural > available && natural > 0) {
@@ -42,10 +45,10 @@ export default function AutoFitText({
   }, [children, minScale]);
 
   return (
-    <div ref={wrapperRef} className="w-full min-w-0 overflow-hidden">
+    <div ref={wrapperRef} className="w-full min-w-0 lg:overflow-hidden">
       <Tag
         ref={textRef as React.RefObject<HTMLHeadingElement>}
-        className={`${className ?? ""} origin-left whitespace-nowrap`}
+        className={`${className ?? ""} origin-left wrap-break-word lg:whitespace-nowrap`}
       >
         {children}
       </Tag>
