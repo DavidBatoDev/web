@@ -14,7 +14,7 @@ export const danielleErinTanzaniaExploration: Tour = {
   meta: {
     title: "10 Days | Tanzania Exploration (Danielle & Erin)",
     description:
-     "This tour will let you experience all of that with Mini Trekking Kilimanjaro, guided game drives to experience the vast wildlife and marine life and then finishing the tour off back in Kilimanjaro after experiencing the amazing beaches in Zanzibar. Join us to experience these amazing destinations and meet people who will become friend’s for life!"
+     "This tour will let you experience all of that with Mini Trekking Kilimanjaro, guided game drives to experience the vast wildlife and marine life and then finishing the tour off on the amazing beaches in Zanzibar. Join us to experience these amazing destinations and meet people who will become friend’s for life!"
   },
   gallery: {
     hero: "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341299042_tanzania-header-1.webp?alt=media&token=889b4689-5d81-4658-9afd-3066ddc16fbb",
@@ -71,7 +71,7 @@ export const danielleErinTanzaniaExploration: Tour = {
       },
     ],
     description:
-      "This tour will let you experience all of that with Mini Trekking Kilimanjaro, guided game drives to experience the vast wildlife and marine life and then finishing the tour off back in Kilimanjaro after experiencing the amazing beaches in Zanzibar. Join us to experience these amazing destinations and meet people who will become friend’s for life!"
+      "This tour will let you experience all of that with Mini Trekking Kilimanjaro, guided game drives to experience the vast wildlife and marine life and then finishing the tour off on the amazing beaches in Zanzibar. Join us to experience these amazing destinations and meet people who will become friend’s for life!"
   },
   keyFacts: [
     {
@@ -101,7 +101,7 @@ export const danielleErinTanzaniaExploration: Tour = {
       {
         icon: "airport",
         label: "Flights",
-        value: "Roundtrip flights from Kilimanjaro <-> Zanzibar",
+        value: "One-way flight from Kilimanjaro to Zanzibar",
       },
       {
         icon: "meals",
@@ -220,7 +220,7 @@ export const danielleErinTanzaniaExploration: Tour = {
           {
             icon: "meals",
             label: "Meals",
-            value: "Breakfast & Lunch",
+            value: "Breakfast, Lunch & Dinner",
           },
         ],
       },
@@ -245,7 +245,7 @@ export const danielleErinTanzaniaExploration: Tour = {
           {
             icon: "meals",
             label: "Meals",
-            value: "Breakfast, Lunch & Dinner",
+            value: "Breakfast & Lunch",
           },
         ],
       },
@@ -535,11 +535,11 @@ export const danielleErinTanzaniaExploration: Tour = {
   },
   booking: {
     durationLabel: "10 Days and 9 Nights",
-    routeLabel: "Moshi -> Arusha -> Karatu -> Zanzibar -> Moshi",
+    routeLabel: "Moshi -> Arusha -> Karatu -> Zanzibar",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "£1,999",
-    depositAmount: "£300",
+    priceAmount: "£1,949",
+    depositAmount: "£250",
     ctaLabel: "Reserve Now",
     ctaHref:
       "https://admin.imheretravels.com/reservation-booking-form?tour=danielleerintanzania",
@@ -548,8 +548,8 @@ export const danielleErinTanzaniaExploration: Tour = {
   listingCard: {
     duration: "10 Days and 9 Nights",
     description:
-      "Hosted by Danielle & Erin. Kilimanjaro mini trek, Tarangire and Ngorongoro game drives, Zanzibar marine adventures, with roundtrip domestic flights included.",
-    price: "GBP £1,999",
+      "Hosted by Danielle & Erin. Kilimanjaro mini trek, Tarangire and Ngorongoro game drives, Zanzibar marine adventures, with a one-way domestic flight from Kilimanjaro to Zanzibar included.",
+    price: "GBP £1,949",
     image:
       "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341299042_tanzania-header-1.webp?alt=media&token=889b4689-5d81-4658-9afd-3066ddc16fbb",
     imageAlt: "Tanzania Exploration (Danielle & Erin)",
