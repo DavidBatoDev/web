@@ -501,7 +501,7 @@ export const philippineSunrise: Tour = {
     routeLabel: "Cebu -> Moalboal -> Siargao",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "£1200",
+    priceAmount: "£1199",
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
     ctaHref:
@@ -531,11 +531,10 @@ export const philippineSunrise: Tour = {
     duration: "11 Days / 10 Nights",
     description:
       "Cebu, Moalboal, and Siargao with city tours, canyoneering, sardine run, surf, and island hopping.",
-    price: "GBP £1200",
+    price: "GBP £1199",
     image: "/figma/tour-philippines-sunrise.png",
     imageAlt: "Philippines Sunrise tour",
   },
 };
 
 export default philippineSunrise;
-

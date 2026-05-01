@@ -523,7 +523,7 @@ export const philippineSunset: Tour = {
     routeLabel: "Manila -> Port Barton -> El Nido -> Isla Darocotan",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "£1,200",
+    priceAmount: "£1,199",
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
     ctaHref:
@@ -534,7 +534,7 @@ export const philippineSunset: Tour = {
     duration: "11 Days and 10 Nights",
     description:
       "Manila, Port Barton, El Nido, and Isla Darocotan with island hopping, snorkeling, and sunset experiences.",
-    price: "GBP £1,200",
+    price: "GBP £1,199",
     image:
       "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341317907_philippinessunset-day-11.webp?alt=media&token=d3c35f6b-4503-438e-9cd4-c6d6848d0e8f",
     imageAlt: "Philippines Sunset tour",
@@ -542,4 +542,3 @@ export const philippineSunset: Tour = {
 };
 
 export default philippineSunset;
-

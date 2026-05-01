@@ -19,12 +19,30 @@ export const chinaDiscovery: Tour = {
     hero: "/tours/china-discovery/hero-1.webp",
     heroAlt: "Forbidden City entrance gates, Beijing, China",
     thumbnails: [
-      { src: "/tours/china-discovery/thumb-1.webp", alt: "Bronze lion statue outside a palace, Beijing" },
-      { src: "/tours/china-discovery/thumb-2.webp", alt: "Mutianyu Great Wall winding through mountain forest" },
-      { src: "/tours/china-discovery/thumb-3.webp", alt: "Ornate imperial pavilion rooftops, Beijing" },
-      { src: "/tours/china-discovery/thumb-4.webp", alt: "Shanghai skyline at sunset with Oriental Pearl Tower" },
-      { src: "/tours/china-discovery/thumb-5.webp", alt: "Colourful painted corridor at the Summer Palace" },
-      { src: "/tours/china-discovery/thumb-6.webp", alt: "Stone arch bridge over a lake at the Summer Palace" },
+      {
+        src: "/tours/china-discovery/thumb-1.webp",
+        alt: "Bronze lion statue outside a palace, Beijing",
+      },
+      {
+        src: "/tours/china-discovery/thumb-2.webp",
+        alt: "Mutianyu Great Wall winding through mountain forest",
+      },
+      {
+        src: "/tours/china-discovery/thumb-3.webp",
+        alt: "Ornate imperial pavilion rooftops, Beijing",
+      },
+      {
+        src: "/tours/china-discovery/thumb-4.webp",
+        alt: "Shanghai skyline at sunset with Oriental Pearl Tower",
+      },
+      {
+        src: "/tours/china-discovery/thumb-5.webp",
+        alt: "Colourful painted corridor at the Summer Palace",
+      },
+      {
+        src: "/tours/china-discovery/thumb-6.webp",
+        alt: "Stone arch bridge over a lake at the Summer Palace",
+      },
     ],
   },
   header: {
@@ -421,7 +439,7 @@ export const chinaDiscovery: Tour = {
     routeLabel: "Beijing to Shanghai",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "£1,200",
+    priceAmount: "£1,199",
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
     ctaHref:
@@ -432,11 +450,10 @@ export const chinaDiscovery: Tour = {
     duration: "10 Days and 9 Nights",
     description:
       "Tiananmen, the Forbidden City, Mutianyu Great Wall, Shanghai Tower, and a peaceful escape to Zhujiajiao Water Town.",
-    price: "GBP £1,200",
+    price: "GBP £1,199",
     image: "/images/wp-content/uploads/2025/10/china-trip-highlight-1.webp",
     imageAlt: "China Discovery",
   },
 };
 
 export default chinaDiscovery;
-
