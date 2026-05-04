@@ -36,6 +36,9 @@ export type HostTrip = {
   tourSlug?: string;
   image?: string;
   imageAlt?: string;
+  duration?: string;
+  description?: string;
+  price?: string;
 };
 
 export type Host = {

@@ -31,11 +31,14 @@ export const devIntro = [
 
 export const devUpcomingTrips = [
   {
-    name: "India Holi Tour 2027",
+    name: "India Holi Festival Tour",
     dates: "March 19–31, 2027",
     tourSlug: "india-holi-festival-tour",
     image: "/images/wp-content/uploads/2025/01/india-header-2.webp",
-    imageAlt: "India Holi Festival",
+    imageAlt: "India Holi Festival Tour",
+    duration: "13 Days and 12 Nights",
+    description: "Explore India's vibrant culture, ancient wonders, and the stunning colors of the Holi Festival.",
+    price: "GBP £1,199",
   },
   {
     name: "PH Sunrise & Sunset",
@@ -59,6 +62,14 @@ export const devWhyTravel = [
   "Available on-ground support",
 ];
 
+export const devWhyTravelNotes = [
+  "A single, coordinated plan keeps the trip feeling smooth from first enquiry to departure.",
+  "Local teams bring practical knowledge and on-the-ground context that generic planning cannot replace.",
+  "Curated itineraries keep the best parts front and center instead of stretching the schedule thin.",
+  "Community-led travel works best when the group vibe is intentional, welcoming, and easy to join.",
+  "Support matters most when plans change, so help stays close throughout the trip.",
+];
+
 export const devHowItWorks = [
   "Choose your host & trip",
   "Secure your spot with a deposit",
@@ -73,4 +84,119 @@ export const devGalleryImages = [
   { src: "/tours/philippine-sunrise/community-3.jpg",                     alt: "Philippines Sunrise" },
   { src: "/images/wp-content/uploads/2025/07/brazil-trip-highlight-2.webp", alt: "Brazil's Treasures" },
   { src: "/images/wp-content/uploads/2025/07/brazil-day-3.webp",         alt: "Brazil's Treasures" },
+];
+
+/* -------------------------------------------------------------------------- */
+/* Gallery — masonry columns                                                    */
+/* -------------------------------------------------------------------------- */
+
+export type GalleryMediaItem = {
+  seq: number;
+  type: "photo" | "video" | "placeholder";
+  size: "tall" | "short";
+  src?: string;
+  alt?: string;
+};
+
+const FB =
+  "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/";
+const t = (token: string) => `?alt=media&token=${token}`;
+
+export const devGalleryColumns: GalleryMediaItem[][] = [
+  // ── Column 1 ──────────────────────────────────────────────
+  [
+    {
+      seq: 1,
+      type: "photo",
+      size: "tall",
+      src: `${FB}images%2F1777896856050_frame.png${t("2f9165c4-a515-498c-956c-4f8ee946de07")}`,
+      alt: "Group trip moment",
+    },
+    {
+      seq: 9,
+      type: "video",
+      size: "tall",
+      src: `${FB}videos%2F1777891757301_e8c841a0-ba11-449c-8349-f6c8b3fc35ee.mp4${t("39dc8866-a5b0-4573-9ecb-26261a226889")}`,
+    },
+    {
+      seq: 5,
+      type: "photo",
+      size: "short",
+      src: `${FB}images%2F1777891735622_2e4f3d29-5be7-4465-89aa-f6f33493fd64.jpg${t("c17f0121-c04b-4301-b8bb-0910fcdfe936")}`,
+      alt: "Group trip moment",
+    },
+  ],
+
+  // ── Column 2 ──────────────────────────────────────────────
+  [
+    {
+      seq: 8,
+      type: "video",
+      size: "tall",
+      src: `${FB}videos%2F1777898934156_38dd363d-7cd1-400b-92fd-6120218a00fb.mp4${t("88db3ec6-0470-437d-86ae-31ca115c8899")}`,
+    },
+    {
+      seq: 2,
+      type: "photo",
+      size: "short",
+      src: `${FB}images%2F1777891748548_08.png${t("2d20d3d7-eaea-4949-a3a9-c62971286cbc")}`,
+      alt: "Group trip moment",
+    },
+    {
+      seq: 12,
+      type: "photo",
+      size: "tall",
+      src: `${FB}images%2F1777896783964_frame%20(1).png${t("7b2f8863-e6ce-4bbe-80a0-dba31367daa3")}`,
+      alt: "Group trip moment",
+    },
+  ],
+
+  // ── Column 3 ──────────────────────────────────────────────
+  [
+    {
+      seq: 11,
+      type: "photo",
+      size: "short",
+      src: `${FB}images%2F1777896787661_frame%20(2).png${t("de8ba2d5-e3ff-411d-8050-e8017b64ce4b")}`,
+      alt: "Group trip moment",
+    },
+    {
+      seq: 10,
+      type: "video",
+      size: "tall",
+      src: `${FB}videos%2F1777888423053_WhatsApp%20Video%202026-05-04%20at%205.10.08%20PM.mp4${t("7fc9d547-5c1b-4782-a713-0d6d53dd0625")}`,
+    },
+    {
+      seq: 6,
+      type: "photo",
+      size: "tall",
+      src: `${FB}images%2F1777891730097_2c35b783-d3a9-4a87-a6d7-c451e1c7ac07.jpg${t("aed7bf06-c9c7-40b2-8594-a2ed9fed48fb")}`,
+      alt: "Group trip moment",
+    },
+  ],
+
+  // ── Column 4 ──────────────────────────────────────────────
+  [
+    {
+      seq: 4,
+      type: "photo",
+      size: "tall",
+      src: `${FB}images%2F1777891752929_98c9d811-9e55-478c-99ee-e238b55f23d8.jpg${t("211ec8bd-c10b-4d97-ad1d-3a56820deb2a")}`,
+      alt: "Group trip moment",
+    },
+    {
+      seq: 7,
+      type: "photo",
+      size: "short",
+      src: `${FB}images%2F1777891739965_3adcc24c-dc79-4de0-a9e0-5b08650c7628.jpg${t("829a8a38-63c6-4784-a894-bcbf0c86334c")}`,
+      alt: "Group trip moment",
+    },
+    {
+      seq: 3,
+      type: "photo",
+      size: "tall",
+      src: `${FB}images%2F1777896791492_frame%20(3).png${t("314d9519-7603-4630-a6e1-cba3438e399c")}`,
+      alt: "Group trip moment",
+    },
+  ],
 ];
