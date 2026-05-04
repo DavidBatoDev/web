@@ -1,78 +1,63 @@
-﻿/**
- * Brazil's Treasures — 12-day Manaus-to-Rio adventure.
+/**
+ * Brazil's Treasures — 10-day São Paulo-to-Rio adventure.
  *
  * Originally generated from data/json/tourPackages-04142026.json; hand-
- * enriched with itinerary details, accommodations, and FAQs sourced from
- * the live imheretravels.com Brazil's Treasures page.
+ * enriched with itinerary details, accommodations, and FAQs.
  */
 import type { Tour } from "@/types/tour";
 
 export const brazilsTreasures: Tour = {
   slug: "brazils-treasures",
-  name: "Brazil's Treasures",
+  name: "Discover Brazil's Treasures",
   meta: {
-    title: "Brazil's Treasures — 12 Day Manaus to Rio Adventure",
+    title: "Discover Brazil's Treasures — I'm Here Travels",
     description:
-      "Join the 12-day Brazil's Treasures tour: Amazon River cruise, pink dolphins, Paraty island hopping, Sugarloaf, Christ the Redeemer, and Sambadrome Carnival.",
+      "Get ready to fall in love with Brazil—loud, colorful, and alive at every turn. From exploring the vibrant city of São Paulo to wandering the cobbled charm of Paraty, this 10-day adventure is full of energy and discovery.",
   },
   gallery: {
-    hero: "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341307739_brazil-header-4.webp?alt=media&token=811f0f81-f1ba-4267-9da5-69c568c29335",
-    heroAlt: "Brazil's Treasures — Rio skyline and Amazon rainforest",
+    hero: "/tours/brazils-treasures/brazil-header-1.webp",
+    heroAlt: "Brazil's Treasures — Rio skyline and Copacabana Beach",
     thumbnails: [
-      {
-        src: "/images/wp-content/uploads/2025/07/brazil-day-1.webp",
-        alt: "Arrival in Manaus",
-      },
-      {
-        src: "/images/wp-content/uploads/2025/07/brazil-day-2.webp",
-        alt: "Grand Amazon River experience",
-      },
-      {
-        src: "/images/wp-content/uploads/2025/07/brazil-day-4.webp",
-        alt: "Transfer to Paraty",
-      },
-      {
-        src: "/images/wp-content/uploads/2025/07/brazil-day-5.webp",
-        alt: "Island hopping in Paraty",
-      },
-      {
-        src: "/images/wp-content/uploads/2025/07/brazil-day-8.webp",
-        alt: "City icons of Rio de Janeiro",
-      },
-      {
-        src: "/images/wp-content/uploads/2025/07/brazil-day-9.webp",
-        alt: "Favela jeep tour",
-      },
-      {
-        src: "/images/wp-content/uploads/2025/07/brazil-day-10.webp",
-        alt: "Helicopter ride over Rio",
-      },
-      {
-        src: "/images/wp-content/uploads/2025/07/brazil-day-11.webp",
-        alt: "Sambadrome Carnival night",
-      },
+      { src: "/tours/brazils-treasures/brazil-header-2.webp", alt: "Brazil's Treasures" },
+      { src: "/tours/brazils-treasures/brazil-header-3.webp", alt: "Brazil's Treasures" },
+      { src: "/tours/brazils-treasures/brazil-header-4.webp", alt: "Brazil's Treasures" },
+      { src: "/tours/brazils-treasures/brazil-header-5.webp", alt: "Brazil's Treasures" },
+      { src: "/tours/brazils-treasures/brazil-header-6.webp", alt: "Brazil's Treasures" },
+      { src: "/tours/brazils-treasures/brazil-header-7.webp", alt: "Brazil's Treasures" },
+      { src: "/tours/brazils-treasures/brazil-header-8.webp", alt: "Brazil's Treasures" },
     ],
   },
   header: {
-    title: "12 Days | Brazil's Treasures",
+    title: "10 Days and 9 Nights | Discover Brazil's Treasures",
     tags: [
-      { label: "Manaus", icon: "location" },
-      { label: "Amazon Rainforest", icon: "location" },
+      { label: "São Paulo", icon: "location" },
       { label: "Paraty", icon: "location" },
       { label: "Rio de Janeiro", icon: "location" },
     ],
     description:
-      "Get ready to fall in love with Brazil, loud, colorful, and alive at every turn. From cruising the mighty Amazon River with pink dolphins to dancing through the cobbled charm of Paraty, this 12-day adventure is pure energy. You'll sip caipirinhas on Copacabana Beach, cable car up Sugarloaf, and dive deep into Rio's iconic culture from favela jeep tours to front row Carnival seats. It's the wild heart of the jungle, the soul of Afro-Brazilian music, and the sparkle of samba nights all in one unforgettable trip.",
+      "Get ready to fall in love with Brazil—loud, colorful, and alive at every turn. From exploring the vibrant city of São Paulo to wandering the cobbled charm of Paraty, this 10-day adventure is full of energy and discovery. Sip caipirinhas on Copacabana Beach, ride the cable car up Sugarloaf Mountain, and experience the excitement of Carnival from front-row seats. It's the rhythm of Afro-Brazilian music, the warmth of samba nights, and the sparkle of unforgettable celebrations, all in one incredible journey.",
   },
   keyFacts: [
-    { icon: "days", label: "Tour Dates", values: ["February 3, 2026"] },
+    {
+      icon: "days",
+      label: "Tour Dates",
+      values: ["January 28, 2026"],
+    },
     {
       icon: "route",
-      label: "Route",
-      values: ["Manaus → São Paulo → Paraty → Rio de Janeiro"],
+      label: "Destination",
+      values: ["São Paulo - Paraty - Rio de Janeiro"],
     },
-    { icon: "days", label: "Days", values: ["12 Days and 11 Nights"] },
-    { icon: "people", label: "Group Size", values: ["Maximum 20 people"] },
+    {
+      icon: "days",
+      label: "Duration",
+      values: ["10 Days and 9 Nights"],
+    },
+    {
+      icon: "people",
+      label: "Group Size",
+      values: ["Maximum 20 people"],
+    },
   ],
   whatsIncluded: {
     heading: "What's Included",
@@ -80,35 +65,32 @@ export const brazilsTreasures: Tour = {
       {
         icon: "transport",
         label: "Transport",
-        value: "Boat, Domestic Flight, Off-road Jeep",
+        value: "Private Van, Boat",
       },
       {
         icon: "accommodation",
         label: "Accommodation",
-        value: "11 nights in Hotel",
+        value: "Hotel (9 nights)",
       },
       {
         icon: "activities",
         label: "Activities",
         value:
-          "Amazon River Cruise, Pink Dolphin Feeding, Indigenous Village Visit, City Tours, Beaches, Sugarloaf and Christ the Redeemer Tour, Jeep Favela Tour, Sambadrome Carnival Experience",
+          "City Tours, Beaches, Private Boat Tour, Snorkeling, Sugarloaf and Christ the Redeemer Tour, Sambadrome Carnival Experience",
       },
       {
         icon: "meals",
         label: "Meals",
-        value: "11 Breakfasts, 1 Lunch, 1 Dinner",
+        value: "9 Breakfasts",
       },
-      { icon: "team", label: "Team", value: "Trip Manager + Local Guides" },
       {
         icon: "plus",
         label: "Others",
         value: [
           "24/7 customer experience assistance",
           "Tour guide",
-          "Full-board accommodation during the Amazon Rainforest stay (all meals included)",
           "Entrance fees to all major attractions and sites",
-          "Private group experiences in Paraty and Rio de Janeiro",
-          "Local experts and naturalists during the Amazon Rainforest stay",
+          "Private group experiences in Rio de Janeiro",
           "Small group size to ensure personalized experiences",
           "All taxes and service charges included",
         ],
@@ -125,10 +107,9 @@ export const brazilsTreasures: Tour = {
     heading: "Trip Highlights",
     items: [
       {
-        image:
-          "/images/wp-content/uploads/2025/07/brazil-trip-highlight-1.webp",
-        imageAlt: "Amazon River with pink dolphins",
-        title: "Cruise the Amazon River and meet Pink Dolphins",
+        image: "/tours/brazils-treasures/brazil-trip-highlight-4.webp",
+        imageAlt: "Helicopter ride over Rio de Janeiro skyline",
+        title: "Optional helicopter ride over Rio's stunning skyline",
         subtitle: "",
       },
       {
@@ -155,53 +136,11 @@ export const brazilsTreasures: Tour = {
     days: [
       {
         dayNumber: 1,
-        title: "Arrival in Manaus",
+        title: "Arrival to São Paulo",
         description:
-          "Welcome to Brazil! Upon arrival in Manaus, our local team will greet you at the airport and transfer you to your hotel for a well-deserved rest. Depending on your arrival time, you can explore the local area or unwind in your room. The Amazon vibes start here, surrounded by rainforest rhythm.",
-        image: "/images/wp-content/uploads/2025/07/brazil-day-1.webp",
-        imageAlt: "Arrival in Manaus",
-        details: [
-          {
-            icon: "accommodation",
-            label: "Accommodation",
-            value: "TRYP by Wyndham Manaus",
-          },
-          {
-            icon: "activities",
-            label: "Activity",
-            value: "Meet and Greet (Dinner meals are not included)",
-          },
-        ],
-      },
-      {
-        dayNumber: 2,
-        title: "Grand Amazon River Experience",
-        description:
-          "Today, we journey deep into the Amazon River. Cruise past wooden stilt houses, witness the Meeting of the Waters, and feed friendly pink dolphins. We'll also visit an Indigenous village to learn about their traditions and way of life. A hearty Amazonian lunch onboard completes the adventure.",
-        image: "/images/wp-content/uploads/2025/07/brazil-day-2.webp",
-        imageAlt: "Amazon River cruise",
-        details: [
-          {
-            icon: "accommodation",
-            label: "Accommodation",
-            value: "TRYP by Wyndham Manaus",
-          },
-          {
-            icon: "activities",
-            label: "Activity",
-            value:
-              "Amazon River Cruise, Pink Dolphin Feeding, Indigenous Village Visit",
-          },
-          { icon: "meals", label: "Meals", value: "Breakfast, Lunch" },
-        ],
-      },
-      {
-        dayNumber: 3,
-        title: "Flight to São Paulo",
-        description:
-          "We leave the jungle behind and fly to Brazil's largest city São Paulo. After landing, we'll head straight to our hotel in the vibrant neighborhood of Moema. Unwind from the flight or take a walk around the nearby streets filled with local cafés and energy.",
-        image: "/images/wp-content/uploads/2025/07/brazil-day-3.webp",
-        imageAlt: "São Paulo skyline",
+          "Welcome to Brazil! Upon arrival in São Paulo our local team will greet you at the airport and transfer you to your hotel for a well-deserved rest. Unwind from the flight or take a walk to discover the city's vibrant charm and cozy cafés.",
+        image: "/tours/brazils-treasures/brazil-day-1.webp",
+        imageAlt: "São Paulo city arrival",
         details: [
           {
             icon: "accommodation",
@@ -211,23 +150,43 @@ export const brazilsTreasures: Tour = {
           {
             icon: "activities",
             label: "Activity",
-            value: "Domestic Flight to São Paulo, Transfer",
+            value: "Transfer",
+          },
+        ],
+      },
+      {
+        dayNumber: 2,
+        title: "São Paulo Exploration",
+        description:
+          "Start your day with breakfast at the hotel before heading out to explore the vibrant city of São Paulo. Discover the creative energy of Vila Madalena, known for its bohemian charm, and visit the famous Beco do Batman, an open-air gallery filled with colorful street art and murals.",
+        image: "/tours/brazils-treasures/brazil-day-2.webp",
+        imageAlt: "São Paulo street art and neighborhoods",
+        details: [
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Mercure Sao Paulo Paulista",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "City Tour",
           },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
       {
-        dayNumber: 4,
-        title: "Transfer to Paraty",
+        dayNumber: 3,
+        title: "São Paulo to Paraty",
         description:
           "After breakfast, we take a scenic drive down the Costa Verde to the colonial town of Paraty. With colorful buildings, cobblestone streets, and lush mountains, it's a photographer's dream. Check in to your charming hotel and enjoy a calm evening walking the quaint lanes or enjoying a drink at the square.",
-        image: "/images/wp-content/uploads/2025/07/brazil-day-4.webp",
-        imageAlt: "Paraty colonial town",
+        image: "/tours/brazils-treasures/brazil-day-3.webp",
+        imageAlt: "Paraty colonial town cobblestone streets",
         details: [
           {
             icon: "accommodation",
             label: "Accommodation",
-            value: "Pousada Porto Imperial",
+            value: "Pousada Santa Clara",
           },
           {
             icon: "activities",
@@ -238,17 +197,17 @@ export const brazilsTreasures: Tour = {
         ],
       },
       {
-        dayNumber: 5,
-        title: "Island Hopping in Paraty",
+        dayNumber: 4,
+        title: "Paraty Island Experience",
         description:
           "We set sail today for a tropical escape across Paraty's bay. Visit paradise islands, snorkel in clear waters, and soak in the sun. Our boat will stop at secret beaches and scenic spots while serving up delicious food and music onboard. Bring your sunscreen — it's a chill day!",
-        image: "/images/wp-content/uploads/2025/07/brazil-day-5.webp",
-        imageAlt: "Paraty island hopping",
+        image: "/tours/brazils-treasures/brazil-day-4.webp",
+        imageAlt: "Paraty island boat tour snorkeling",
         details: [
           {
             icon: "accommodation",
             label: "Accommodation",
-            value: "Pousada Porto Imperial",
+            value: "Pousada Santa Clara",
           },
           {
             icon: "activities",
@@ -259,17 +218,17 @@ export const brazilsTreasures: Tour = {
         ],
       },
       {
-        dayNumber: 6,
+        dayNumber: 5,
         title: "Journey from Paraty to Rio de Janeiro",
         description:
           "Today we head to one of the most iconic cities in the world — Rio de Janeiro! After the road trip, check into your beachfront hotel in Copacabana. You'll have time to relax, stroll the famous sidewalk, or dip your toes into the Atlantic before dinner. The Marvelous City awaits.",
-        image: "/images/wp-content/uploads/2025/07/brazil-day-6.webp",
-        imageAlt: "Copacabana Beach Rio",
+        image: "/tours/brazils-treasures/brazil-day-5.webp",
+        imageAlt: "Copacabana Beach Rio de Janeiro",
         details: [
           {
             icon: "accommodation",
             label: "Accommodation",
-            value: "Americas Copacabana Hotel",
+            value: "Windsor Plaza Hotel",
           },
           {
             icon: "activities",
@@ -280,116 +239,101 @@ export const brazilsTreasures: Tour = {
         ],
       },
       {
-        dayNumber: 7,
-        title: "Chill in Rio or Join a Boat Cruise",
+        dayNumber: 6,
+        title: "Rio de Janeiro – Free Day",
         description:
-          "Wake up in Rio and kick off with an optional boat cruise around Guanabara Bay. See the skyline and Sugarloaf from the water, then spend the rest of the day doing what Rio does best — beach time! Grab a coconut, join a game of volleyball, or catch a sunset from Arpoador.",
-        image:
-          "https://i0.wp.com/imheretravels.com/wp-content/uploads/2024/09/Novo-Airao-20240315-Barco-KaterreDJI_0351-scaled.webp",
-        imageAlt: "Guanabara Bay cruise",
+          "Enjoy a full day at leisure in Rio de Janeiro. Relax on the iconic beaches of Copacabana or Ipanema, explore local shops and cafés, or take in the city's vibrant atmosphere at your own pace.",
+        image: "/tours/brazils-treasures/brazil-day-6.webp",
+        imageAlt: "Rio de Janeiro beach free day",
         details: [
           {
             icon: "accommodation",
             label: "Accommodation",
-            value: "Americas Copacabana Hotel",
+            value: "Windsor Plaza Hotel",
           },
           {
             icon: "activities",
             label: "Activity",
-            value: "Guanabara Bay Cruise (Optional)",
+            value: "Free Day",
+          },
+          { icon: "meals", label: "Meals", value: "Breakfast" },
+        ],
+      },
+      {
+        dayNumber: 7,
+        title: "City Icons of Rio",
+        description:
+          "We're checking off the icons today! Visit Christ the Redeemer for panoramic views of the city, then take a cable car up Sugarloaf Mountain. Stop by the artistic Selarón Steps for some photos and get a real taste of Rio's magic. It's a day of legends and unforgettable sights.",
+        image: "/tours/brazils-treasures/brazil-day-7.webp",
+        imageAlt: "Christ the Redeemer and Sugarloaf Mountain Rio",
+        details: [
+          {
+            icon: "accommodation",
+            label: "Accommodation",
+            value: "Windsor Plaza Hotel",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Christ the Redeemer, Sugarloaf Mountain, Cathedral & Sambadrome",
           },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
       {
         dayNumber: 8,
-        title: "City Icons of Rio",
-        description:
-          "We're checking off the icons today! Visit Christ the Redeemer for panoramic views of the city, then take a cable car up Sugarloaf Mountain. Stop by the artistic Selarón Steps for some photos and get a real taste of Rio's magic. It's a day of legends and unforgettable sights.",
-        image: "/images/wp-content/uploads/2025/07/brazil-day-8.webp",
-        imageAlt: "Christ the Redeemer and Sugarloaf",
-        details: [
-          {
-            icon: "accommodation",
-            label: "Accommodation",
-            value: "Americas Copacabana Hotel",
-          },
-          {
-            icon: "activities",
-            label: "Activity",
-            value: "Sugarloaf, Christ the Redeemer, Selarón Steps",
-          },
-          { icon: "meals", label: "Meals", value: "Breakfast" },
-        ],
-      },
-      {
-        dayNumber: 9,
-        title: "Favela Jeep Tour",
-        description:
-          "Gain new perspective on Rio with a guided favela jeep tour, offering a raw and respectful look at the city's other side.",
-        image: "/images/wp-content/uploads/2025/07/brazil-day-9.webp",
-        imageAlt: "Rio favela jeep tour",
-        details: [
-          {
-            icon: "accommodation",
-            label: "Accommodation",
-            value: "Americas Copacabana Hotel",
-          },
-          { icon: "activities", label: "Activity", value: "Jeep Favela Tour" },
-          { icon: "meals", label: "Meals", value: "Breakfast" },
-        ],
-      },
-      {
-        dayNumber: 10,
-        title: "Helicopter Ride",
-        description:
-          "Soar above Rio's skyline on a breathtaking helicopter ride and/or just take it slow with a day lounging on Ipanema Beach.",
-        image: "/images/wp-content/uploads/2025/07/brazil-day-10.webp",
-        imageAlt: "Helicopter over Rio",
-        details: [
-          {
-            icon: "accommodation",
-            label: "Accommodation",
-            value: "Americas Copacabana Hotel",
-          },
-          { icon: "activities", label: "Activity", value: "Helicopter Ride" },
-          { icon: "meals", label: "Meals", value: "Breakfast" },
-        ],
-      },
-      {
-        dayNumber: 11,
         title: "Sambadrome Carnival Night",
         description:
-          "The grand finale is here! Tonight, you'll witness the spectacle of Brazil's Carnival at the Sambadrome. Dressed in sequins or sipping caipirinhas, it's a magical, musical night full of rhythm and sparkle.",
-        image: "/images/wp-content/uploads/2025/07/brazil-day-11.webp",
-        imageAlt: "Sambadrome Carnival parade",
+          "Tonight, you'll witness the spectacle of Brazil's Carnival at the Sambadrome. Dressed in sequins or sipping caipirinhas, it's a magical, musical night full of rhythm and sparkle.",
+        image: "/tours/brazils-treasures/brazil-day-8.webp",
+        imageAlt: "Sambadrome Carnival parade Rio",
         details: [
           {
             icon: "accommodation",
             label: "Accommodation",
-            value: "Americas Copacabana Hotel",
+            value: "Windsor Plaza Hotel",
           },
           {
             icon: "activities",
             label: "Activity",
             value: "Sambadrome Carnival Parade Experience",
           },
-          { icon: "meals", label: "Meals", value: "Breakfast, Dinner" },
+          { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
       },
       {
-        dayNumber: 12,
-        title: "Departure from Rio",
+        dayNumber: 9,
+        title: "Free Day in Rio",
         description:
-          "All great adventures come to an end. Enjoy your final moments in Rio with a beach stroll or souvenir run before your airport transfer. Until next time — tchau, Brasil!",
-        image:
-          "https://i0.wp.com/imheretravels.com/wp-content/uploads/2024/09/Rio-de-Janeiro-Afroturismo-20240314-0C0A6032-scaled.webp",
-        imageAlt: "Rio departure",
+          "Enjoy your last day in Rio de Janeiro at leisure, with time to explore the city at your pace. For a truly unforgettable experience, opt for a helicopter ride over Rio's stunning skyline or join a guided Favela Tour for a deeper cultural insight. Alternatively, unwind and take it slow while relaxing on the golden sands of Ipanema Beach.",
+        image: "/tours/brazils-treasures/brazil-day-9.webp",
+        imageAlt: "Ipanema Beach Rio de Janeiro",
         details: [
           {
             icon: "accommodation",
             label: "Accommodation",
-            value: "Americas Copacabana Hotel (checkout)",
+            value: "Windsor Plaza Hotel",
+          },
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Free Day (Optional: Helicopter Ride or Favela Tour)",
+          },
+          { icon: "meals", label: "Meals", value: "Breakfast" },
+        ],
+      },
+      {
+        dayNumber: 10,
+        title: "Departure from Rio",
+        description:
+          "All great adventures come to an end. Enjoy your final moments in Rio with a beach stroll or souvenir run before your airport transfer. Until next time — tchau, Brasil!",
+        image: "/tours/brazils-treasures/brazil-day-10.webp",
+        imageAlt: "Rio de Janeiro departure",
+        details: [
+          {
+            icon: "activities",
+            label: "Activity",
+            value: "Check-out & Airport Transfer",
           },
           { icon: "meals", label: "Meals", value: "Breakfast" },
         ],
@@ -400,32 +344,22 @@ export const brazilsTreasures: Tour = {
     heading: "Where we stay",
     items: [
       {
-        image:
-          "/images/wp-content/uploads/2026/02/TRYP-by-wyndham-manaus-accommodation2.webp",
-        imageAlt: "TRYP by Wyndham Manaus",
-        name: "TRYP by Wyndham Manaus",
-        nights: "2 nights in Hotel",
-      },
-      {
-        image:
-          "/images/wp-content/uploads/2026/02/mercure-sao-paulo-paulista-accommodation.webp",
+        image: "/tours/brazils-treasures/mercure-sao-paulo-paulista-accommodation.webp",
         imageAlt: "Mercure Sao Paulo Paulista",
         name: "Mercure Sao Paulo Paulista",
-        nights: "1 night in Hotel",
-      },
-      {
-        image:
-          "/images/wp-content/uploads/2026/02/pousada-porto-imperial-accommodation.webp",
-        imageAlt: "Pousada Porto Imperial",
-        name: "Pousada Porto Imperial",
         nights: "2 nights in Hotel",
       },
       {
-        image:
-          "/images/wp-content/uploads/2026/02/americas-copacabana-hotel-accommodation2.webp",
-        imageAlt: "Americas Copacabana Hotel",
-        name: "Americas Copacabana Hotel",
-        nights: "6 nights in Hotel",
+        image: "/tours/brazils-treasures/pousada-santa-clara-accommodation.png",
+        imageAlt: "Pousada Santa Clara",
+        name: "Pousada Santa Clara",
+        nights: "2 nights in Hotel",
+      },
+      {
+        image: "/tours/brazils-treasures/windsor-plaza-hotel-accommodation.png",
+        imageAlt: "Windsor Plaza Hotel",
+        name: "Windsor Plaza Hotel",
+        nights: "5 nights in Hotel",
       },
     ],
   },
@@ -434,11 +368,11 @@ export const brazilsTreasures: Tour = {
     items: [
       {
         question: "Where does the trip start & finish?",
-        answer: "It starts in Manaus and finishes in Rio de Janeiro.",
+        answer: "It starts at São Paulo and finishes in Rio de Janeiro.",
       },
       {
         question: "Which airport do I need to fly into?",
-        answer: "Manaus International Airport, Manaus.",
+        answer: "São Paulo/Guarulhos International Airport (GRU).",
       },
       {
         question: "What should I wear?",
@@ -453,11 +387,11 @@ export const brazilsTreasures: Tour = {
       {
         question: "What is the local currency?",
         answer:
-          "The official currency in Brazil is the Brazilian Real (BRL), often symbolized as R$. It's recommended to carry some cash for small purchases, but credit and debit cards are widely accepted in most cities and tourist areas.",
+          "In Brazil, the currency is the Real (R$). However, credit cards are accepted in most destinations throughout your trip.",
       },
       {
         question: "Which airport do I fly out from?",
-        answer: "Rio de Janeiro–Galeão International Airport (GIG).",
+        answer: "Rio de Janeiro/Galeão International Airport (GIG).",
       },
     ],
   },
@@ -512,11 +446,11 @@ export const brazilsTreasures: Tour = {
     ],
   },
   booking: {
-    durationLabel: "12 Days and 11 Nights",
-    routeLabel: "Manaus to Rio de Janeiro",
+    durationLabel: "10 Days and 9 Nights",
+    routeLabel: "São Paulo to Rio de Janeiro",
     priceFromLabel: "From",
     priceCurrency: "GBP",
-    priceAmount: "£1,800",
+    priceAmount: "£1,999",
     depositAmount: "£200",
     ctaLabel: "Reserve Now",
     ctaHref:
@@ -524,15 +458,14 @@ export const brazilsTreasures: Tour = {
     footnote: "Additional fees may apply",
   },
   listingCard: {
-    duration: "12 Days and 11 Nights",
+    duration: "10 Days and 9 Nights",
     description:
-      "Amazon pink dolphins, Paraty island hopping, Christ the Redeemer, Sugarloaf, and front-row Sambadrome Carnival.",
-    price: "GBP £1,800",
+      "São Paulo street art, Paraty island hopping, Copacabana Beach, Christ the Redeemer, Sugarloaf, and front-row Sambadrome Carnival.",
+    price: "GBP £1,999",
     image:
       "https://firebasestorage.googleapis.com/v0/b/imheretravels-a3f81.firebasestorage.app/o/images%2F1759341307739_brazil-header-4.webp?alt=media&token=811f0f81-f1ba-4267-9da5-69c568c29335",
-    imageAlt: "Brazil's Treasures",
+    imageAlt: "Discover Brazil's Treasures",
   },
 };
 
 export default brazilsTreasures;
-

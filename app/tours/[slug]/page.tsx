@@ -124,7 +124,7 @@ export default async function TourDetailPage({ params }: { params: Params }) {
     })),
   ].filter(
     (img, index, arr) => arr.findIndex((item) => item.src === img.src) === index,
-  );
+  ).slice(0, 7);
 
   const communitySection = tour.community ?? {
     heading: "With @imheretravels",
