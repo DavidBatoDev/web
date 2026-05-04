@@ -12,11 +12,11 @@ export default function RelatedTours({
       <h2 className="font-sans text-h3-mobile md:text-h3-desktop text-midnight">
         {section.heading}
       </h2>
-      <ul className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <ul className="mt-6 grid grid-cols-1 gap-5 md:mt-8 md:grid-cols-2 lg:grid-cols-3">
         {section.items.map((t) => (
           <li
             key={t.slug}
-            className="overflow-hidden rounded-lg bg-white shadow-small"
+            className="mx-auto w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-small md:max-w-none"
           >
             <Link
               href={`/tours/${t.slug}`}
@@ -31,8 +31,8 @@ export default function RelatedTours({
                   className="object-cover"
                 />
               </div>
-              <div className="flex flex-1 flex-col p-5 md:p-6">
-                <span className="inline-flex w-fit items-center gap-2 rounded-full bg-light-grey px-3 py-1 font-body text-b4-desktop text-midnight">
+              <div className="flex flex-1 flex-col p-4 md:p-6">
+                <span className="inline-flex w-fit items-center gap-2 rounded-full bg-light-grey px-2.5 py-0.5 font-body text-b4-mobile text-midnight md:px-3 md:py-1 md:text-b4-desktop">
                   <Image
                     src="/Icons/SVG/Pin/pin-solid-red.svg"
                     alt=""
@@ -41,13 +41,13 @@ export default function RelatedTours({
                   />
                   {t.duration}
                 </span>
-                <h3 className="mt-4 font-sans text-h5-mobile md:text-h5-desktop text-midnight">
+                <h3 className="mt-3 font-sans text-h6-mobile text-midnight md:mt-4 md:text-h5-desktop">
                   {t.title}
                 </h3>
-                <p className="mt-2 font-body text-b4-mobile md:text-b4-desktop text-dark-gray">
+                <p className="mt-1.5 font-body text-b4-mobile text-dark-gray md:mt-2 md:text-b4-desktop">
                   {t.description}
                 </p>
-                <div className="mt-auto flex items-baseline gap-2 pt-5">
+                <div className="mt-auto flex items-baseline gap-2 pt-4 md:pt-5">
                   <span className="font-body text-b4-desktop text-dark-gray">
                     {t.priceFromLabel}
                   </span>

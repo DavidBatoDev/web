@@ -114,6 +114,23 @@ export default async function TourDetailPage({ params }: { params: Params }) {
   const tour = getTourBySlug(slug);
   if (!tour) notFound();
 
+  const instagramHref = "https://www.instagram.com/imheretravels";
+  const fallbackCommunityImages = [
+    { src: tour.gallery.hero, alt: tour.gallery.heroAlt, href: instagramHref },
+    ...tour.gallery.thumbnails.map((thumb) => ({
+      src: thumb.src,
+      alt: thumb.alt,
+      href: instagramHref,
+    })),
+  ].filter(
+    (img, index, arr) => arr.findIndex((item) => item.src === img.src) === index,
+  );
+
+  const communitySection = tour.community ?? {
+    heading: "With @imheretravels",
+    images: fallbackCommunityImages,
+  };
+
   return (
     <>
       <script
@@ -217,9 +234,9 @@ export default async function TourDetailPage({ params }: { params: Params }) {
             <RelatedTours section={tour.relatedTours} />
           </Reveal>
         )}
-        {tour.community?.heading && (
+        {communitySection.images.length > 0 && (
           <Reveal y={24}>
-            <CommunityGrid section={tour.community} />
+            <CommunityGrid section={communitySection} />
           </Reveal>
         )}
       </main>

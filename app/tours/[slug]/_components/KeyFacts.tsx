@@ -8,7 +8,7 @@ const MONTHS: Record<string, string> = {
 };
 
 function toISODate(s: string): string {
-  const m = s.match(/^(\w+)\s+(\d+),\s+(\d{4})$/);
+  const m = s.match(/^(\w+)\s+(\d{1,2})(?:[–-]\d{1,2})?,?\s+(\d{4})$/);
   if (!m) return "";
   const mm = MONTHS[m[1]];
   return mm ? `${m[3]}-${mm}-${m[2].padStart(2, "0")}` : "";
@@ -17,10 +17,16 @@ function toISODate(s: string): string {
 const today = new Date().toISOString().split("T")[0];
 
 export default function KeyFacts({ items, tourSlug }: { items: TourKeyFact[]; tourSlug?: string }) {
+  const orderedItems = [...items].sort((a, b) => {
+    if (a.label === "Tour Dates") return -1;
+    if (b.label === "Tour Dates") return 1;
+    return 0;
+  });
+
   return (
     <section className="mt-8 w-full md:mt-10">
       <ul className="flex flex-col gap-6">
-        {items.map((fact) => {
+        {orderedItems.map((fact) => {
           const showDateIndicator = fact.label === "Tour Dates";
           const values = showDateIndicator
             ? fact.values.filter((v) => {

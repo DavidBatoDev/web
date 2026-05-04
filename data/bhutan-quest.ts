@@ -58,7 +58,7 @@ export const bhutanQuest: Tour = {
       { label: "Paro", icon: "location" },
     ],
     description:
-      "If you enjoy trekking and exploring beautiful vistas then our Bhutan tour is the tour for you. This tour is full of adventure, rich culture, amazing architecture and will let you experience some of the most beautiful landscapes Bhutan has to offer. Nestled in the Himalaya's Bhutan is a hidden treasure that you have to explore starting in Punakha, visiting Thimphu Bhutan's capital city and finishing in Paro, along the way you get to visit many fortresses known as Dzongs, monasteries and ancient temples as well as trekking to the famous tigers nest temple getting all the views from above.",
+      "If you enjoy trekking and exploring beautiful vistas then our Bhutan tour is the tour for you. This tour is full of adventure, rich culture, amazing architecture and will let you experience some of the most beautiful landscapes Bhutan has to offer. Nestled in the Himalaya's Bhutan is a hidden treasure that you have to explore starting in Punakha, visiting Thimphu Bhutan's capital city and finishing in Paro, along the way you get to visit many fortresses known as Dzongs, monasteries and ancient temples as well as trekking to the famous Tiger's Nest Temple getting all the views from above. Join us to explore the hidden beauty of Bhutan.",
   },
   keyFacts: [
     { icon: "days", label: "Tour Dates", values: ["To be announced"] },
@@ -73,22 +73,26 @@ export const bhutanQuest: Tour = {
   whatsIncluded: {
     heading: "What's Included",
     items: [
-      { icon: "transport", label: "Transport", value: "Van / Coach" },
-      {
-        icon: "accommodation",
-        label: "Accommodation",
-        value: "6 nights in Hotel",
-      },
-      {
-        icon: "activities",
-        label: "Activities",
-        value:
-          "Sightseeing Dzongs, Trekking, White water rafting, Beer Tasting",
-      },
       {
         icon: "meals",
         label: "Meals",
         value: "6 Breakfasts, 5 Lunches, 6 Dinners",
+      },
+      { icon: "transport", label: "Transport", value: "Van" },
+      {
+        icon: "activities",
+        label: "Activities",
+        value: [
+          "Sightseeing Dzongs",
+          "Trekking",
+          "White water rafting",
+          "Beer Tasting",
+        ],
+      },
+      {
+        icon: "accommodation",
+        label: "Stay",
+        value: "Hotel (6 nights)",
       },
       {
         icon: "plus",
@@ -97,7 +101,6 @@ export const bhutanQuest: Tour = {
           "24/7 customer experience assistance",
           "Airport and domestic transfer assistance",
           "Tour Guide",
-          "Daily Government SDF/Tourism Tax included in the price",
         ],
       },
     ],
